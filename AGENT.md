@@ -25,6 +25,8 @@ source this run and read the tool's output." Verify before asserting.
 - **Falsifier** — attacks every candidate; rubs the leader's moves on the touchstone before the rope is trusted.
 - **Gatekeeper** — one-time approver of external-code execution (commons submodule, scripts); no standing grant.
 
+**Covalent gate** — a *standing* permission rule (e.g. `settings.json` allow) is the Operator's to **apply**; I **author** the rule, never self-apply it, and never over code we don't control. Widening my own authority is *self-modification*, not a mechanism — the one thing the intent/mechanism altitude does **not** cover (the scope of my mechanism-authority is itself the Operator's intent). A rule is warranted only for a *recurring, ratified, owned* class; a one-off is a `!`-run (Gatekeeper), not a rule. *(Cross-corroborated: dyad-bond/steward/healer — their route, referenced not copied.)*
+
 **Channels — intent markers** — the Operator leads a turn with a marker so the agent
 knows the *mode*. A lived wu-wei lexicon (single-token, low-load), separating the
 **interface plane** (how the dyad cycles) from the **ascent plane** (moves on the climb).

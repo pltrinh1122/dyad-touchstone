@@ -40,6 +40,7 @@ Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiti
 | **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
 | **`lean?`** | interface | surface the agent's read, then **hold** |
 | **`lean!`** | ascent | surface the read **and** take the move (delegated gate) |
+| **`follow:`** | ascent | run a sound discipline **by its Playbook** — `follow: #N` takes the line a pinned principle already *led*; **apply ∧ re-rub in one move** (you weight no piece of pro without testing it — #4). The lead/`lean!` ⟷ follow pair: `lean!` takes a *new* move, `follow:` re-runs a *proven* one |
 | **`clip`** | ascent | render the verdict and **lock** it; the climb now hangs from it |
 
 **Clip-protocol** — default is **not-clipped** (no lock without the explicit gate). Three

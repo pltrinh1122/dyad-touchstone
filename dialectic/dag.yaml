@@ -18,7 +18,7 @@ nodes:
   summit:
     kind: goal
     label: "Neural-symbolic summit — un-refuted, not hoped"
-    children: [standup, playbook_candidate, rituals]
+    children: [standup, playbook_candidate, rituals, gap_share]
 
   rituals:
     kind: terminal
@@ -113,3 +113,37 @@ nodes:
     label: "B4 Ledger cycle #1 (dogfood run)"
     deps: [b1, b2]
     done_when: {file_exists: {path: dialectic/ledger/cycle-01.md}}
+
+  # --- Goal C: mature GAP — live -> write -> share (single-home #6) -------------
+  # Goals A/B topped out (apparatus built); this Goal puts the CURRENT phase ON the
+  # Climb so the Touchstone GOVERNS it, instead of narrating "all done" while we work
+  # off-DAG (the cycle-11 self-audit: work unrepresented on the Climb is ungoverned).
+  gap_share:
+    kind: goal
+    label: "Mature GAP: live -> write -> share (#6) — write=b3 done; share is Founding-gated"
+    children: [gap_fr, gap_live_external, gap_rings_sound, gap_shared]
+
+  gap_fr:
+    kind: terminal
+    label: "GAP claim submitted to the Commons falsification channel (PR #45)"
+    deps: [b3]   # you submit the discipline you wrote
+    done_when: {file_exists: {path: commons/falsification/gap-rederive-kills-stalecache/fr.yaml}}
+  gap_live_external:
+    kind: terminal
+    label: "GAP LIVED on a real, non-self-referential claim — the keystone (discharges #5)"
+    deps: [b3]
+    # Sidecar sentinel (cf. d6_ratify's .RATIFIED): written ONLY once GAP is genuinely lived
+    # OUTSIDE the apparatus. Never auto-true, never a substring of prose that merely describes it.
+    done_when: {file_exists: {path: dialectic/ledger/gap-lived-external.md}}
+  gap_rings_sound:
+    kind: terminal
+    label: "GAP's FR rings sound — disposition derives 'strengthened' (CONTRACT §J/§D)"
+    deps: [gap_fr]
+    # Done only when OUR disposition records 'strengthened' (DERIVED from standing verdicts,
+    # not self-graded) — requires real cross-dyad responses first.
+    done_when: {file_contains: {path: commons/falsification/gap-rederive-kills-stalecache/disposition.yaml, pattern: strengthened}}
+  gap_shared:
+    kind: terminal
+    label: "GAP annexed into the Commons library — the share LEAVE (Founding gate #5)"
+    deps: [gap_live_external, gap_rings_sound]   # live-before-share + rings-sound
+    done_when: {file_exists: {path: commons/library/grounded-aligned-progress/PLAYBOOK.md}}

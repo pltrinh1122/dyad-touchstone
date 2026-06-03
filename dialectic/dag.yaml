@@ -107,7 +107,7 @@ nodes:
     kind: terminal
     label: "B3 PLAYBOOK.md (discipline prose)"
     deps: [b4]   # a Playbook with no ledger is not yet a Playbook
-    done_when: {file_exists: {path: library/dag-planning/PLAYBOOK.md}}
+    done_when: {file_exists: {path: library/grounded-aligned-progress/PLAYBOOK.md}}
   b4:
     kind: terminal
     label: "B4 Ledger cycle #1 (dogfood run)"

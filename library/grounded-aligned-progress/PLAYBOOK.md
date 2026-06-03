@@ -8,10 +8,10 @@ claim: "a summit-rooted activity DAG that stores STRUCTURE ONLY and re-derives d
 refutation: "stored status drifts into stale cache · a fact-predicate is satisfiable by prose that merely describes it (false-positive green) · the falsifier blesses instead of vetoes (rubber-stamp) · no real edge-competition, so it never gets a chance to reject"
 mechanism: "falsify + minimum-force"
 ---
-# Dag-Planning
+# Grounded-Aligned-Progress (GAP)
 
 ## Index Line
-> **Dag-Planning:** When you plan multi-step work, do not track status in the plan. Encode the work as a summit-rooted DAG that stores **structure only** — nodes, dependencies, and a `done_when` *predicate* per leaf — and re-derive done-ness every run by **querying the substrate** (files, tests, git state), never a stored flag. A generative half proposes the next edge; a symbolic **falsifier** vetoes illegal transitions and **refuses to select** among the ready frontier. A pass is *un-refuted, not verified*. This replaces "narrate progress from the stale cache" with "rub the plan against what is actually true this run."
+> **Grounded-Aligned-Progress (GAP):** When you plan multi-step work, do not track status in the plan. Encode the work as a summit-rooted DAG that stores **structure only** — nodes, dependencies, and a `done_when` *predicate* per leaf — and re-derive done-ness every run by **querying the substrate** (files, tests, git state), never a stored flag. A generative half proposes the next edge; a symbolic **falsifier** vetoes illegal transitions and **refuses to select** among the ready frontier. A pass is *un-refuted, not verified*. This replaces "narrate progress from the stale cache" with "rub the plan against what is actually true this run." The name *is* the bind: progress must be **grounded** in the substrate (*is it actually done?*) **and aligned** to the summit (*is it the right thing?*) — neither half alone. **GAP** = Grounded-Aligned-Progress.
 
 ## The Move *(ordered, wu-wei-atomic steps)*
 1. Encode the climb as a **DAG of structure only** — nodes, deps, and a `done_when` predicate per terminal. Store **no** `done:` flag; a stored flag re-creates the stale cache the summit exists to kill.
@@ -42,6 +42,6 @@ Undefined siblings (down-climb, belay, …) stay **named-but-unwritten** until a
 - **A Ledger of proofs precedes a Playbook** — disciplines are *earned*, admitted one-per-proof (cycle #3).
 
 ## Ledger
-The accumulating evidence lives in **`dialectic/ledger/`** (single-home — referenced, not copied here). Six cycles seed it: the prototype dogfood (#1), the false-positive predicate and its fix (#2–#3), the standing-up top-out (#4), the [ALIGN]-timing falsification (#5), and the lived marker-lexicon (#6). At the future `write → share` leave (Founding gate), these are assembled into `library/dag-planning/ledger/` for the Commons PR.
+The accumulating evidence lives in **`dialectic/ledger/`** (single-home — referenced, not copied here). Six cycles seed it: the prototype dogfood (#1), the false-positive predicate and its fix (#2–#3), the standing-up top-out (#4), the [ALIGN]-timing falsification (#5), and the lived marker-lexicon (#6). At the future `write → share` leave (Founding gate), these are assembled into `library/grounded-aligned-progress/ledger/` for the Commons PR.
 
 > **Breadth honesty.** This is **single-dyad** (dyad-touchstone) and **internal — not yet shared**; admission to the Commons is deferred to the `write → share` leave, gated by lived soundness, never by assertion. Known caps, logged not hidden: **thrash-detection is unimplemented** (needs persisted run history); the **fact-predicate vocabulary is minimal** (`file_exists`, `file_contains`); the "dedicated-artifact" rule is a **discipline, not yet a mechanical check**; artifact-rename to the register (`playbook.py` → "the touchstone") is a deferred pitch. Depth ≠ breadth.

@@ -15,7 +15,7 @@ It runs the five phases once at session scale, spawning nested SPAOR jobs inside
 | **Plan** | — | select from the computed frontier — *the Operator's seat; the falsifier refuses to select* |
 | **Act** | — (the body) | spawn jobs concurrently — pitches & playbooks; **[ALIGN]** gates pitch-boundary leaves |
 | **Observe** | — | join the jobs' results; validate each against its `done_when` |
-| **Reflect** | **Stand Down** | harvest proofs to the Ledger; verify clean tree + Fresh/Frozen/Flagged; confirm the Climb holds in-flight work; end |
+| **Reflect** | **Stand Down** | **two distinct outputs** — *harvest* (survived proofs → Ledger: the **work**) **and** *`retro:`* (a CSS Continue/Start/Stop pass → the **craft**: how we climbed); verify clean tree + Fresh/Frozen/Flagged; confirm the Climb holds in-flight work; end |
 
 **Intermission** = an intra-session **Reflect→Sense** re-entry (segment seam; resume the same climb).
 
@@ -63,7 +63,13 @@ mortal session-loops. Scale stack: **pitch ⊂ segment ⊂ session (= master loo
 
 `read:`→Sense · `lean?`→Plan(hold) · `lean!`→Plan+Act · `follow: X`→Act(spawn playbook) ·
 `rub:`→Act(spawn falsification job) · `riff:`→Plan-only divergence · `rack:`→intra-session hold ·
-`clip`/`pin:`→Reflect(commit/persist).
+`retro:`→Reflect(craft retrospective, CSS) · `fb:`→feeds retro's START/STOP · `clip`/`pin:`→Reflect(commit/persist).
+
+**Reflect emits two streams — never one.** *Harvest* banks survived **proofs** to the Ledger (object:
+the **work** / ascent plane). *`retro:`* runs a **CSS** pass on the **craft** (object: the **dyad** /
+interface plane) — START/STOP from `fb:`, CONTINUE = Operator POV (then rubbed). Tell: CSS verbs
+(keep/start/stop) fit only *behaviors* — you *bank* a proof, you don't "stop" it. Conflating them was
+the error that motivated naming `retro:` distinctly (cycle-14).
 
 ## Racked (deferred this-climb)
 

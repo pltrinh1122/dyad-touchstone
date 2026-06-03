@@ -40,6 +40,7 @@ Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiti
 | **`rack:`** | interface | carry as dormant freight — hold, do not act (removable rack gear; transient, this-climb) |
 | **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Make a fact load-bearing (vs `rack:` transient; vs `clip` which locks a *decision*, not a *fact*). See **Pin-protocol** |
 | **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
+| **`retro:`** | interface | trigger a **CSS** retrospective (Continue/Start/Stop) — rub *how the dyad climbed* (the craft), **not** what it proved. START/STOP harvested from `fb:`; CONTINUE is the Operator's POV (then rubbed against evidence). Distinct from *harvest* (proofs → Ledger). Fires the Reflect phase on demand (an Intermission). Commons-shared form (origin: dyad-healer) — referenced, not reinvented |
 | **`lean?`** | interface | surface the agent's read, then **hold** |
 | **`lean!`** | ascent | surface the read **and** take the move (delegated gate) |
 | **`follow:`** | ascent | run a sound discipline **by its Playbook** — `follow: #N` takes the line a pinned principle already *led*; **apply ∧ re-rub in one move** (you weight no piece of pro without testing it — #4). The lead/`lean!` ⟷ follow pair: `lean!` takes a *new* move, `follow:` re-runs a *proven* one |
@@ -125,7 +126,7 @@ logged test-round) — same register, different geometry.
 | **[ALIGN]** | **pitch boundary** | reconcile the move against the summit; **gates the leave** — no ascent while a tension is unreconciled |
 | **Intermission** | segment seam | Reflect-pause; **commit the durable record** (a proof); resume the same climb |
 | **Time-Out** | mid-pitch context switch | bilateral informal park — minimal "where was I" for clean resume |
-| **Stand Down** | session end (Reflect) | harvest surviving proofs to the Ledger; **verify clean tree + committed record**; confirm the Climb holds in-flight work; end |
+| **Stand Down** | session end (Reflect) | **two outputs** — *harvest* surviving proofs to the Ledger **and** run the **`retro:`** CSS craft-retrospective; **verify clean tree + committed record + Fresh/Frozen/Flagged**; confirm the Climb holds in-flight work; end |
 
 **[ALIGN] is the pitch-boundary ritual** — the Reflect→Sense hinge. Leaving pitch N and
 planning pitch N+1 are one event; [ALIGN] owns that seam and **gates the leave**. It also

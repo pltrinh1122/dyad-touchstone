@@ -35,7 +35,8 @@ Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiti
 | **`read:`** | interface | orient — re-derive state from the substrate *this run*, report; do not act |
 | **`rub:`** | interface | attack — rub the move on the touchstone, try to break it |
 | **`riff:`** | interface | surface the agent's lean; diverge, no gate (supersedes `[IDEATE]`) |
-| **`rack:`** | interface | carry as dormant freight — hold, do not act |
+| **`rack:`** | interface | carry as dormant freight — hold, do not act (removable rack gear; transient, this-climb) |
+| **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Explicit Operator directive that a fact is load-bearing (vs `rack:` transient; vs `clip` which locks a *decision*, not a *fact*) |
 | **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
 | **`lean?`** | interface | surface the agent's read, then **hold** |
 | **`lean!`** | ascent | surface the read **and** take the move (delegated gate) |

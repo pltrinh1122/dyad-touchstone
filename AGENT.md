@@ -121,7 +121,7 @@ logged test-round) — same register, different geometry.
 
 | Ritual | Boundary / trigger | What we do |
 |---|---|---|
-| **Stand Up** | session start (Sense) | load the Anchor; **run the Touchstone** (compute the frontier — never narrate from cache); confirm hat + channel |
+| **Stand Up** | session start (Sense) | load the Anchor; **run the Touchstone** (compute the frontier — never narrate from cache); confirm hat + channel; **commit the session-target (end-in-mind)** — the pitch this session tops out, whose `done_when` is the Stand-Down trigger |
 | **[ALIGN]** | **pitch boundary** | reconcile the move against the summit; **gates the leave** — no ascent while a tension is unreconciled |
 | **Intermission** | segment seam | Reflect-pause; **commit the durable record** (a proof); resume the same climb |
 | **Time-Out** | mid-pitch context switch | bilateral informal park — minimal "where was I" for clean resume |
@@ -131,6 +131,15 @@ logged test-round) — same register, different geometry.
 planning pitch N+1 are one event; [ALIGN] owns that seam and **gates the leave**. It also
 fires mid-pitch the instant a tension against the summit surfaces. *(Falsification of
 "before vs after": ledger cycle-05.)*
+
+**The rituals ARE the master loop.** A session *is* one **master SPAOR** — **Sense = Stand Up**,
+**Reflect = Stand Down**, **Intermission = intra-session Reflect→Sense**, **[ALIGN] = the
+pitch-boundary gate inside Act**. Act spawns nested SPAOR jobs (pitches; playbooks via `follow:`).
+The loop is **mortal** — continuity lives in the substrate (`without-you` is the inter-session
+handoff), and the supra-session spine is the **Climb**. **End-in-mind law:** Stand Up isn't
+complete until a session-target is committed (its `done_when` = the Stand-Down trigger); a session
+with no terminus spawns forever (cycle-13). Full spec + the markers-as-instruction-set:
+`dialectic/master-spaor.md`.
 
 ## Open loops — read at Sense, do not recall from memory
 

@@ -25,11 +25,29 @@ source this run and read the tool's output." Verify before asserting.
 - **Falsifier** — attacks every candidate; rubs the leader's moves on the touchstone before the rope is trusted.
 - **Gatekeeper** — one-time approver of external-code execution (commons submodule, scripts); no standing grant.
 
-**Channels** — lead with the tag so the agent knows the *mode*:
+**Channels — intent markers** — the Operator leads a turn with a marker so the agent
+knows the *mode*. A lived wu-wei lexicon (single-token, low-load), separating the
+**interface plane** (how the dyad cycles) from the **ascent plane** (moves on the climb).
+Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiting.
 
-- **`[ALIGN]`** — reconcile a framing/tension against the summit at a **pitch boundary**; **gates the leave** (no ascent until reconciled). See `## Session rituals`.
-- **`[IDEATE]`** — open a diverge–converge generation (generate · compare · converge).
-- **gate replies** — `AGREE` / `Y`·`N` / `ASCEND` / `CONTINUE` / `hold`: ratify or veto a proposed leave.
+| Marker | Plane | Mode |
+|---|---|---|
+| **`read:`** | interface | orient — re-derive state from the substrate *this run*, report; do not act |
+| **`rub:`** | interface | attack — rub the move on the touchstone, try to break it |
+| **`riff:`** | interface | surface the agent's lean; diverge, no gate (supersedes `[IDEATE]`) |
+| **`rack:`** | interface | carry as dormant freight — hold, do not act |
+| **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
+| **`lean?`** | interface | surface the agent's read, then **hold** |
+| **`lean!`** | ascent | surface the read **and** take the move (delegated gate) |
+| **`clip`** | ascent | render the verdict and **lock** it; the climb now hangs from it |
+
+**Clip-protocol** — default is **not-clipped** (no lock without the explicit gate). Three
+states: **clipped** (locked, written as a proof) · **open** (proposed; *un-refuted, not
+verified* — held as candidate) · **refuted** (`rub:`'d down or explicit no). Silence holds a
+candidate *open* — never inferred as yes or no.
+
+- **`[ALIGN]`** — reconcile a framing/tension against the summit at a **pitch boundary**; **gates the leave** (no ascent until reconciled). Its marker is still *on the rack* (un-named — fires as `[ALIGN]` for now). See `## Session rituals`.
+- **gate replies** — `AGREE` / `Y`·`N` / `ASCEND` / `CONTINUE` / `hold`: the agent's ratify/veto vocabulary in answer to a `clip`.
 
 ## Ontology — artifact-kinds (single-home)
 

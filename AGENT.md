@@ -36,7 +36,7 @@ Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiti
 | **`rub:`** | interface | attack — rub the move on the touchstone, try to break it |
 | **`riff:`** | interface | surface the agent's lean; diverge, no gate (supersedes `[IDEATE]`) |
 | **`rack:`** | interface | carry as dormant freight — hold, do not act (removable rack gear; transient, this-climb) |
-| **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Explicit Operator directive that a fact is load-bearing (vs `rack:` transient; vs `clip` which locks a *decision*, not a *fact*) |
+| **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Make a fact load-bearing (vs `rack:` transient; vs `clip` which locks a *decision*, not a *fact*). See **Pin-protocol** |
 | **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
 | **`lean?`** | interface | surface the agent's read, then **hold** |
 | **`lean!`** | ascent | surface the read **and** take the move (delegated gate) |
@@ -46,6 +46,15 @@ Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiti
 states: **clipped** (locked, written as a proof) · **open** (proposed; *un-refuted, not
 verified* — held as candidate) · **refuted** (`rub:`'d down or explicit no). Silence holds a
 candidate *open* — never inferred as yes or no.
+
+**Pin-protocol** — `pin:` laterality tracks the object. **Fiat** (intent / preference /
+decision — the owner is sole authority; a preference can't be falsified) → *unilateral*.
+**Claim** (a falsifiable assertion — the register's word for what the touchstone tests) →
+*bilateral*, through **two gates**: rubbed **sound** (eligible — necessary, not sufficient)
+*then* a deliberate worth-keeping concurrence (pinned). Soundness alone never auto-pins —
+*status is never stored, only rubbed*. A pinned claim is a **Ledger proof**; and pinned ≠
+sacred — *un-refuted is not verified*, so it stays falsifiable, re-rubbed each pitch, pulled
+or replaced if it ever fails.
 
 - **`[ALIGN]`** — reconcile a framing/tension against the summit at a **pitch boundary**; **gates the leave** (no ascent until reconciled). Its marker is still *on the rack* (un-named — fires as `[ALIGN]` for now). See `## Session rituals`.
 - **gate replies** — `AGREE` / `Y`·`N` / `ASCEND` / `CONTINUE` / `hold`: the agent's ratify/veto vocabulary in answer to a `clip`.

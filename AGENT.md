@@ -13,3 +13,10 @@ hallucination-prone disciplines into mechanically-enforced ones, so playbook
 execution is *verified, not hoped for*. Realized proof: tools in the
 `state.py` lineage that replace "narrate from the stale cache" with "query the
 source this run and read the tool's output." Verify before asserting.
+
+## Open loops — read at Sense, do not recall from memory
+
+Durable pending work lives in `dialectic/board.md` (`## READY-SET`). At session
+start (the Sense step), read that file as the source of truth for what is
+pending — never narrate open work from a stale context-cache. This is the
+summit applied to the dyad itself.

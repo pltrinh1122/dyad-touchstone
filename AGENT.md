@@ -83,6 +83,13 @@ or replaced if it ever fails.
 5. **Summit-climb is method, not summit.** It earns its keep only while grounding a real
    claim; an apparatus that only tests itself has drifted. *(Flag: summit-climb may be a
    form-level scaffold to propose at the Founding gate — not annexed as our summit.)*
+6. **live → write → share.** A discipline matures through three touchstone-gated leaves:
+   *live* it (use it in real pitches; log proofs to the Ledger) → *write* it (synthesize the
+   lived proofs into our internal Playbook) → *share* it (annex into the Commons form, for all
+   dyads). `live→write` is gated by *a Ledger of proofs precedes a Playbook*; `write→share` by
+   *live-before-share + rings-sound* — the **Founding gate (#5) sits at write→share, not
+   before.** Writing our internal Playbook is **living, not sharing.** Refutation at any stage
+   **down-climbs** to the prior one — *pinned ≠ sacred.*
 
 ## Vocabulary — added to G0 (cross-cutting)
 

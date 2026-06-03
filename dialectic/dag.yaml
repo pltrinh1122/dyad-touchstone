@@ -1,0 +1,115 @@
+# dyad-touchstone — activity DAG (dogfood prototype)
+#
+# Summit-rooted DAG of our CURRENT activities. This file stores STRUCTURE only —
+# nodes, edges (deps), and a `done_when` predicate per terminal. It deliberately
+# stores NO status: done-ness is re-derived by querying the substrate this run
+# (playbook.py). Storing a `done:` flag here would re-create the stale cache the
+# summit exists to kill.
+#
+# kinds:  goal     -> done when all children done; never directly selectable
+#         terminal -> a leaf; done when `done_when` predicate holds; selectable
+# done_when predicates (the only vocabulary the falsifier executes):
+#         file_exists:   {path}
+#         file_contains: {path, pattern}   # substring, repo-root-relative
+
+root: summit
+
+nodes:
+  summit:
+    kind: goal
+    label: "Neural-symbolic summit — un-refuted, not hoped"
+    children: [standup, playbook_candidate, rituals]
+
+  rituals:
+    kind: terminal
+    label: "Session rituals borrowed from dyad-steward + [ALIGN] as the pitch-boundary ritual"
+    deps: [d4]   # the ritual that gates leaves builds on channel discipline (hats/channels)
+    done_when: {file_contains: {path: AGENT.md, pattern: "## Session rituals"}}
+
+  # --- Goal A: stand up the dyad (flesh out AGENT.md, dims 1-7) ----------------
+  standup:
+    kind: goal
+    label: "Stand up the dyad — AGENT.md dimensions 1-7"
+    children: [d1, d2, d3, d4, d5, d6, d7]
+
+  d1:
+    kind: terminal
+    label: "D1 Identity"
+    deps: []
+    done_when: {file_contains: {path: AGENT.md, pattern: "## Summit"}}
+  d2:
+    kind: terminal
+    label: "D2 Externality (board)"
+    deps: []
+    done_when: {file_exists: {path: dialectic/board.md}}
+  d3:
+    kind: terminal
+    label: "D3 Form-grounding (commons)"
+    deps: []
+    done_when: {file_exists: {path: commons/AGENT.md}}
+  d4:
+    kind: terminal
+    label: "D4 Channel discipline (Operator hats)"
+    deps: [d3]
+    done_when: {file_contains: {path: AGENT.md, pattern: "## Channel discipline"}}
+  d5:
+    kind: terminal
+    label: "D5 NON-NEGOTIABLE (verify-before-asserting)"
+    deps: [d1]
+    done_when: {file_contains: {path: AGENT.md, pattern: "Verify before asserting"}}
+  # d6 opened into an ephemeral execution sub-DAG (summit-climb: enter a pitch).
+  # Same machinery, same falsifier — scoped + ephemeral. "Leave" (d6_write) is a
+  # guarded transition: it completes only when AGENT.md actually gains the section.
+  d6:
+    kind: goal
+    label: "D6 Ontology starter — execution sub-DAG (a pitch on the climb)"
+    children: [d6_draft, d6_ratify, d6_write]
+  d6_draft:
+    kind: terminal
+    label: "d6.draft — generate ontology candidate (Generate)"
+    deps: [d3, d5]
+    done_when: {file_exists: {path: dialectic/d6-ontology-draft.md}}
+  d6_ratify:
+    kind: terminal
+    label: "d6.ratify — dyadic friction; ratification is its own artifact (Validate)"
+    deps: [d6_draft]
+    # Ratification = a sidecar artifact, NOT a substring (a substring collides with
+    # prose that merely *describes* ratifying — caught in ledger cycle #2).
+    done_when: {file_exists: {path: dialectic/d6-ontology.RATIFIED}}
+  d6_write:
+    kind: terminal
+    label: "d6.write — encode into AGENT.md; the guarded LEAVE / ascend"
+    deps: [d6_ratify]
+    done_when: {file_contains: {path: AGENT.md, pattern: "## Ontology"}}
+  d7:
+    kind: terminal
+    label: "D7 Vocabulary stub"
+    deps: [d6]
+    done_when: {file_contains: {path: AGENT.md, pattern: "## Vocabulary"}}
+
+  # --- Goal B: candidate G/V planning Playbook --------------------------------
+  playbook_candidate:
+    kind: goal
+    label: "Candidate G/V planning Playbook (un-refuted, not hoped)"
+    children: [b1, b2, b3, b4]
+
+  b1:
+    kind: terminal
+    label: "B1 Shared serialized DAG schema (this file)"
+    deps: []
+    done_when: {file_exists: {path: dialectic/dag.yaml}}
+  b2:
+    kind: terminal
+    label: "B2 Falsifier / runtime transition-guard"
+    deps: [b1]
+    done_when: {file_exists: {path: dialectic/playbook.py}}
+  b3:
+    kind: terminal
+    label: "B3 PLAYBOOK.md (discipline prose)"
+    deps: [b4]   # a Playbook with no ledger is not yet a Playbook
+    done_when: {file_exists: {path: library/dag-planning/PLAYBOOK.md}}
+  b4:
+    kind: terminal
+    label: "B4 Ledger cycle #1 (dogfood run)"
+    deps: [b1, b2]
+    done_when: {file_exists: {path: dialectic/ledger/cycle-01.md}}

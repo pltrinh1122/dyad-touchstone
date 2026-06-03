@@ -1,12 +1,22 @@
-# dyad-touchstone — board
+# dyad-touchstone — Topo
 
-> Durable open loops. Read this at **Sense** (session start) as the source of
-> truth for what is pending — do not narrate pending work from memory. This is
-> the dyad's summit applied to itself: verify against substrate, never trust a
-> stale cache.
+> The **Topo**: a human-readable Sense-map onto the Climb. It stores **no status** —
+> the live frontier is computed by the **Touchstone**. At Sense, run it:
+>
+> ```
+> python3 dialectic/playbook.py
+> ```
+>
+> The Touchstone rubs the Climb (`dialectic/dag.yaml`) against the substrate *this
+> run* and prints the qualifying-terminal frontier. This file orients; the
+> Touchstone adjudicates. Never narrate open work from a stale cache.
 
-## READY-SET
+## The climb at a glance
 
-| Item | Note |
-|---|---|
-| Flesh out `AGENT.md` instruction layer | Define dyad-touchstone's disciplines/playbooks — Plan dimensions 4–7: channel discipline, NON-NEGOTIABLE (= verify-before-asserting), ontology starter, vocabulary stub. Deferred at birth 2026-06-03; carried across the dyad-builder→dyad-touchstone rename + restart. |
+- **Summit** — neural-symbolic: what the dyad asserts is *what is*, never what was remembered.
+- **Standing up** (AGENT.md dims 1–7): identity · externality · form-grounding · NON-NEGOTIABLE
+  done; **ontology (d6)** topped out; **channel discipline (d4)** and **vocabulary (d7)** on the frontier.
+- **Candidate Playbook** (G/V planning): Climb + Touchstone built; Ledger accruing proofs;
+  `PLAYBOOK.md` waits on enough proofs (a claim without a ledger is not yet a Playbook).
+
+Run the Touchstone for the authoritative, queried frontier.

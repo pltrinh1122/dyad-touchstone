@@ -1,0 +1,6 @@
+# d6.ratify — RATIFIED
+
+Operator ratified the d6 ontology + the *assayed-climb* register (AGREE + topo),
+2026-06-03. This sidecar is the ratification artifact — a fact prose cannot fake
+(see ledger cycle #2). Its existence discharges `d6_ratify`; the Touchstone then
+permits `d6_write` — the leave.

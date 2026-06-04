@@ -53,7 +53,7 @@ Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiti
 | Marker | Plane | Mode |
 |---|---|---|
 | **`read:`** | interface | orient — re-derive state from the substrate *this run*, report; do not act |
-| **`rub:`** | interface | attack — rub the move on the touchstone, try to break it |
+| **`rub:`** | interface | attack — rub the move on the touchstone, try to break it. Firing `rub:` **pre-authorizes the Operator to bear re-alignment** — the in-moment **exception** to cycle-19's no-contest law: a *solicited* contest defuses rationalization-defense, so the Agent may attack the Operator's *own* model in the moment (clip cycle-24) |
 | **`riff:`** | interface | surface the agent's lean; diverge, no gate (supersedes `[IDEATE]`) |
 | **`rack:`** | interface | carry as **durable** dormant freight — hold, do not act; the gear you haul up the whole route. Parks on the Climb as a `rack`-kind node (`dag.yaml`), surfaced in the Touchstone's RACK section each Stand Up — **survives restarts**. **Un-rack** = promote `rack`→`terminal` + attach deps (place the gear). See **Rack-protocol** |
 | **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Make a fact load-bearing (a durable *fact* — vs `rack:` which parks a durable *action-item*; vs `clip` which locks a durable *decision*). See **Pin-protocol** |

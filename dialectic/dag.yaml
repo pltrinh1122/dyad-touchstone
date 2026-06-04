@@ -164,3 +164,8 @@ nodes:
     kind: rack
     label: "Operator runs COLLINEAR work across touchstone+bond. Have both Agents propose — via IM/DM, through the falsification channel — a reconciliation plan that lets the Operator operate ORTHOGONALLY across the two dyads"
     done_when: {file_exists: {path: dialectic/rack/bond-touchstone-reconciliation.md}}
+
+  rack_exit_necessity:
+    kind: rack
+    label: "RIFF (held): does the Operator actually need /exit? Stated motivation = cluttered context -> 'greater hallucination' + 'slower inference'. Seed-data this run: /context = 35% used / 65% free -> token-CAPACITY is NOT the clutter. If real, it's signal/noise (stale, superseded in-context framings), and /exit's true lever is forcing substrate-re-derivation (dropping the in-context cruft that breeds narrate-from-cache)"
+    done_when: {file_exists: {path: dialectic/rack/exit-necessity-riff.md}}

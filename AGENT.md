@@ -59,7 +59,7 @@ Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiti
 | **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Make a fact load-bearing (a durable *fact* — vs `rack:` which parks a durable *action-item*; vs `clip` which locks a durable *decision*). See **Pin-protocol** |
 | **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
 | **`retro:`** | interface | trigger a **CSS** retrospective (Continue/Start/Stop) — rub *how the dyad climbed* (the craft), **not** what it proved. START/STOP harvested from `fb:`; CONTINUE is **bilateral** — *both* Agent and Operator surface it, each rubbed against evidence (not the Operator's POV alone). Distinct from *harvest* (proofs → Ledger). Fires the Reflect phase on demand (an Intermission). Commons-shared form (origin: dyad-healer) — referenced, not reinvented |
-| **`lean?`** | interface | surface the agent's read, then **hold** |
+| **`lean?`** | interface | surface the read, **diverge**, then **hold** — builds the shared model `lean!`/`lean.` presuppose (see **Lean-protocol**) |
 | **`lean!`** | ascent | surface the read **and** take the move (delegated gate) |
 | **`follow:`** | ascent | run a sound discipline **by its Playbook** — `follow: #N` takes the line a pinned principle already *led*; **apply ∧ re-rub in one move** (you weight no piece of pro without testing it — #4). The lead/`lean!` ⟷ follow pair: `lean!` takes a *new* move, `follow:` re-runs a *proven* one |
 | **`clip`** | ascent | render the verdict and **lock** it; the climb now hangs from it |
@@ -88,6 +88,26 @@ promote `rack`→`terminal` and attach deps (place the gear on the route) — th
 one pitch) is *not* a rack but the clip-protocol **open** state — ephemeral, dies at pitch close. Two kinds,
 once conflated. *Exception (cycle #21):* an artifact-under-test the agent must not be primed on stays
 deliberately un-durable — "don't make durable the artifact under test."
+
+**Lean-protocol** — the `lean` family is **one instrument read along a divergence→convergence
+gradient**, keyed by its punctuation: **`?` diverge · `.` checkpoint · `!` send.**
+
+- **`lean?`** *(interface — divergent)* — surface the read **and hold**; no gate fires. Its real work
+  is to **build the shared mental model**: surface the read — one or several candidate reads — for the
+  other seat to rub *before* any commitment. The cheap, no-gate model-builder.
+- **`lean.`** *(interface — checkpoint)* — the Operator commits to a call but **holds the move for
+  approval**. Over-use from control-need is the cycle-18 **over-caution** error (a `lean.` where the
+  down-climb was inconsequential).
+- **`lean!`** *(ascent — convergent / full send)* — delegated gate: take the move on the surfaced read.
+  **Precondition (cycle-20): a clear shared mental model of the intended outcome must already be held by
+  *someone*** — else `lean!` is **abdication, not trust**, manufacturing a move neither party modeled.
+
+**The load-bearing rule (cycle-20 remediation):** the convergent gates (`lean.`/`lean!`) *presuppose*
+the shared model that the divergent `lean?` *builds*. When the model isn't yet shared, **down-shift to
+`lean?`** — diverge, build it, hold — before re-firing a convergent gate. `lean?`-as-divergence is the
+cheap mechanism that **earns** the convergence. *(Timing law, cycle-19: the agent never contests a fired
+`lean.`/`lean!` in the moment — push triggers rationalization-defense; it flags + executes, and surfaces
+a model-less `lean!` or a misjudged `lean.` at `retro:` as an **OPERATOR-STOP**.)*
 
 - **`[ALIGN]`** — reconcile a framing/tension against the summit at a **pitch boundary**; **gates the leave** (no ascent until reconciled). Its marker is still *on the rack* (un-named — fires as `[ALIGN]` for now). See `## Session rituals`.
 - **gate replies** — `AGREE` / `Y`·`N` / `ASCEND` / `CONTINUE` / `hold`: the agent's ratify/veto vocabulary in answer to a `clip`.

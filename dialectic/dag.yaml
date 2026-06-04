@@ -167,8 +167,12 @@ nodes:
     done_when: {file_contains: {path: AGENT.md, pattern: "Lean-protocol"}}
 
   # --- Rack: carried freight (durable, dormant) — un-rooted, not yet placed on the climb.
-  # See AGENT.md D4 `rack:` / Rack-protocol. Un-rack = promote rack->terminal + attach deps.
-  # First worked example of the rack node-kind (ledger #22).
+  # LIFO STACK (clipped cycle-24): this section IS a stack. PUSH = append a new rack node
+  # at the END. The TOP = the LAST node listed here (most recently pushed). NEVER reorder
+  # or insert in the middle — file-order IS stack-order, and the Touchstone reads it that
+  # way (renders top-first). Bare refine/rub/un-rack ops default to the TOP unless a node
+  # is named. See AGENT.md D4 `rack:` / Rack-protocol. Un-rack = promote rack->terminal +
+  # attach deps. First worked example of the rack node-kind (ledger #22).
   rack_guard_publishes:
     kind: rack
     label: "Resolve 'guard external publishes' systematically — a dyad-wu-wei (autonomous-frontier) unlock: mechanize gate-height-from-reversibility so cheaply-reversible publishes auto-clear and low-reversibility ones block"

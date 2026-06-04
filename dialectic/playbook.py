@@ -152,9 +152,15 @@ def main():
         print("  (none)  DEADLOCK" if undone else "  (none)  all terminals done")
     racks = [nid for nid, n in NODES.items() if n["kind"] == "rack"]
     if racks:
-        print("\nRACK (carried freight — durable, dormant; NOT on the climb; un-rack to place):")
-        for nid in racks:
-            print(f"  ▢ {nid}  [{status(nid)}]  {NODES[nid]['label']}")
+        # LIFO stack: dag.yaml file-order IS push-order (append-only; never reorder).
+        # Render top->bottom so the TOP (last pushed) reads first; bare refine/rub/un-rack
+        # ops default to it unless a node is named (AGENT.md Rack-protocol, cycle-24).
+        print("\nRACK — LIFO stack (carried freight; durable, dormant; NOT on the climb).")
+        print("  top = last pushed; bare refine/rub/un-rack default to TOP unless a node is named:")
+        stack = list(reversed(racks))  # top first
+        for i, nid in enumerate(stack):
+            pos = " ← TOP   " if i == 0 else (" ← bottom" if i == len(stack) - 1 else "         ")
+            print(f"  ▢ {nid}  [{status(nid)}]{pos}  {NODES[nid]['label']}")
     print("\nThe falsifier REFUSES to select among the frontier.")
     print("wu-wei (min force / max unlock) is the neural/dyadic half's call.")
     print("[thrash-detection: not implemented in prototype — needs run history]")

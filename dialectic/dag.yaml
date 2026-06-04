@@ -49,7 +49,7 @@ nodes:
     done_when: {file_exists: {path: commons/AGENT.md}}
   d4:
     kind: terminal
-    label: "D4 Channel discipline (Operator hats)"
+    label: "D4 Channel discipline (Operator roles & channels)"
     deps: [d3]
     done_when: {file_contains: {path: AGENT.md, pattern: "## Channel discipline"}}
   d5:

@@ -35,8 +35,12 @@ the loop spawns without terminus (the failure this very session demonstrated liv
 
 The loop is shared; its phases split across the two seats (this is intent-mechanism-altitude, structural):
 
-- **Plan-selection** + **Reflect-clip** = the **Operator** (intent / dispose).
-- **Sense · Act · Observe** = the **agent** (mechanism — re-derive · execute · validate).
+- **Plan-selection** + **Reflect-clip** = the **Operator** (intent / dispose). The session-loop
+  runs on the **{TO} Touchstone Operator** (disposes *our climb*); the **{FO} Founding Operator**
+  (disposes a *Commons artifact*) crosses into the same session when we own shared infra — same
+  human, role set by the object of disposal (AGENT.md D4; ledger cycle-15).
+- **Sense · Act · Observe** = the **agent** (mechanism — re-derive · execute · validate). **Observe
+  *is* falsification** — agent-performed, Touchstone-enforced, Operator-directed (`rub:`); not a seat.
 
 ## Act spawns jobs — fractal SPAOR
 

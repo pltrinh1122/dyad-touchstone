@@ -14,16 +14,34 @@ execution is *verified, not hoped for*. Realized proof: tools in the
 `state.py` lineage that replace "narrate from the stale cache" with "query the
 source this run and read the tool's output." Verify before asserting.
 
-## Channel discipline — Operator hats & channels
+## Channel discipline — Operator roles & channels
 
-> Dimension 4. The seats the human wears and the channels they lead with — observed
+> Dimension 4. The roles the human wears and the channels they lead with — observed
 > and adopted during the standing-up, not invented.
 
-**Operator hats:**
+**Operator roles — keyed by what's disposed, not by person (one human wears both; a
+session can wear both at once).** *(Clipped: ledger cycle-15 — rubbed the old three-hat
+model down to two roles + two single-home cleanups.)*
 
-- **Operator** — steers by intent, ratifies candidates, gates merges (the seat).
-- **Falsifier** — attacks every candidate; rubs the leader's moves on the touchstone before the rope is trusted.
-- **Gatekeeper** — one-time approver of external-code execution (commons submodule, scripts); no standing grant.
+- **{TO} Touchstone Operator** (aka *Operator*, the default) — disposes the dyad's own
+  **climb**: steers by intent, selects from the computed frontier, ratifies candidates,
+  gates merges. The seat the session-loop runs on; rubs against the Touchstone.
+- **{FO} Founding Operator** — disposes the **Commons artifact**: the human authority at
+  the **Founding gate (#5)**, founding/annexing into the shared form. Activates *in-session
+  here* when this dyad takes ownership of a shared-infra asset (e.g. a state-machine engine).
+  *(Lived: the PR#47 falsification was {FO} work done inside a {TO} session.)*
+
+The **object of disposal** (our climb vs the Commons) sets the active role — not the person.
+
+**Falsification is not a role — it is the Observe function** (single-home, not a fourth seat):
+the Operator **directs** it (`rub:`), the **agent performs** it (Observe — `master-spaor.md`
+§Phase-ownership), the **Touchstone enforces** it (the symbolic veto, `playbook.py`). Structural
+and always-run, never an optional hat. *(Refutes the former "Falsifier hat", which triple-booked
+these three homes: ledger cycle-15.)*
+
+**Gatekeeping is not a role — it is a gate act** (single-home: the covalent-gate `!`-run below).
+One-time approval of external-code execution (commons submodule, scripts); no standing grant — an
+act, not a seat. *(Refutes the former "Gatekeeper hat"; cf. **Covalent gate**.)*
 
 **Covalent gate** — a *standing* permission rule (e.g. `settings.json` allow) is the Operator's to **apply**; I **author** the rule, never self-apply it, and never over code we don't control. Widening my own authority is *self-modification*, not a mechanism — the one thing the intent/mechanism altitude does **not** cover (the scope of my mechanism-authority is itself the Operator's intent). A rule is warranted only for a *recurring, ratified, owned* class; a one-off is a `!`-run (Gatekeeper), not a rule. *(Cross-corroborated: dyad-bond/steward/healer — their route, referenced not copied.)*
 

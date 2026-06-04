@@ -22,7 +22,7 @@ nodes:
   summit:
     kind: goal
     label: "Neural-symbolic summit — un-refuted, not hoped"
-    children: [standup, playbook_candidate, rituals, gap_share]
+    children: [standup, playbook_candidate, rituals, gap_share, sprint_cycle20]
 
   rituals:
     kind: terminal
@@ -151,6 +151,20 @@ nodes:
     label: "GAP annexed into the Commons library — the share LEAVE (Founding gate #5)"
     deps: [gap_live_external, gap_rings_sound]   # live-before-share + rings-sound
     done_when: {file_exists: {path: commons/library/grounded-aligned-progress/PLAYBOOK.md}}
+
+  # --- Sprint: cycle-20 remediation (supra-session Operator intent, lean!'d this run) ---
+  # Sprint = durable Operator clarity-of-intent across MULTIPLE sessions. The Operator models the
+  # sprint OUTCOME (modelable = lean!-able at this altitude); the Agent drives the session-cadence
+  # (cuts atomic session-intents along the grain). The route is delegated; the destination is clear.
+  sprint_cycle20:
+    kind: goal
+    label: "SPRINT: design+implement the cycle-20 remediation — lean?-as-divergence builds the shared model that lean!/lean. presupposes"
+    children: [spr_clip_lean_divergence]
+  spr_clip_lean_divergence:
+    kind: terminal
+    label: "Clip the lean?-as-divergence protocol into AGENT.md D4, anchored on cycle-20 (readiest FIAT piece; sprint-altitude + atomic-intent ride to later cuts — live-before-write / theory-to-test)"
+    deps: []
+    done_when: {file_contains: {path: AGENT.md, pattern: "Lean-protocol"}}
 
   # --- Rack: carried freight (durable, dormant) — un-rooted, not yet placed on the climb.
   # See AGENT.md D4 `rack:` / Rack-protocol. Un-rack = promote rack->terminal + attach deps.

@@ -26,6 +26,14 @@ A load-bearing Operator retro comment is written to the **dyad's durable single-
 (re-open the ledger / `pin:` / fold into the FR). Agent-memory may *additionally* carry a recall-pointer
 but **never substitutes** for the substrate write. Ledger already harvested → **re-open, don't defer.**
 
+> **DOWN-CLIMB (cycle-27 `retro:`, Operator-surfaced — same session):** the rule above is **max-force**
+> — a willpower discipline that must be re-paid every session, so it **regresses** (the recurrence *is*
+> the tell). It is now a **STOP-GAP.** Root cause = **lack of wu-wei**, not lack of discipline. The real
+> fix is to **incorporate** the Agent's innate agent-memory *into* the dyad-substrate flow (one current,
+> not two hand-synced stores) → racked as `rack_close_memory_substrate_gap` (LIFO TOP). A max-force fix
+> does **not compound** (re-paid each time); only a grain-incorporated fix does — so this gap is a live
+> test of the accelerating-compounding capstone, not hygiene.
+
 ## The insight — now durable (the Operator's register, verbatim spine)
 > It's this **drain** that — should I not have alignment and learnings to ingrain — I would not be able
 > to have **accelerating compounding of the Operator**. Without Operator accelerating compounding, it

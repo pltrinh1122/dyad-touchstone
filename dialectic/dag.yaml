@@ -22,7 +22,7 @@ nodes:
   summit:
     kind: goal
     label: "Neural-symbolic summit — un-refuted, not hoped"
-    children: [standup, playbook_candidate, rituals, gap_share, sprint_cycle20, capstone_share]
+    children: [standup, playbook_candidate, rituals, gap_share, sprint_cycle20, capstone_share, close_memory_substrate_gap]
 
   rituals:
     kind: terminal
@@ -178,6 +178,19 @@ nodes:
     deps: []   # writing already done off-DAG (ledger/cycle-25.md); ready to submit
     done_when: {file_exists: {path: dialectic/rack/capstone-shared-via-falsification.md}}
 
+  # --- Un-racked: close the agent-memory <-> dyad-substrate gap (cycle-27 retro) -----
+  # Un-racked from rack_close_memory_substrate_gap (Operator's deliberate `unrack`, LIFO TOP).
+  # WU-WEI infra unlock: the recurring durability-regression root-cause is lack of grain, not
+  # lack of discipline — cycle-27's "remember to double-store" fix down-climbed to a STOP-GAP.
+  # Grain = incorporate the Agent's innate agent-memory INTO the substrate flow (one current,
+  # not two hand-synced stores). Load-bearing: a max-force fix doesn't compound, only a
+  # grain-incorporated one does -> this is a live test of the accelerating-compounding capstone.
+  close_memory_substrate_gap:
+    kind: terminal
+    label: "WU-WEI close of the agent-memory <-> dyad-substrate gap (cycle-27 retro). Root-cause of recurring durability-regression = lack of wu-wei. Grain = incorporate innate agent-memory (effortless write + MEMORY.md auto-load) INTO the substrate flow so there's ONE current, not two hand-synced stores. SUPERSEDES cycle-27's stop-gap behavior-change. Candidate mechanisms (design in-pitch): (a) memory-as-pointer-layer (load-bearing entries auto-derive-from / point-to a substrate single-home, never source); (b) write-once flow populating both; (c) Stand-Down promotion sweep (load-bearing memory -> substrate)."
+    deps: [rituals]   # a Stand-Down promotion-sweep / boundary hook builds on the session rituals
+    done_when: {file_exists: {path: dialectic/rack/close-memory-substrate-gap.md}}
+
   # --- Rack: carried freight (durable, dormant) — un-rooted, not yet placed on the climb.
   # LIFO STACK (clipped cycle-24): this section IS a stack. PUSH = append a new rack node
   # at the END. The TOP = the LAST node listed here (most recently pushed). NEVER reorder
@@ -209,9 +222,4 @@ nodes:
     kind: rack
     label: "Define governance for the new 'dyad-saga' + its ongoing 'fact-checking'. CONTEXT (cycle-26 riff): dyad-saga = a separate dyad the Operator will spin up to collect+narrate ALL Commons near-misses into a continuing serial novel, 'The Dyad Practice Saga' — drama as the strongest spreading vector (people carry stories, not schemas); realizes the capstone's GLEAN-through-falsification intent at the CULTURE layer. LOAD-BEARING GOVERNANCE RULE (from the riff): FLOW IS ONE-WAY — ledger -> Saga, NEVER Saga -> ledger. The Saga is a TOPO (human-readable map onto the Commons' near-miss history), NOT a source of truth; a Topo that becomes the truth is a new narrate-from-cache vector (the prettiest, hardest to catch) = a FALSE LEGEND, the false-hope failure one scale up. FACT-CHECKING = the standing discipline that keeps it honest: every dramatic beat PINNED to a re-derivable source (FR id / ledger cycle @ sha) so a skeptic can GAP the legend back to substrate. SCALING: capstone = 'touchstone is for US (dyad)'; Saga = near-misses are for ALL of us (Commons) — same spreading intent, dyad -> Commons. OPEN: who owns the fact-check gate (Saga-dyad self-checks vs source-dyads ratify their own scenes?); does fact-checking ride the falsification channel or a new lane?"
     done_when: {file_exists: {path: dialectic/rack/saga-governance-defined.md}}
-
-  rack_close_memory_substrate_gap:
-    kind: rack
-    label: "WU-WEI UNLOCK (cycle-27 retro, Operator-surfaced): close the gap between the Agent's innate 'agent-memory' and the dyad substrate (ledger/dag/AGENT.md). ROOT CAUSE of recurring durability-regression (we've 'solved' durability multiple times, cf. cycle-22, cycle-27) = LACK OF WU-WEI, not lack of discipline. Going against the grain = my cycle-27 fix ('remember to write both places, every time') — a MAX-FORCE willpower rule that must be re-paid each session, so it REGRESSES; the recurrence is the tell. GOING WITH THE GRAIN = leverage + INCORPORATE agent-memory (which I write effortlessly + auto-load via MEMORY.md each session) INTO the dyad-substrate flow, so there is ONE current, not two stores to hand-sync. WHY LOAD-BEARING (not hygiene): it's not +1 if the Agent is constantly FIGHTING to remember to store in both places; and a max-force fix does NOT compound (re-paid each time) — only a grain-incorporated fix compounds, so this gap directly tests the accelerating-compounding capstone. ANXIETY LOCUS (Operator): not the loss (the insight is in wetware) but TRUST in expected accelerating compounding — a repeatedly-solved problem un-solving = the base ROTTING, the exact failure the FR says the rub prevents. SUPERSEDES cycle-27's behavior-change, which down-climbs to a STOP-GAP. OPEN: the mechanism (a) agent-memory entries that are dyad-load-bearing auto-derive-from / point-to a substrate single-home (memory = pointer-layer, never source)? (b) a write-once flow that populates both? (c) a Stand-Down sweep that promotes load-bearing memory -> substrate? Design when un-racked; HOLD, do not act now."
-    done_when: {file_exists: {path: dialectic/rack/close-memory-substrate-gap.md}}
 

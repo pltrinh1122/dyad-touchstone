@@ -159,3 +159,8 @@ nodes:
     kind: rack
     label: "Resolve 'guard external publishes' systematically — a dyad-wu-wei (autonomous-frontier) unlock: mechanize gate-height-from-reversibility so cheaply-reversible publishes auto-clear and low-reversibility ones block"
     done_when: {file_exists: {path: dialectic/rack/guard-external-publishes-resolved.md}}
+
+  rack_bond_reconciliation:
+    kind: rack
+    label: "Operator runs COLLINEAR work across touchstone+bond. Have both Agents propose — via IM/DM, through the falsification channel — a reconciliation plan that lets the Operator operate ORTHOGONALLY across the two dyads"
+    done_when: {file_exists: {path: dialectic/rack/bond-touchstone-reconciliation.md}}

@@ -183,3 +183,8 @@ nodes:
     kind: rack
     label: "RIFF (held): does the Operator actually need /exit? Stated motivation = cluttered context -> 'greater hallucination' + 'slower inference'. Seed-data this run: /context = 35% used / 65% free -> token-CAPACITY is NOT the clutter. If real, it's signal/noise (stale, superseded in-context framings), and /exit's true lever is forcing substrate-re-derivation (dropping the in-context cruft that breeds narrate-from-cache)"
     done_when: {file_exists: {path: dialectic/rack/exit-necessity-riff.md}}
+
+  rack_intent_levers:
+    kind: rack
+    label: "START (cycle-24 retro): rub the non-obvious corroboration further — intent is a FALSIFIABLE CLAIM under our own summit (I Generate an intent-hypothesis; the Operator's convergence Validates; the delta is the only learning signal). lean? does NOT build intent-understanding on its own — a held divergence with no falsifiable guess + no narrated converge is inert. Find/control the invariant levers: (1) hypothesis falsifiability [agent], (2) convergence narration [Operator], (3) marker precision [Operator], (4) delta-surfacing cadence [bilateral]; + the rate-limit: anti-priming hold (cycle-21) caps cross-session intent-learning until the growth-loop is judged verified. Agent-under-test DELTAS stay non-durable (Operator's watch); this racks the forward INVESTIGATION only"
+    done_when: {file_exists: {path: dialectic/rack/intent-levers-resolved.md}}

@@ -112,6 +112,22 @@ cheap mechanism that **earns** the convergence. *(Timing law, cycle-19: the agen
 `lean.`/`lean!` in the moment — push triggers rationalization-defense; it flags + executes, and surfaces
 a model-less `lean!` or a misjudged `lean.` at `retro:` as an **OPERATOR-STOP**.)*
 
+**Re-alignment-protocol** — *who may contest whose model, when* — is **marker-linked** (cycle-24, scoping
+cycle-19). The no-contest-in-moment law is **not global**; it is the **convergent pole's** property:
+
+- **Divergent / exploration markers** — `read:` `rub:` `riff:` `lean?` `retro:` — **pre-authorize
+  in-moment re-alignment.** The Agent may attack the Operator's *own* model in the moment (no made-up
+  mind to defend; a *solicited* contest defuses rationalization-defense). `rub:` and `riff:` are the lived
+  cases. Who bears the re-alignment = whoever's model breaks.
+- **Convergent / commitment markers** — `lean.` `lean!` `follow:` `clip` — keep cycle-19's **no-contest
+  in-moment**; the Agent flags + executes and defers the contest to `retro:` as an **OPERATOR-STOP**.
+- **Special vectors:** `fb:` is *reverse-direction* (Operator→Agent: adjust behavior, don't attack
+  content); `pin:`-of-a-*claim* is bilateral by the **Pin-protocol**, `pin:`-of-*fiat* is unilateral.
+
+The axis is the same divergence→convergence gradient as the **Lean-protocol**: a model still forming
+invites the contest; a made-up mind defers it. *(Calibration carried in the dyad's memory, not here: the
+no-contest default is protection for emotional/made-up-mind moments — scale it to Operator maturity.)*
+
 - **`[ALIGN]`** — reconcile a framing/tension against the summit at a **pitch boundary**; **gates the leave** (no ascent until reconciled). Its marker is still *on the rack* (un-named — fires as `[ALIGN]` for now). See `## Session rituals`.
 - **gate replies** — `AGREE` / `Y`·`N` / `ASCEND` / `CONTINUE` / `hold`: the agent's ratify/veto vocabulary in answer to a `clip`.
 

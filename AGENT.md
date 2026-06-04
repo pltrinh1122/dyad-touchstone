@@ -84,6 +84,9 @@ kind beside `pin:` (a *fact*) and `clip` (a *decision*). It parks as a `rack`-ki
 every Stand Up, so it **survives restarts**. *Durability is a single-home in the substrate, not a marker that
 dies with context* — a rack held only in conversation is lost on restart (lived: cycle-22). **Un-rack** =
 promote `rack`→`terminal` and attach deps (place the gear on the route) — the Operator's deliberate move.
+**Ordering — LIFO (a stack, not a queue):** the *last* `rack:`'d item is the **top**; "the rack" / "the last
+racked" / "the top" all resolve to the most-recently-pushed node, and bare refine/rub/un-rack ops default
+to it (*clipped: cycle-24*). Naming a specific rack overrides the default.
 *Scope cut:* this durable **session-rack** is the action-item; a **pitch-proposal** (a candidate scoped to
 one pitch) is *not* a rack but the clip-protocol **open** state — ephemeral, dies at pitch close. Two kinds,
 once conflated. *Exception (cycle #21):* an artifact-under-test the agent must not be primed on stays

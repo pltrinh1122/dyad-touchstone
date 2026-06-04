@@ -89,8 +89,11 @@ def is_done(nid, _seen=None):
 
 def status(nid):
     n = NODES[nid]
-    if n["kind"] != "terminal":
+    if n["kind"] == "goal":
         return "goal"
+    if n["kind"] == "rack":
+        # carried freight: dormant, NEVER on the frontier; discharge still re-derived
+        return "discharged" if query_done_when(n["done_when"]) else "carried"
     if is_done(nid):
         return "done"
     unmet = [d for d in n.get("deps", []) if not is_done(d)]
@@ -108,6 +111,9 @@ def propose(nid):
     if nid not in NODES:
         return False, f"VETO: no such node '{nid}'"
     n = NODES[nid]
+    if n["kind"] == "rack":
+        return False, (f"VETO: '{nid}' is racked freight (carried, dormant) — "
+                       f"un-rack it (promote rack->terminal + attach deps) before proposing")
     if n["kind"] != "terminal":
         return False, f"VETO: '{nid}' is a goal, not a terminal — goals are never executed directly"
     st = status(nid)
@@ -144,6 +150,11 @@ def main():
         undone = [nid for nid, n in NODES.items()
                   if n["kind"] == "terminal" and not is_done(nid)]
         print("  (none)  DEADLOCK" if undone else "  (none)  all terminals done")
+    racks = [nid for nid, n in NODES.items() if n["kind"] == "rack"]
+    if racks:
+        print("\nRACK (carried freight — durable, dormant; NOT on the climb; un-rack to place):")
+        for nid in racks:
+            print(f"  ▢ {nid}  [{status(nid)}]  {NODES[nid]['label']}")
     print("\nThe falsifier REFUSES to select among the frontier.")
     print("wu-wei (min force / max unlock) is the neural/dyadic half's call.")
     print("[thrash-detection: not implemented in prototype — needs run history]")

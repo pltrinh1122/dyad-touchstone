@@ -8,6 +8,10 @@
 #
 # kinds:  goal     -> done when all children done; never directly selectable
 #         terminal -> a leaf; done when `done_when` predicate holds; selectable
+#         rack     -> carried freight: dormant, NEVER on the frontier until promoted to
+#                     terminal (un-racked). Durable (lives here, surfaced each Stand Up);
+#                     discharge still re-derived via done_when. Un-rooted gear — in the
+#                     pack, not yet placed on the route. See AGENT.md D4 Rack-protocol.
 # done_when predicates (the only vocabulary the falsifier executes):
 #         file_exists:   {path}
 #         file_contains: {path, pattern}   # substring, repo-root-relative
@@ -147,3 +151,11 @@ nodes:
     label: "GAP annexed into the Commons library — the share LEAVE (Founding gate #5)"
     deps: [gap_live_external, gap_rings_sound]   # live-before-share + rings-sound
     done_when: {file_exists: {path: commons/library/grounded-aligned-progress/PLAYBOOK.md}}
+
+  # --- Rack: carried freight (durable, dormant) — un-rooted, not yet placed on the climb.
+  # See AGENT.md D4 `rack:` / Rack-protocol. Un-rack = promote rack->terminal + attach deps.
+  # First worked example of the rack node-kind (ledger #22).
+  rack_guard_publishes:
+    kind: rack
+    label: "Resolve 'guard external publishes' systematically — a dyad-wu-wei (autonomous-frontier) unlock: mechanize gate-height-from-reversibility so cheaply-reversible publishes auto-clear and low-reversibility ones block"
+    done_when: {file_exists: {path: dialectic/rack/guard-external-publishes-resolved.md}}

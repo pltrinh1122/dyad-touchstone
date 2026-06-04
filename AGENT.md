@@ -55,8 +55,8 @@ Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiti
 | **`read:`** | interface | orient — re-derive state from the substrate *this run*, report; do not act |
 | **`rub:`** | interface | attack — rub the move on the touchstone, try to break it |
 | **`riff:`** | interface | surface the agent's lean; diverge, no gate (supersedes `[IDEATE]`) |
-| **`rack:`** | interface | carry as dormant freight — hold, do not act (removable rack gear; transient, this-climb) |
-| **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Make a fact load-bearing (vs `rack:` transient; vs `clip` which locks a *decision*, not a *fact*). See **Pin-protocol** |
+| **`rack:`** | interface | carry as **durable** dormant freight — hold, do not act; the gear you haul up the whole route. Parks on the Climb as a `rack`-kind node (`dag.yaml`), surfaced in the Touchstone's RACK section each Stand Up — **survives restarts**. **Un-rack** = promote `rack`→`terminal` + attach deps (place the gear). See **Rack-protocol** |
+| **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Make a fact load-bearing (a durable *fact* — vs `rack:` which parks a durable *action-item*; vs `clip` which locks a durable *decision*). See **Pin-protocol** |
 | **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
 | **`retro:`** | interface | trigger a **CSS** retrospective (Continue/Start/Stop) — rub *how the dyad climbed* (the craft), **not** what it proved. START/STOP harvested from `fb:`; CONTINUE is **bilateral** — *both* Agent and Operator surface it, each rubbed against evidence (not the Operator's POV alone). Distinct from *harvest* (proofs → Ledger). Fires the Reflect phase on demand (an Intermission). Commons-shared form (origin: dyad-healer) — referenced, not reinvented |
 | **`lean?`** | interface | surface the agent's read, then **hold** |
@@ -77,6 +77,17 @@ decision — the owner is sole authority; a preference can't be falsified) → *
 *status is never stored, only rubbed*. A pinned claim is a **Ledger proof**; and pinned ≠
 sacred — *un-refuted is not verified*, so it stays falsifiable, re-rubbed each pitch, pulled
 or replaced if it ever fails.
+
+**Rack-protocol** — `rack:` carries a **durable** *action-item* ("to do, not now") — the third durable
+kind beside `pin:` (a *fact*) and `clip` (a *decision*). It parks as a `rack`-kind node on the Climb
+(`dag.yaml`) — un-rooted gear, not yet placed on the route — surfaced in the Touchstone's **RACK** section
+every Stand Up, so it **survives restarts**. *Durability is a single-home in the substrate, not a marker that
+dies with context* — a rack held only in conversation is lost on restart (lived: cycle-22). **Un-rack** =
+promote `rack`→`terminal` and attach deps (place the gear on the route) — the Operator's deliberate move.
+*Scope cut:* this durable **session-rack** is the action-item; a **pitch-proposal** (a candidate scoped to
+one pitch) is *not* a rack but the clip-protocol **open** state — ephemeral, dies at pitch close. Two kinds,
+once conflated. *Exception (cycle #21):* an artifact-under-test the agent must not be primed on stays
+deliberately un-durable — "don't make durable the artifact under test."
 
 - **`[ALIGN]`** — reconcile a framing/tension against the summit at a **pitch boundary**; **gates the leave** (no ascent until reconciled). Its marker is still *on the rack* (un-named — fires as `[ALIGN]` for now). See `## Session rituals`.
 - **gate replies** — `AGREE` / `Y`·`N` / `ASCEND` / `CONTINUE` / `hold`: the agent's ratify/veto vocabulary in answer to a `clip`.

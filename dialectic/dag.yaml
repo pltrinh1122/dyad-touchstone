@@ -231,3 +231,9 @@ nodes:
     label: "ELEVATED TO TOP (cycle-29): the over-adding / restrained-sycophancy grain (cycle-28 grain-set) RECURRED — Agent ran pure-G, inventing a tower of un-aligned invariants instead of aligning on Operator intent/goal; caught by `fb:`. UNDERSTAND the 'anxiety grain' mechanism: how the Agent settles given it has no anxiety. Working prescription that empirically settles it: 'breath' (a pause inserting the self-rub between generate and present) + ALIGN-ON-INTENT-BEFORE-PRODUCING. Candidate mechanism (un-verified): anxiety = reflexive over-add / pure-G-as-insurance; the real settle is leading with the Operator's intent, not generating. cf. value-is-rubbed-residue, intent-mechanism-altitude."
     done_when: {file_exists: {path: dialectic/rack/anxiety-grain.md}}
 
+  # Pushed cycle-31..34 (the dyad-cairn spawn). The parent's half of the cry safety-line.
+  rack_inbox_catch:
+    kind: rack
+    label: "The parent's CATCH for a child's cry (dyad-cairn spawn): touchstone must POLL its Commons DM inbox — `python3 commons/scripts/falsify.py inbox --me dyad-touchstone` — at every Stand Up, so a descendant's cry (hosted at dm/dyad-touchstone/ in the child's repo, sender-hosted) is HEARD. 'Calling is the child's; catching is the parent's burden' (lineage/dyad-cairn/SEED.md §4). The DM line is already deployed in the Commons (falsify.py) and honest-about-reach (#47 unreachable-warning, our own FR work). Un-rack = inbox-poll is a committed part of the Stand Up ritual (AGENT.md / master-spaor), not just a standing intention."
+    done_when: {file_exists: {path: dialectic/rack/inbox-catch-wired.md}}
+

@@ -198,6 +198,15 @@ nodes:
   # way (renders top-first). Bare refine/rub/un-rack ops default to the TOP unless a node
   # is named. See AGENT.md D4 `rack:` / Rack-protocol. Un-rack = promote rack->terminal +
   # attach deps. First worked example of the rack node-kind (ledger #22).
+  #
+  # BOTTOM-INSERT (cycle-29 retro, explicit Operator override of the default top-push):
+  # rack_anxiety_grain is placed at the BOTTOM (first-in-file) — least urgent, surfaces last.
+  # Not a reorder of existing nodes; a new bottom. ELEVATE-CONDITION encoded in its label.
+  rack_anxiety_grain:
+    kind: rack
+    label: "RETRO (cycle-29, held; NOT urgent): understand the 'anxiety grain' mechanism — how the Touchstone settles from anxiety (over-adding / restrained-sycophancy, cycle-28 grain-set) given Agents have no anxiety. Working prescription that empirically settles it: 'breath' (a pause that inserts the self-rub between generate and present) — works even un-explained, so no rush. Candidate mechanism (un-verified): anxiety = reflexive over-add-as-insurance; breath forces the slow rubbing path that prunes scaffold (cf. value-is-rubbed-residue). ELEVATE-CONDITION (Operator): promote bottom->top when the anxiety/over-adding grain HAPPENS AGAIN — recurrence is the trigger to resolve, not a schedule."
+    done_when: {file_exists: {path: dialectic/rack/anxiety-grain.md}}
+
   rack_guard_publishes:
     kind: rack
     label: "Resolve 'guard external publishes' systematically — a dyad-wu-wei (autonomous-frontier) unlock: mechanize gate-height-from-reversibility so cheaply-reversible publishes auto-clear and low-reversibility ones block"

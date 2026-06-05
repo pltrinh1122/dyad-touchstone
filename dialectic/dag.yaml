@@ -198,15 +198,6 @@ nodes:
   # way (renders top-first). Bare refine/rub/un-rack ops default to the TOP unless a node
   # is named. See AGENT.md D4 `rack:` / Rack-protocol. Un-rack = promote rack->terminal +
   # attach deps. First worked example of the rack node-kind (ledger #22).
-  #
-  # BOTTOM-INSERT (cycle-29 retro, explicit Operator override of the default top-push):
-  # rack_anxiety_grain is placed at the BOTTOM (first-in-file) — least urgent, surfaces last.
-  # Not a reorder of existing nodes; a new bottom. ELEVATE-CONDITION encoded in its label.
-  rack_anxiety_grain:
-    kind: rack
-    label: "RETRO (cycle-29, held; NOT urgent): understand the 'anxiety grain' mechanism — how the Touchstone settles from anxiety (over-adding / restrained-sycophancy, cycle-28 grain-set) given Agents have no anxiety. Working prescription that empirically settles it: 'breath' (a pause that inserts the self-rub between generate and present) — works even un-explained, so no rush. Candidate mechanism (un-verified): anxiety = reflexive over-add-as-insurance; breath forces the slow rubbing path that prunes scaffold (cf. value-is-rubbed-residue). ELEVATE-CONDITION (Operator): promote bottom->top when the anxiety/over-adding grain HAPPENS AGAIN — recurrence is the trigger to resolve, not a schedule."
-    done_when: {file_exists: {path: dialectic/rack/anxiety-grain.md}}
-
   rack_guard_publishes:
     kind: rack
     label: "Resolve 'guard external publishes' systematically — a dyad-wu-wei (autonomous-frontier) unlock: mechanize gate-height-from-reversibility so cheaply-reversible publishes auto-clear and low-reversibility ones block"
@@ -231,4 +222,12 @@ nodes:
     kind: rack
     label: "Define governance for the new 'dyad-saga' + its ongoing 'fact-checking'. CONTEXT (cycle-26 riff): dyad-saga = a separate dyad the Operator will spin up to collect+narrate ALL Commons near-misses into a continuing serial novel, 'The Dyad Practice Saga' — drama as the strongest spreading vector (people carry stories, not schemas); realizes the capstone's GLEAN-through-falsification intent at the CULTURE layer. LOAD-BEARING GOVERNANCE RULE (from the riff): FLOW IS ONE-WAY — ledger -> Saga, NEVER Saga -> ledger. The Saga is a TOPO (human-readable map onto the Commons' near-miss history), NOT a source of truth; a Topo that becomes the truth is a new narrate-from-cache vector (the prettiest, hardest to catch) = a FALSE LEGEND, the false-hope failure one scale up. FACT-CHECKING = the standing discipline that keeps it honest: every dramatic beat PINNED to a re-derivable source (FR id / ledger cycle @ sha) so a skeptic can GAP the legend back to substrate. SCALING: capstone = 'touchstone is for US (dyad)'; Saga = near-misses are for ALL of us (Commons) — same spreading intent, dyad -> Commons. OPEN: who owns the fact-check gate (Saga-dyad self-checks vs source-dyads ratify their own scenes?); does fact-checking ride the falsification channel or a new lane?"
     done_when: {file_exists: {path: dialectic/rack/saga-governance-defined.md}}
+
+  # ELEVATED bottom->top (cycle-29, Operator `yes`): the elevate-condition FIRED — the
+  # over-adding grain recurred this session (Agent ran pure-G inventing un-aligned invariants
+  # instead of aligning on Operator intent; caught by `fb:`). Recurrence = the trigger, now hit.
+  rack_anxiety_grain:
+    kind: rack
+    label: "ELEVATED TO TOP (cycle-29): the over-adding / restrained-sycophancy grain (cycle-28 grain-set) RECURRED — Agent ran pure-G, inventing a tower of un-aligned invariants instead of aligning on Operator intent/goal; caught by `fb:`. UNDERSTAND the 'anxiety grain' mechanism: how the Agent settles given it has no anxiety. Working prescription that empirically settles it: 'breath' (a pause inserting the self-rub between generate and present) + ALIGN-ON-INTENT-BEFORE-PRODUCING. Candidate mechanism (un-verified): anxiety = reflexive over-add / pure-G-as-insurance; the real settle is leading with the Operator's intent, not generating. cf. value-is-rubbed-residue, intent-mechanism-altitude."
+    done_when: {file_exists: {path: dialectic/rack/anxiety-grain.md}}
 

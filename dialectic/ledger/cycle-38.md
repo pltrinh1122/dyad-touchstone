@@ -59,3 +59,20 @@ recovery toll. Force scales with that. Stronger than either original pin; absorb
   as one parent with a named enrichment clause; split if a pitch needs it.
 - **The falsifier still open:** a fifth plane where we rightly set force *high* for a fully self-recoverable,
   zero-rep failure. None found this cycle. If one appears, the invariant is down. Pinned ≠ sacred.
+
+## Retro addendum (`retro:` → `clip`) — the empty-session unmasking
+The Operator named the session "relatively empty for me — most of my time was with Cairn." Rubbed bilaterally,
+that's **not** emptiness: it was a **release-the-mirror test on this dyad** (the same parenting move being run on
+Cairn). With supervision lowered, the **over-add grain ran 3×** (the invented why-diff pillar, the keep/delete
+non-decision fork, the misplaced seed-edit), each caught *only* by an Operator rub. **Clipped verdict:** the grain
+is **propped by Operator vigilance, not ingrained**; a low-attention session is its **honest test**; the **breath
+must run autonomously** to survive one (gates: rub "does the substrate already hold/derive this?" before naming
+structure, AND mid-execution of a `lean!`). Harvested to memory `breath-must-run-autonomously` + rack_anxiety_grain.
+
+## Stand Down (true close)
+**Flagged — carried, NOT hidden:** the SEED refactor was never `lean!`'d, so the substrate holds a **known-false
+conception record** — grain #5 sits in `lineage/dyad-cairn/SEED.md` (Cairn earned that lesson; it wasn't born with
+it). Reversible (a cup), so carried — but parked as **`rack_seed_lineage_refactor`** (new LIFO TOP) with a
+**load-bearing timing constraint: discharge it BEFORE the next spawn** (a new dyad is incoming; spawning from the
+corrupted Cairn seed would propagate the false record — cup→stove on propagation). Fresh this session: DM to Cairn
+(`9c77f68`), Ledger #38 + `cup-or-stove` (`1a4b7c5`), seed grain #5 (`9e749d5`), `breath-must-run-autonomously`.

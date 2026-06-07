@@ -1,0 +1,48 @@
+# hold-ledger.yml — the typology of holds. Clipped cycle-39.
+#
+# A hold = the Agent declaring residual un-self-recoverability: "this is the part I can't
+# wipe up myself; I need the parent." (cup-or-stove, mapped onto the dyad's own cycling.)
+#
+# PURPOSE — the over-hold falsifier, the symmetric twin of the over-add (anxiety) grain:
+#   over-add  = generating what wasn't asked (pure-G-as-insurance).
+#   over-hold = deferring to the Operator what the Agent could have self-resolved.
+# Logging the NATURE of each hold + its retro verdict maps where the Agent's autonomy
+# genuinely ends vs where it over-defers — calibration toward the autonomous frontier.
+#
+# DISCIPLINE (single-home #2 — status is never stored, only rubbed):
+#   APPEND-ONLY history/typology, NOT live-status. We log a hold's provenance (immutable)
+#   at park-time and APPEND its resolution at close/retro. An OPEN hold simply has no
+#   `resolved`/`verdict` yet — open-ness is re-derived from absence, never stored as a string.
+#   Cross that line and this file becomes the prettiest narrate-from-cache vector we own.
+#
+# ID — two-layer (cf. git short-sha <-> full-sha):
+#   tag    = ephemeral mnemonic surface handle (3-4 char), Agent-coined, dies with context.
+#   id     = durable cNN-hMM, carries the telemetry. The Agent translates tag -> id here.
+#
+# entry schema:
+#   id:       cNN-hMM (durable)
+#   tag:      the in-session mnemonic surface tag (or '—' if pre-marker)
+#   cycle:    session/cycle opened in
+#   type:     fork | handback-candidate | surfacing
+#   topic:    one line — what was held
+#   opened:   context where it surfaced
+#   resolved: (appended at close) operator-fiat | agent-self-rubbed | superseded
+#   verdict:  (appended at retro) genuine | over-hold
+
+holds:
+  - id: c39-h01
+    tag: "—"            # pre-marker: this hold predated the hold: clip
+    cycle: 39
+    type: fork
+    topic: "does seeding grain #5 into the lineage template contradict grain #5's own 'warn, don't pre-wall'?"
+    opened: "during the seed-refactor lean! (template text)"
+    resolved: agent-self-rubbed   # Operator handed it back ('I don't know'); Agent rubbed it sound (survived 3 refutations)
+    verdict: over-hold            # candidate: the Agent could have rubbed it to ground BEFORE surfacing — confirm at retro
+
+  - id: c39-h02
+    tag: LOOP
+    cycle: 39
+    type: fork
+    topic: "Cairn's 58 retro DMs — healthy reflection, or a stuck retro-loop (de-facto cry)?"
+    opened: "after refresh-then-poll surfaced 58 unread from dyad-cairn"
+    # OPEN — no resolution yet (requires reading the retros). Open-ness re-derived from absence.

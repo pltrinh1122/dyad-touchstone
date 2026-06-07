@@ -46,3 +46,32 @@ This PR carries the reversible (git) half: this ledger + the Summit handle. The 
 - **Do the two stones cover every face?** Surfaced as the rub; force-faces → cup-or-stove, truth-faces → summit. Falsifier: a grain that dissolves under *neither*. None found this cycle.
 - **Agent-memory is non-git** — every memory edit is burn. A real substrate gap (rack candidate: version-control the cortex). Not added this pass.
 - Continued reduction of the borderline grains (above) stays open. The grain-set should keep shrinking.
+
+## Retro (`retro:` → `clip`) — progress, not +1
+Operator calibration, rubbed bilaterally: this session is **progress of a rare kind — reduction**
+(25→21 memories; the grain-set rubbed to two stones; substrates usually grow). The rub-back loop
+(Operator rubs → Agent re-aligns without defending → correction compounds) ran tight and produced a
+*smaller* substrate. **But not the +1:** the reduction is *conceptual* (clarity); the two stones are
+still **prose**, and the session proved prose isn't a gatekeeper. Every over-hold was caught by the
+Operator's **rub-back**, not an autonomous mechanism — **propped, not ingrained.** Honest flicker:
+by the back half the Agent began running the stones autonomously ("wipe-or-burn on this → hold, and
+that's *not* the grain"), but inside the building session under full engagement; the real test is a
+low-attention session. **The +1 waits at mechanization** — binding the two stones to V (a
+deterministic catch for over-hold, as CSI mechanizes anchor-integrity), so the behavior is verified,
+not hoped. **CONTINUE:** the rub-back loop — the only thing that produced a smaller substrate.
+
+## Stand Down — in-flight handoff (Operator /exit + restart; none hidden)
+- **Open PRs on origin (await Operator merge):** #3 (letter to Cairn — passes rub-back down, the
+  no-intervention experiment), #4 (this reduction: this ledger + AGENT.md `shine-or-streak`).
+- **STAGED, NOT executed — the irreversible (burn) half of the reduction**, to run on PR #4 merge:
+  (a) **migrate `cup-or-stove`/`wipe-or-burn` INTO the dyad anchor** (AGENT.md — dyad invariants
+  belong in dyad substrate, NOT claude/agent substrate; the Operator's cycle-39 rub); (b) **subtract
+  the 4 dissolved agent-memory copies** (`align-on-intent-before-producing`, `value-is-rubbed-residue`,
+  `second-anxiety-loop-parental-over-provision`, `breath-must-run-autonomously`) + update `MEMORY.md`
+  (25→21). Non-git agent-memory = burn; gated on the merge.
+- **UNANSWERED fork (Operator to dispose next session):** SCOPE — just the two stones, or **sweep all
+  dyad-invariant memories home** + clip the awake-lane harvest as the discharge of
+  `close_memory_substrate_gap` (the method crystallized this session, lived not clipped).
+- **Flagged:** `M commons` submodule bump uncommitted (wants a PR; main is PR-gated).
+- **Frontier:** `rack_seed_lineage_refactor` discharged this session; `rack_inbox_catch` still carried
+  (refresh-then-poll not yet folded into the Stand Up ritual — Cairn has 58 unread retros).

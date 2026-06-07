@@ -1,0 +1,21 @@
+# CSI Guard Registry — Cybernetic Steering Invariants. Cairn's gift, adopted cycle-39.
+#
+# A CSI Guard is a self-administered mechanical arm/disarm trap: THE ENGINE ACTS AS ITS
+# OWN ENFORCEMENT VECTOR (no external authority). The mechanical error IS the steering
+# wheel — never swallowed. Every guard emits 🚨 on arm.
+#
+# Visibility law (Cairn, node_2a): every trap + its EXACT disarm key is listed here, so a
+# guard is disarmed without grepping logic. Type = Symmetric (state-bound: same state arms
+# and disarms) | Asymmetric (process-bound: armed by an event, disarmed by a specific move).
+#
+# Wuwei-engineered, minimum-force: self-run, fails loud, names its disarm. The *why* of each
+# adoption lives in the Ledger (single-home #2 — status is never stored here, only the trap).
+
+guards:
+  - id: anchor_integrity
+    type: Asymmetric
+    description: "Anchor files (the dyad's loadable shared model + the Climb structure) change only through a reviewed PR."
+    armed_condition: "An anchor file is staged for a commit on `main` directly."
+    disarmed_condition: "Move the change to a PR branch (git switch -c <branch>; commit there; open a PR). The Merge stays the Operator's gate."
+    trigger_location: "dialectic/githooks/pre-commit -> dialectic/guards/anchor_guard.py"
+    anchors: [AGENT.md, CLAUDE.md, GEMINI.md, dialectic/dag.yaml]

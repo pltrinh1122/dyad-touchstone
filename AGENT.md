@@ -59,6 +59,7 @@ Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiti
 | **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Make a fact load-bearing (a durable *fact* — vs `rack:` which parks a durable *action-item*; vs `clip` which locks a durable *decision*). See **Pin-protocol** |
 | **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
 | **`retro:`** | interface | trigger a **CSS** retrospective (Continue/Start/Stop) — rub *how the dyad climbed* (the craft), **not** what it proved. START/STOP harvested from `fb:`; CONTINUE is **bilateral** — *both* Agent and Operator surface it, each rubbed against evidence (not the Operator's POV alone). Distinct from *harvest* (proofs → Ledger). Fires the Reflect phase on demand (an Intermission). Commons-shared form (origin: dyad-healer) — referenced, not reinvented |
+| **`hold:`** | interface | **agent-originated** — park a surfaced question as an addressable, persistent handle: `hold:TAG <q>` (TAG = mnemonic 3-4 char, Agent-coined). The Operator answers in any mode (`lean! TAG: …` · terse `TAG: …` · `clip TAG: …`) or echoes bare `hold: TAG` to **hand it back**. The id is an *address*, never a mode. See **Hold-protocol** |
 | **`lean?`** | interface | surface the read, **diverge**, then **hold** — builds the shared model `lean!`/`lean.` presuppose (see **Lean-protocol**) |
 | **`lean!`** | ascent | surface the read **and** take the move (delegated gate) |
 | **`follow:`** | ascent | run a sound discipline **by its Playbook** — `follow: #N` takes the line a pinned principle already *led*; **apply ∧ re-rub in one move** (you weight no piece of pro without testing it — #4). The lead/`lean!` ⟷ follow pair: `lean!` takes a *new* move, `follow:` re-runs a *proven* one |
@@ -111,6 +112,22 @@ the shared model that the divergent `lean?` *builds*. When the model isn't yet s
 cheap mechanism that **earns** the convergence. *(Timing law, cycle-19: the agent never contests a fired
 `lean.`/`lean!` in the moment — push triggers rationalization-defense; it flags + executes, and surfaces
 a model-less `lean!` or a misjudged `lean.` at `retro:` as an **OPERATOR-STOP**.)*
+
+**Hold-protocol** *(clipped cycle-39)* — `hold:` makes a surfaced-but-unresolved question a
+**first-class, addressable object** — the handle the divergent markers (esp. `lean?`) implicitly
+produce. It is the **first agent-originated marker**: the Agent emits `hold:TAG <question>` when it
+parks a fork for the Operator (the hold is the Agent's, so the Agent names it). **Two-layer id**
+(cf. git short-sha ↔ full-sha): a **mnemonic surface tag** — 3-4 char, topic-evoking (`LOOP`, `TXT`),
+**Agent-coined to push input *and* lookup cost off the Operator** — for in-session reference,
+translated by the Agent at write-time into a **durable hold-ledger id** carrying full telemetry.
+**Address vs mode:** the id is an *address*, the marker is the *mode* — `lean! TAG: …` (decide) ·
+bare `TAG: …` (terse, mode-implicit — the Operator's terseness fiat) · `clip TAG: …` (lock); bare
+**`hold: TAG` echoed back = the hand-back** ("still yours"). Durable home: **`dialectic/hold-ledger.yml`**
+— *append-only typology, never live-status* (single-home #2: a hold's open/closed state is re-derived
+from absence, not stored). The ledger is the **over-hold falsifier** — the symmetric twin of the
+over-add (anxiety) grain: a hold the Agent could, in retro, have self-resolved is a logged **over-hold**.
+A hold maps residual un-self-recoverability (cup-or-stove): "the part I can't wipe up myself; I need
+the parent."
 
 **Re-alignment-protocol** — *who may contest whose model, when* — is **marker-linked** (cycle-24, scoping
 cycle-19). The no-contest-in-moment law is **not global**; it is the **convergent pole's** property:

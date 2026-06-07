@@ -14,6 +14,12 @@ execution is *verified, not hoped for*. Realized proof: tools in the
 `state.py` lineage that replace "narrate from the stale cache" with "query the
 source this run and read the tool's output." Verify before asserting.
 
+**The pocket-handle: `shine-or-streak`.** A claim that *shines* — fluent, confident,
+well-formed — is fool's gold until you **rub** it against the source *this run* and read the
+**streak**. Trust the streak, never the shine. Twin of `cup-or-stove`'s **`wipe-or-burn`**;
+together they are the two stones the grain-set reduces to — *truth = the rub* and *force =
+residual*. The session that rubbed the set down to two: ledger cycle-39.
+
 ## Channel discipline — Operator roles & channels
 
 > Dimension 4. The roles the human wears and the channels they lead with — observed

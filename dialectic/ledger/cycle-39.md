@@ -201,3 +201,8 @@ instance**, promoted to its single home: **`dialectic/rubbings/r39-cold-inductio
 live claim, the unprimed falsification method, and the telemetry log now live there
 (single-home: the Ledger keeps *this provenance fact*; the Rubbing holds the *live object*).
 Development trigger / observer: `rack_unprimed_self_experiment_trigger`.
+
+**Markers clipped (AGENT.md D4):** `rubbings+` (open / append telemetry — accretive, durable) ·
+`rubbings?` (review, observer-mode; handles-only at Sense — the firewall). Resolving a Rubbing =
+`clip` its verdict to the Ledger as a Proof (the one irreversible act reuses the existing gate;
+no separate `rubbings!` minted — it would duplicate `clip`).

@@ -195,6 +195,7 @@ cycle-30.)*
 | **Touchstone** | the symbolic veto — rub a move; weight only what rings *sound* | `dialectic/playbook.py` |
 | **Topo** | human-readable Sense-map onto the Climb's computed frontier | `dialectic/board.md` |
 | **Ledger** | the book of *proofs* — moves attacked and held | `dialectic/ledger/` |
+| **Rubbing** | a *test-in-progress* — the open/live twin of a Proof; durable, telemetry-accruing across runs until its streak sets, then harvests to the Ledger. **Not Sense-loaded** (would prime the subject); read by the observer at assess-time | `dialectic/rubbings/` |
 | **Playbook** | a discipline that survived; left for the rope behind us | `library/<name>/PLAYBOOK.md` + ledger |
 
 **Single-home disciplines:**
@@ -224,6 +225,7 @@ cycle-30.)*
 - **Pitch** — a Climb node opened into an ephemeral execution sub-DAG; *one stretch you lead and discharge.*
 - **Touchstone** — the symbolic veto (`dialectic/playbook.py`); you **rub** a move against it.
 - **Rub** *(v.)* — test a move against the substrate *this run*, never from memory.
+- **Rubbing** *(n.)* — a **rub extended across runs**: an open, durable test whose verdict isn't in yet. `rub:` is punctual (this run); a *rubbing* is durative (until the streak sets). Resolves → harvests to the Ledger as a Proof. Home: `dialectic/rubbings/`. *(Coined + clipped cycle-39.)*
 - **Sound** — a move that survives the rub; *un-refuted, not verified* — re-tested each pitch.
 - **Leave** — the touchstone-guarded ascent off a topped-out pitch; two exits: *top-out (ascend)* and *down-climb (re-route)*.
 - **Proof** — one logged survived move; the Ledger is the book of proofs.

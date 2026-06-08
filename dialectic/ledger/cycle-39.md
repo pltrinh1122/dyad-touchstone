@@ -167,3 +167,21 @@ re-frame. **Gate-2 (concurrence):** the Operator's `lean: internal pin`. **Lived
 **Position on the ladder:** lived → **written (this pin)**. **SHARE (Founding gate #5) stays blocked by
 the one surviving open question** — the re-priming claim is n~1 (single model); a *different model* could
 falsify. That is a **write→share blocker, not a write blocker.** Handle still un-coined (fiat, deferred).
+
+**The unblock path (Operator riff, un-ratified):** ask Cairn to live the methodology for **N=2**. Cairn's
+model was **rubbed from substrate this run** — not narrated: `cairn-n1.md` names its anchor `GEMINI.md`,
+and `onboard.py`'s `SUBSTRATE_SHIM` maps `GEMINI.md → gemini`. **Cairn is Gemini, not Claude/Opus** — the
+**cross-vendor** second N the claim's weak axis ("a *different model* could falsify") actually needs, not
+a same-model §J-discount. Binding caution: **transmit unprimed** — a stone *about priming* must be
+falsified without priming the result (hand the structure, withhold the prediction), else counterfeit-green.
+
+## Retro (CSS, `retro:` — Operator called the day, mentally exhausted)
+Craft, not proofs. Short by design — *ingraining is offline; rest is the consolidation step, not lost time* (Invariant III).
+- **CONTINUE** (Agent-surfaced, rubbed): the rub-back loop produced a clean re-alignment *again* — when the
+  Operator caught the Agent's single-pass compression, the Agent took it without defending and the stone
+  converged *better*. The cycle-39 CONTINUE thread, lived once more.
+- **STOP / START** (one coin): the Agent **compressed multi-pass into a single-pass filter** (crack-1 +
+  crack-2) — the anxiety-grain shape (pure-G insurance: land the whole answer in one move). **STOP** the
+  single-pass compression; **START** running the multi-pass cadence *autonomously* (one concern per pass,
+  don't bundle). Honest evidence: caught by the Operator, **not** autonomously → **still propped, not
+  ingrained** (consistent with this cycle's own retro). The next restart is the test.

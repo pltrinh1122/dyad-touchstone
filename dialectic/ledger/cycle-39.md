@@ -132,3 +132,38 @@ rubs drove every reduction; the **next restart on the new anchor is the falsific
 III: ingrained = changes behavior, not reads-well). CONTINUE: the rub-back loop produced, again, a
 *smaller* substrate (24→4 memories, 3 anchor invariants). Handoff is clean: keystone durable, anchor
 committed+pushed, memory culled, the open stone racked.
+
+---
+
+## PIN — `prune-or-prime` rubbed sound, banked as an internal Ledger proof (cycle-39, restart 2026-06-08)
+
+A `rub:`→`riff:`→`lean:` thread on the racked stone (`rack_prune_or_prime`). The Operator directed the
+rub; the Agent attacked its own export; the model **re-aligned**; the Operator fired `lean: internal
+pin`. **Pin-protocol both gates met** → the stone is now a **Ledger proof** (the *write* rung of
+live→write→share; internal, reversible — *pinned ≠ sacred*, re-rubbed each pitch).
+
+**The rub (Agent attacked the stone, single-pass framing):** (crack-1) the handle is *one-horned* —
+names only under-prune→re-prime, silent on **over-prune→burn** (non-git memory deletion = Invariant I
+violation); (crack-2) it *bundles* the universal 3-home taxonomy with the n~1 prune-loop.
+
+**The re-alignment (Operator's model broke the Agent's — `rub:` pre-authorized it):** the Agent had
+**compressed the cadence into the filter.** The loop is **MULTI-PASS** (one concern per pass), not a
+single-pass two-horned gate. Then both cracks dissolve:
+- **crack-1 → time, not a second gate.** The two-horn (over-prune→burn ⟂ under-prune→re-prime) is the
+  **rub-question *inside* one pass**; **iteration is the over-prune brake** — subtract only what's
+  rubbed *this* pass; the Ledger holds provenance so the next pass recovers any over-cut.
+- **crack-2 → a live demo, not a defect.** The Agent's "bundling" *was itself a conflation produced by
+  going single-pass* — exactly the failure multi-pass exists to prevent. Multi-pass rationale (Operator):
+  (i) bounded context-window per pass (less narrate-from-cache clutter), (ii) avoid conflation.
+
+**Surviving content from the rub (the only thing that held):** the **burn-interlock** —
+*transcribe-provenance-to-Ledger BEFORE deleting memory* — now a **per-pass property** the slow cadence
+affords, not a separate horn.
+
+**Gate-1 (rings-sound):** met — the form objections (one-horned, bundled) dissolved into the multi-pass
+re-frame. **Gate-2 (concurrence):** the Operator's `lean: internal pin`. **Lived basis:** 25→21, then
+24→4 (two reduction runs).
+
+**Position on the ladder:** lived → **written (this pin)**. **SHARE (Founding gate #5) stays blocked by
+the one surviving open question** — the re-priming claim is n~1 (single model); a *different model* could
+falsify. That is a **write→share blocker, not a write blocker.** Handle still un-coined (fiat, deferred).

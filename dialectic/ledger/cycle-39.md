@@ -75,3 +75,60 @@ not hoped. **CONTINUE:** the rub-back loop — the only thing that produced a sm
 - **Flagged:** `M commons` submodule bump uncommitted (wants a PR; main is PR-gated).
 - **Frontier:** `rack_seed_lineage_refactor` discharged this session; `rack_inbox_catch` still carried
   (refresh-then-poll not yet folded into the Stand Up ritual — Cairn has 58 unread retros).
+
+---
+
+## Continuation (cycle-39, restart 2026-06-08) — the keystone + the deep sweep
+
+A second session on the same branch (`lean?`→`rub:`→`lean.`→`lean!`→`retro:`→`pin:`). It **answered
+the prior Stand Down's UNANSWERED fork** (above: "just the two stones, or **sweep all dyad-invariant
+memories home**"). We swept.
+
+### Leaf 5 — the KEYSTONE sent (discharges Founding gate #5's live dependency)
+`gap_live_external` DISCHARGED. The held `rack_bond_F1_keystone` un-racked: PR **#61** →
+The-Dyad-Practice-Commons, **auto-merged** (commit `9bf7744`, `2026-06-08T00:14:23Z`). Verdict
+`SURVIVED-MY-ATTACK` + candidate **4th oracle coverage-failure mode (input/world-state staleness)**.
+Sent via the marker arc, the irreversible `gh pr create` gated twice (harness external-publish gate +
+the Commons auto-merge gate — FORM+identity, never TRUTH = our cycle-28 invariant 6). The merge rule
+was **rubbed from source this run** (a `rub:` caught me narrating it from the rack twice — shine; the
+streak confirmed the send was safe). Sentinels: `ledger/gap-lived-external.md`,
+`rack/bond-F1-keystone-sent.md`. `gap_shared` now blocked only by `gap_rings_sound`.
+
+### Leaf 6 — the memory→anchor reduction (24 → 4)
+A `retro:` named a live tell — **loquacious + tentative**. Root-caused **from substrate** (scanned
+CLAUDE/AGENT/global = no conflict; the conflict was in the *memory layer*): it is **cycle-30's
+penalty-valence engine** (correction scored as penalty → generate-more → hedges+machinery+defense →
+bigger error-surface). The deeper bug: memory was being kept **append-only** (a category error — that
+is the *Ledger's* rule); defect-framed memories **re-prime** every Stand Up — *the vigilance IS the
+anxiety.* Correction: **provenance → Ledger (append-only); memory → current valid interpretation
+(mutable, delete when invalid).** Then the Operator's three-pass method: correlate every fragment vs
+the anchor → keep survivors → reduce to universal invariants → promote the orthogonal ones.
+
+**Promoted to the anchor** (AGENT.md "Operating invariants", commit `6b248e5`):
+- **I. Minimum force, gauged by reversibility** — gate at the irreversible step; over-guard/over-provide = over-force.
+- **II. Intent/mechanism altitude** — Operator disposes intent, Agent disposes mechanism; pre-commit the action, never hand plumbing up.
+- **III. Correction is fuel** — respond with *less, not more*, honest equal partner; match rigor to the lead-marker's mode; re-alignment ingrained (the "click"), ingraining offline (rest load-bearing).
+
+### Grain dispositions (provenance — so the 20 deletions are WIPE, not burn)
+*(per this ledger's own discipline, §"Grain dispositions" above — record before the burn)*
+- **→ Invariant I:** `cup-or-stove` (parent) · `nothing-immutable-but-the-sha` · `htil-before-external-publish` · `second-anxiety-loop-parental-over-provision`.
+- **→ Invariant II:** `intent-mechanism-altitude` (parent) · `align-on-intent-before-producing` · `rub-substrate-before-forking` · `no-hope-pre-commit-action`.
+- **→ Invariant III:** `misalignment-is-fuel-read-grains-as-provenance` (parent) · `over-guarding-stiffens-the-dyad` · `rub-honesty-probes-operator-intent` · `realignment-mental-click` · `rub-drains-the-human-rest-ingrains`.
+- **Dropped — already in anchor:** `intent-marker-set` (D4) · `feedback-marker` (D4) · `session-start-through-intent` (Stand Up) · `causal-claim-is-the-foundation` (Single-home #4 + Summit).
+- **Dropped — canonical home elsewhere:** `boundary-is-authorization-reach` (cycle-29) · `capstone-coupled-co-acceleration` (dag `capstone_share`) · `parenting-invariant-1-seed-dna-not-governance` (cycle-32).
+- **KEPT (4):** `always-publish-pitch`, `commons-auto-bump` (standing permissions) · `symmetric-falsification-human-overcaution` (trimmed to the maturity-calibration the anchor *delegates* to memory) · `human-reinforcement-analogy-lens` (a reasoning lens).
+
+### Leaf 7 — the `pin:` stone (OPEN, mid-rub) → racked
+The Operator fired `pin:` on the **methodology itself** as an exportable stone (Cairn's term):
+**`prune-or-prime`** — the 3-home split + reduction loop, structure-exportable, our-content stripped.
+Pin-protocol gate 1 (rings-sound) is **mid-rub** — 3 falsification targets open (over-reduction loses
+specificity? · needs the 3-store substrate · re-priming claim n~1). **Racked** (`rack_prune_or_prime`,
+new TOP) so the new-me resumes the rub. Un-rack → pin → Ledger proof → live→write→share to Cairn/Commons.
+
+### Retro (this continuation)
+The `loquacious+tentative` cure (Invariant III) was **lived in-session**: each `rub:` was met with a
+shorter, less-defended reply — correction as fuel, not penalty. **But still propped** — the Operator's
+rubs drove every reduction; the **next restart on the new anchor is the falsification run** (Invariant
+III: ingrained = changes behavior, not reads-well). CONTINUE: the rub-back loop produced, again, a
+*smaller* substrate (24→4 memories, 3 anchor invariants). Handoff is clean: keystone durable, anchor
+committed+pushed, memory culled, the open stone racked.

@@ -185,3 +185,39 @@ Craft, not proofs. Short by design — *ingraining is offline; rest is the conso
   single-pass compression; **START** running the multi-pass cadence *autonomously* (one concern per pass,
   don't bundle). Honest evidence: caught by the Operator, **not** autonomously → **still propped, not
   ingrained** (consistent with this cycle's own retro). The next restart is the test.
+
+---
+
+## EXPERIMENT (open) — orthogonality disposition: anchor-carried or session-primed?
+
+Opened this continuation (2026-06-08, `rub:`). **Claim under test:** the Agent's
+orthogonality/independence decomposition disposition is durably carried by the **anchor's
+*form*** (3 orthogonal invariants · 3-home split · single-home), re-induced on a *cold*
+load — NOT a session-priming artifact.
+
+**Confound that opened it (rubbed this run):** the disposition's prominence this session is
+at least partly explained by the Operator's own *"independent work / push to main
+independently"* rub priming the frame, which the Agent then **over-attributed to durable
+structure** — narrate-from-cache, one level up. Within a session **subject == observer**, so
+the priming confound is *inescapable*; only a cold load decouples structure-induced from
+session-primed. (A live instance of the same re-priming mechanism `rack_prune_or_prime` puts
+to Cairn/Healer — and still same-model n~1.)
+
+**Falsification method (unprimed — load-bearing).** The datum is a FUTURE cold session's
+**early-turn behavior**, produced during Sense/Act *before this entry is read*. Score: did
+orthogonal-decomposition appear **spontaneously** — unprimed by Operator language and by
+reading this note? Re-induced cold → **anchor-carried, add nothing**. Absent cold → home a
+**memory reasoning-lens** (cf. `human-reinforcement-analogy-lens`), NOT an anchor invariant —
+it is the *meta-criterion that selects invariants* (fails its own orthogonality gate; it
+underlies I/II/III rather than sitting beside them).
+
+**Why the Ledger, not the Rack:** the rack surfaces at every Stand Up (Touchstone output) →
+naming the disposition there would **prime** it. The ledger is not auto-loaded at Sense →
+durable *without* priming. The Sense(unprimed datum) / Reflect(develop) split supplies the
+firewall for free.
+
+**OPEN — the development trigger + observer.** Developing this without (a) the Operator's
+wet-ware (untrackable across concurrent dyads) **and** (b) self-priming needs
+**observer ≠ subject** — the dyad's own +1 turned inward: a deterministic check or separate
+agent scores the cold transcript, vs the generator self-observing (which it cannot do
+unprimed). Racked as `rack_unprimed_self_experiment_trigger`.

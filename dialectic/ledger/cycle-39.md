@@ -206,3 +206,14 @@ Development trigger / observer: `rack_unprimed_self_experiment_trigger`.
 `rubbings?` (review, observer-mode; handles-only at Sense — the firewall). Resolving a Rubbing =
 `clip` its verdict to the Ledger as a Proof (the one irreversible act reuses the existing gate;
 no separate `rubbings!` minted — it would duplicate `clip`).
+
+**Marker decomposition clipped (AGENT.md D4) — the anxiety-grain fix.** `rub:` was *conflated*:
+it spanned neutral-verify → adversarial-destroy, and the Agent (biased valence) collapsed the whole
+range to destroy — over-guard, the grain's **local trigger** (lived 3× this session; the "Healer is
+instantiated" rub was a *verify* read as an *attack*). Decomposed: **`read:`** carries verify-a-claim
+(grounded fact-check); **`rub:`** tightened to *attack a stated **move**, bounded*; new **`introspect:`**
+for examining the Agent's **own** cognition — the touchstone's blind spot (no external substrate →
+self-report → tag groundedness → route load-bearing self-claims to a Rubbing). **Distal root, NOT fixed
+by markers:** the penalty-valence asymmetry (Invariant III) that makes the conflation resolve toward
+over-attack — still propped by Operator vigilance; the durable symmetrizer (signal-gated falsification)
+stays open.

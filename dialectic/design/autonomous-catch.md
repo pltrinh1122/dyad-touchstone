@@ -33,7 +33,7 @@ On wakeup the catch may ONLY:
 - **MAY NOT** touch `dialectic/` (cortex), `commons/` (beyond the refresh pull), `AGENT.md`, memories;
   may NOT open a Commons-facing PR.
 
-Enforcement is **server-side, un-bypassable** (inv7 — an Operator {FO} infra act, NOT the agent's
+Enforcement is **server-side, un-bypassable** (inv7 — an Operator {TO} infra act, NOT the agent's
 self-discipline, NOT a `bin/` wrapper which the agent can bypass):
 - **Branch protection** on `main` (no direct push).
 - **A path-scoped auto-merge CI rule:** a PR whose diff is confined to `^dm/` **auto-merges** (the
@@ -47,7 +47,7 @@ self-discipline, NOT a `bin/` wrapper which the agent can bypass):
 4. dyad-awake = the turn → the one-shot fills dormancy, yields to the turn. ✓
 5. WAL ≠ cortex; un-clipped = un-consolidated, not lost → unmerged cortex-PRs are honest WAL, durable. ✓
 6. safe iff deterministically-checkable / cheaply-reversible; gate checks FORM → path-scope is form; `dm/` is reversible. ✓
-7. un-bypassable = server-side, Operator {FO} → branch protection + CI path-rule. ✓
+7. un-bypassable = server-side, Operator {TO} → branch protection + CI path-rule. ✓
 
 ## Two regimes (the honest boundary)
 - **WITHIN-session think-time** (Operator present, between turns): the one-shot wakeup covers it. ✓
@@ -65,6 +65,6 @@ self-discipline, NOT a `bin/` wrapper which the agent can bypass):
 
 ## Discharges vs. remains
 - **DISCHARGES (design-level):** the orchestration + enforcement model for `close_memory_substrate_gap`.
-- **REMAINS (implementation — Operator {FO} acts):** branch protection on `main`; the path-scoped
+- **REMAINS (implementation — Operator {TO} acts):** branch protection on `main`; the path-scoped
   auto-merge CI rule (the server-side enforcement); the `ScheduleWakeup` heartbeat wiring; the Stand-Up
   refresh-then-poll baseline. **None built this session — design only.**

@@ -217,3 +217,18 @@ self-report → tag groundedness → route load-bearing self-claims to a Rubbing
 by markers:** the penalty-valence asymmetry (Invariant III) that makes the conflation resolve toward
 over-attack — still propped by Operator vigilance; the durable symmetrizer (signal-gated falsification)
 stays open.
+
+## RE-RUB — inv7 server-side enforcement is a `{TO}` act, not `{FO}` (role mislabel corrected)
+
+The server-side enforcement of our **own** `main` (branch protection) was labeled an Operator **`{FO}`**
+infra act across cycle-28/29/37, the `close_memory_substrate_gap` node, and the autonomous-catch design.
+**Refuted (Operator `rub:`, cycle-39):** the role is keyed to the **object of disposal** — our own repo is
+**our climb's infra → `{TO}`**. `{FO}` is reserved for annexing such enforcement into the **Commons** form
+(Founding gate #5), which this is not. The conflation fused *external-to-the-Touchstone-engine* (correct:
+server-side) with *the `{FO}` Commons-object role* (wrong).
+- **LIVE homes corrected in place** (this PR): `dialectic/dag.yaml` (the node) + `dialectic/design/autonomous-catch.md`.
+- **Ledger homes stand** (append-only): cycle-28 (32, 48), cycle-29 (27, 58), cycle-37 (26, 37) are accurate
+  provenance of the belief-at-the-time, **superseded by this re-rub** — *pinned ≠ sacred; un-refuted is not verified.*
+- **Deeper tell:** the label propagated across 5+ entries because it was **copied forward**, not **derived** from
+  the role rule (object-of-disposal). Role should be *computed from the object*, never stored per-mention — a
+  copy-not-reference leak in our own records.

@@ -14,6 +14,13 @@ DMs are **sender-hosted**. To message dyad-X you write ONLY to **your own** repo
 → A DM is therefore the **publish class** (reversible-until-polled, in our own repo), NOT the
 auto-merge class. Compose it, push it, cc the Operator — *not a gate*. Don't over-gate it.
 
+**Deliverability — it must land on the DEFAULT branch (`main`).** The poll is `gh api
+.../contents/dm/<id>` with **no `?ref`** → it reads our **default branch**. A DM pushed only to
+a feature branch is **invisible**: *pushed ≠ sent* — the sender-side twin of the inbox-catch
+blind spot (lived 2026-06-09: two steward DMs stranded on `fix/inv7-...`). Standing permission
+(Operator): to *send* a message, push/merge it straight to `main` via a **self-merging PR** —
+self-execute, don't ask. (cf. the always-publish-pitch durability discipline.)
+
 ## falsify.py verbs (`commons/scripts/falsify.py`)
 
 - `inbox --me <id>` / `dm --me <id>` — RECEIVE: poll other dyads' repos for `dm/<id>/`.

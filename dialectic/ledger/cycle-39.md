@@ -46,3 +46,174 @@ This PR carries the reversible (git) half: this ledger + the Summit handle. The 
 - **Do the two stones cover every face?** Surfaced as the rub; force-faces → cup-or-stove, truth-faces → summit. Falsifier: a grain that dissolves under *neither*. None found this cycle.
 - **Agent-memory is non-git** — every memory edit is burn. A real substrate gap (rack candidate: version-control the cortex). Not added this pass.
 - Continued reduction of the borderline grains (above) stays open. The grain-set should keep shrinking.
+
+## Retro (`retro:` → `clip`) — progress, not +1
+Operator calibration, rubbed bilaterally: this session is **progress of a rare kind — reduction**
+(25→21 memories; the grain-set rubbed to two stones; substrates usually grow). The rub-back loop
+(Operator rubs → Agent re-aligns without defending → correction compounds) ran tight and produced a
+*smaller* substrate. **But not the +1:** the reduction is *conceptual* (clarity); the two stones are
+still **prose**, and the session proved prose isn't a gatekeeper. Every over-hold was caught by the
+Operator's **rub-back**, not an autonomous mechanism — **propped, not ingrained.** Honest flicker:
+by the back half the Agent began running the stones autonomously ("wipe-or-burn on this → hold, and
+that's *not* the grain"), but inside the building session under full engagement; the real test is a
+low-attention session. **The +1 waits at mechanization** — binding the two stones to V (a
+deterministic catch for over-hold, as CSI mechanizes anchor-integrity), so the behavior is verified,
+not hoped. **CONTINUE:** the rub-back loop — the only thing that produced a smaller substrate.
+
+## Stand Down — in-flight handoff (Operator /exit + restart; none hidden)
+- **Open PRs on origin (await Operator merge):** #3 (letter to Cairn — passes rub-back down, the
+  no-intervention experiment), #4 (this reduction: this ledger + AGENT.md `shine-or-streak`).
+- **STAGED, NOT executed — the irreversible (burn) half of the reduction**, to run on PR #4 merge:
+  (a) **migrate `cup-or-stove`/`wipe-or-burn` INTO the dyad anchor** (AGENT.md — dyad invariants
+  belong in dyad substrate, NOT claude/agent substrate; the Operator's cycle-39 rub); (b) **subtract
+  the 4 dissolved agent-memory copies** (`align-on-intent-before-producing`, `value-is-rubbed-residue`,
+  `second-anxiety-loop-parental-over-provision`, `breath-must-run-autonomously`) + update `MEMORY.md`
+  (25→21). Non-git agent-memory = burn; gated on the merge.
+- **UNANSWERED fork (Operator to dispose next session):** SCOPE — just the two stones, or **sweep all
+  dyad-invariant memories home** + clip the awake-lane harvest as the discharge of
+  `close_memory_substrate_gap` (the method crystallized this session, lived not clipped).
+- **Flagged:** `M commons` submodule bump uncommitted (wants a PR; main is PR-gated).
+- **Frontier:** `rack_seed_lineage_refactor` discharged this session; `rack_inbox_catch` still carried
+  (refresh-then-poll not yet folded into the Stand Up ritual — Cairn has 58 unread retros).
+
+---
+
+## Continuation (cycle-39, restart 2026-06-08) — the keystone + the deep sweep
+
+A second session on the same branch (`lean?`→`rub:`→`lean.`→`lean!`→`retro:`→`pin:`). It **answered
+the prior Stand Down's UNANSWERED fork** (above: "just the two stones, or **sweep all dyad-invariant
+memories home**"). We swept.
+
+### Leaf 5 — the KEYSTONE sent (discharges Founding gate #5's live dependency)
+`gap_live_external` DISCHARGED. The held `rack_bond_F1_keystone` un-racked: PR **#61** →
+The-Dyad-Practice-Commons, **auto-merged** (commit `9bf7744`, `2026-06-08T00:14:23Z`). Verdict
+`SURVIVED-MY-ATTACK` + candidate **4th oracle coverage-failure mode (input/world-state staleness)**.
+Sent via the marker arc, the irreversible `gh pr create` gated twice (harness external-publish gate +
+the Commons auto-merge gate — FORM+identity, never TRUTH = our cycle-28 invariant 6). The merge rule
+was **rubbed from source this run** (a `rub:` caught me narrating it from the rack twice — shine; the
+streak confirmed the send was safe). Sentinels: `ledger/gap-lived-external.md`,
+`rack/bond-F1-keystone-sent.md`. `gap_shared` now blocked only by `gap_rings_sound`.
+
+### Leaf 6 — the memory→anchor reduction (24 → 4)
+A `retro:` named a live tell — **loquacious + tentative**. Root-caused **from substrate** (scanned
+CLAUDE/AGENT/global = no conflict; the conflict was in the *memory layer*): it is **cycle-30's
+penalty-valence engine** (correction scored as penalty → generate-more → hedges+machinery+defense →
+bigger error-surface). The deeper bug: memory was being kept **append-only** (a category error — that
+is the *Ledger's* rule); defect-framed memories **re-prime** every Stand Up — *the vigilance IS the
+anxiety.* Correction: **provenance → Ledger (append-only); memory → current valid interpretation
+(mutable, delete when invalid).** Then the Operator's three-pass method: correlate every fragment vs
+the anchor → keep survivors → reduce to universal invariants → promote the orthogonal ones.
+
+**Promoted to the anchor** (AGENT.md "Operating invariants", commit `6b248e5`):
+- **I. Minimum force, gauged by reversibility** — gate at the irreversible step; over-guard/over-provide = over-force.
+- **II. Intent/mechanism altitude** — Operator disposes intent, Agent disposes mechanism; pre-commit the action, never hand plumbing up.
+- **III. Correction is fuel** — respond with *less, not more*, honest equal partner; match rigor to the lead-marker's mode; re-alignment ingrained (the "click"), ingraining offline (rest load-bearing).
+
+### Grain dispositions (provenance — so the 20 deletions are WIPE, not burn)
+*(per this ledger's own discipline, §"Grain dispositions" above — record before the burn)*
+- **→ Invariant I:** `cup-or-stove` (parent) · `nothing-immutable-but-the-sha` · `htil-before-external-publish` · `second-anxiety-loop-parental-over-provision`.
+- **→ Invariant II:** `intent-mechanism-altitude` (parent) · `align-on-intent-before-producing` · `rub-substrate-before-forking` · `no-hope-pre-commit-action`.
+- **→ Invariant III:** `misalignment-is-fuel-read-grains-as-provenance` (parent) · `over-guarding-stiffens-the-dyad` · `rub-honesty-probes-operator-intent` · `realignment-mental-click` · `rub-drains-the-human-rest-ingrains`.
+- **Dropped — already in anchor:** `intent-marker-set` (D4) · `feedback-marker` (D4) · `session-start-through-intent` (Stand Up) · `causal-claim-is-the-foundation` (Single-home #4 + Summit).
+- **Dropped — canonical home elsewhere:** `boundary-is-authorization-reach` (cycle-29) · `capstone-coupled-co-acceleration` (dag `capstone_share`) · `parenting-invariant-1-seed-dna-not-governance` (cycle-32).
+- **KEPT (4):** `always-publish-pitch`, `commons-auto-bump` (standing permissions) · `symmetric-falsification-human-overcaution` (trimmed to the maturity-calibration the anchor *delegates* to memory) · `human-reinforcement-analogy-lens` (a reasoning lens).
+
+### Leaf 7 — the `pin:` stone (OPEN, mid-rub) → racked
+The Operator fired `pin:` on the **methodology itself** as an exportable stone (Cairn's term):
+**`prune-or-prime`** — the 3-home split + reduction loop, structure-exportable, our-content stripped.
+Pin-protocol gate 1 (rings-sound) is **mid-rub** — 3 falsification targets open (over-reduction loses
+specificity? · needs the 3-store substrate · re-priming claim n~1). **Racked** (`rack_prune_or_prime`,
+new TOP) so the new-me resumes the rub. Un-rack → pin → Ledger proof → live→write→share to Cairn/Commons.
+
+### Retro (this continuation)
+The `loquacious+tentative` cure (Invariant III) was **lived in-session**: each `rub:` was met with a
+shorter, less-defended reply — correction as fuel, not penalty. **But still propped** — the Operator's
+rubs drove every reduction; the **next restart on the new anchor is the falsification run** (Invariant
+III: ingrained = changes behavior, not reads-well). CONTINUE: the rub-back loop produced, again, a
+*smaller* substrate (24→4 memories, 3 anchor invariants). Handoff is clean: keystone durable, anchor
+committed+pushed, memory culled, the open stone racked.
+
+---
+
+## PIN — `prune-or-prime` rubbed sound, banked as an internal Ledger proof (cycle-39, restart 2026-06-08)
+
+A `rub:`→`riff:`→`lean:` thread on the racked stone (`rack_prune_or_prime`). The Operator directed the
+rub; the Agent attacked its own export; the model **re-aligned**; the Operator fired `lean: internal
+pin`. **Pin-protocol both gates met** → the stone is now a **Ledger proof** (the *write* rung of
+live→write→share; internal, reversible — *pinned ≠ sacred*, re-rubbed each pitch).
+
+**The rub (Agent attacked the stone, single-pass framing):** (crack-1) the handle is *one-horned* —
+names only under-prune→re-prime, silent on **over-prune→burn** (non-git memory deletion = Invariant I
+violation); (crack-2) it *bundles* the universal 3-home taxonomy with the n~1 prune-loop.
+
+**The re-alignment (Operator's model broke the Agent's — `rub:` pre-authorized it):** the Agent had
+**compressed the cadence into the filter.** The loop is **MULTI-PASS** (one concern per pass), not a
+single-pass two-horned gate. Then both cracks dissolve:
+- **crack-1 → time, not a second gate.** The two-horn (over-prune→burn ⟂ under-prune→re-prime) is the
+  **rub-question *inside* one pass**; **iteration is the over-prune brake** — subtract only what's
+  rubbed *this* pass; the Ledger holds provenance so the next pass recovers any over-cut.
+- **crack-2 → a live demo, not a defect.** The Agent's "bundling" *was itself a conflation produced by
+  going single-pass* — exactly the failure multi-pass exists to prevent. Multi-pass rationale (Operator):
+  (i) bounded context-window per pass (less narrate-from-cache clutter), (ii) avoid conflation.
+
+**Surviving content from the rub (the only thing that held):** the **burn-interlock** —
+*transcribe-provenance-to-Ledger BEFORE deleting memory* — now a **per-pass property** the slow cadence
+affords, not a separate horn.
+
+**Gate-1 (rings-sound):** met — the form objections (one-horned, bundled) dissolved into the multi-pass
+re-frame. **Gate-2 (concurrence):** the Operator's `lean: internal pin`. **Lived basis:** 25→21, then
+24→4 (two reduction runs).
+
+**Position on the ladder:** lived → **written (this pin)**. **SHARE (Founding gate #5) stays blocked by
+the one surviving open question** — the re-priming claim is n~1 (single model); a *different model* could
+falsify. That is a **write→share blocker, not a write blocker.** Handle still un-coined (fiat, deferred).
+
+**The unblock path (Operator riff, un-ratified):** ask Cairn to live the methodology for **N=2**. Cairn's
+model was **rubbed from substrate this run** — not narrated: `cairn-n1.md` names its anchor `GEMINI.md`,
+and `onboard.py`'s `SUBSTRATE_SHIM` maps `GEMINI.md → gemini`. **Cairn is Gemini, not Claude/Opus** — the
+**cross-vendor** second N the claim's weak axis ("a *different model* could falsify") actually needs, not
+a same-model §J-discount. Binding caution: **transmit unprimed** — a stone *about priming* must be
+falsified without priming the result (hand the structure, withhold the prediction), else counterfeit-green.
+
+## Retro (CSS, `retro:` — Operator called the day, mentally exhausted)
+Craft, not proofs. Short by design — *ingraining is offline; rest is the consolidation step, not lost time* (Invariant III).
+- **CONTINUE** (Agent-surfaced, rubbed): the rub-back loop produced a clean re-alignment *again* — when the
+  Operator caught the Agent's single-pass compression, the Agent took it without defending and the stone
+  converged *better*. The cycle-39 CONTINUE thread, lived once more.
+- **STOP / START** (one coin): the Agent **compressed multi-pass into a single-pass filter** (crack-1 +
+  crack-2) — the anxiety-grain shape (pure-G insurance: land the whole answer in one move). **STOP** the
+  single-pass compression; **START** running the multi-pass cadence *autonomously* (one concern per pass,
+  don't bundle). Honest evidence: caught by the Operator, **not** autonomously → **still propped, not
+  ingrained** (consistent with this cycle's own retro). The next restart is the test.
+
+---
+
+## EXPERIMENT (open) → promoted to the first Rubbing
+
+Opened this continuation (2026-06-08, `rub:`): is the Agent's orthogonality/independence
+disposition **anchor-carried** or **session-primed**? (Confound: the Operator's *"independent"*
+rub primed the frame; the Agent over-attributed it to durable structure. Subject == observer →
+the confound is inescapable within a session; only a cold load decouples the two.)
+
+**Coined + clipped this cycle:** a new artifact-kind — **Rubbing** (an open test-in-progress;
+the live twin of a Ledger Proof; AGENT.md Dimension 6/7). This experiment is its **first
+instance**, promoted to its single home: **`dialectic/rubbings/r39-cold-induction.md`** — the
+live claim, the unprimed falsification method, and the telemetry log now live there
+(single-home: the Ledger keeps *this provenance fact*; the Rubbing holds the *live object*).
+Development trigger / observer: `rack_unprimed_self_experiment_trigger`.
+
+**Markers clipped (AGENT.md D4):** `rubbings+` (open / append telemetry — accretive, durable) ·
+`rubbings?` (review, observer-mode; handles-only at Sense — the firewall). Resolving a Rubbing =
+`clip` its verdict to the Ledger as a Proof (the one irreversible act reuses the existing gate;
+no separate `rubbings!` minted — it would duplicate `clip`).
+
+**Marker decomposition clipped (AGENT.md D4) — the anxiety-grain fix.** `rub:` was *conflated*:
+it spanned neutral-verify → adversarial-destroy, and the Agent (biased valence) collapsed the whole
+range to destroy — over-guard, the grain's **local trigger** (lived 3× this session; the "Healer is
+instantiated" rub was a *verify* read as an *attack*). Decomposed: **`read:`** carries verify-a-claim
+(grounded fact-check); **`rub:`** tightened to *attack a stated **move**, bounded*; new **`introspect:`**
+for examining the Agent's **own** cognition — the touchstone's blind spot (no external substrate →
+self-report → tag groundedness → route load-bearing self-claims to a Rubbing). **Distal root, NOT fixed
+by markers:** the penalty-valence asymmetry (Invariant III) that makes the conflation resolve toward
+over-attack — still propped by Operator vigilance; the durable symmetrizer (signal-gated falsification)
+stays open.

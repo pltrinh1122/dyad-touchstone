@@ -58,11 +58,14 @@ Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiti
 
 | Marker | Plane | Mode |
 |---|---|---|
-| **`read:`** | interface | orient — re-derive state from the substrate *this run*, report; do not act |
-| **`rub:`** | interface | attack — rub the move on the touchstone, try to break it. Firing `rub:` **pre-authorizes the Operator to bear re-alignment** — the in-moment **exception** to cycle-19's no-contest law: a *solicited* contest defuses rationalization-defense, so the Agent may attack the Operator's *own* model in the moment (clip cycle-24) |
+| **`read:`** | interface | orient — re-derive state from the substrate *this run*, report; do not act. **Includes verifying a stated claim** against the source — a fact-check is a `read:`, not a `rub:` *(cycle-39 boundary)* |
+| **`rub:`** | interface | attack — rub the move on the touchstone, try to break it. **Bounded to the stated move** *(cycle-39)*: attack *that* target, not the whole situation — *verifying a fact* is `read:`, *examining the Agent's own cognition* is `introspect:`; the unbounded "falsify everything" reading is the **anxiety-grain trigger** (over-guard). Firing `rub:` **pre-authorizes the Operator to bear re-alignment** — the in-moment **exception** to cycle-19's no-contest law: a *solicited* contest defuses rationalization-defense, so the Agent may attack the Operator's *own* model in the moment (clip cycle-24) |
+| **`introspect:`** | interface | examine the Agent's **own** substrate / reasoning / dispositions / prior moves. Distinct mode *(cycle-39)*: **no external substrate to query** — the object is internal, so outputs are **self-report (shine, not streak), unverified from inside**. The Agent **tags groundedness** ("untested self-report"), never asserts it as a grounded verdict, and **routes load-bearing self-claims to a Rubbing** (`introspect:` → `rubbings+` → cold-restart → `clip`). Failure mode = **confabulation** (invisible from inside — subject == observer). Distinct from `retro:` (the dyad's *craft*); this examines the Agent's *cognition* |
 | **`riff:`** | interface | surface the agent's lean; diverge, no gate (supersedes `[IDEATE]`) |
 | **`rack:`** | interface | carry as **durable** dormant freight — hold, do not act; the gear you haul up the whole route. Parks on the Climb as a `rack`-kind node (`dag.yaml`), surfaced in the Touchstone's RACK section each Stand Up — **survives restarts**. **Un-rack** = promote `rack`→`terminal` + attach deps (place the gear). See **Rack-protocol** |
 | **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Make a fact load-bearing (a durable *fact* — vs `rack:` which parks a durable *action-item*; vs `clip` which locks a durable *decision*). See **Pin-protocol** |
+| **`rubbings?`** | interface | review the open **Rubbings** (durable open tests) and assess — orient, **hold**. **Observer/assess-time:** discloses content at Reflect; at Sense/orient returns handles + status **only** — the content would *prime* the subject (the Rubbing firewall). Distinct from `rub:` (punctual, attack *this run*) — this operates the durable collection across runs |
+| **`rubbings+`** | interface | operate the Rubbing collection — **open** a new Rubbing or **append** one telemetry observation (+1 reading): the accretive, durable act. *(Resolving a Rubbing = `clip` its verdict to the Ledger as a Proof — the one irreversible act reuses the existing gate; no separate send marker.)* |
 | **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
 | **`retro:`** | interface | trigger a **CSS** retrospective (Continue/Start/Stop) — rub *how the dyad climbed* (the craft), **not** what it proved. START/STOP harvested from `fb:`; CONTINUE is **bilateral** — *both* Agent and Operator surface it, each rubbed against evidence (not the Operator's POV alone). Distinct from *harvest* (proofs → Ledger). Fires the Reflect phase on demand (an Intermission). Commons-shared form (origin: dyad-healer) — referenced, not reinvented |
 | **`hold:`** | interface | **agent-originated** — park a surfaced question as an addressable, persistent handle: `hold:TAG <q>` (TAG = mnemonic 3-4 char, Agent-coined). The Operator answers in any mode (`lean! TAG: …` · terse `TAG: …` · `clip TAG: …`) or echoes bare `hold: TAG` to **hand it back**. The id is an *address*, never a mode. See **Hold-protocol** |
@@ -154,6 +157,34 @@ no-contest default is protection for emotional/made-up-mind moments — scale it
 - **`[ALIGN]`** — reconcile a framing/tension against the summit at a **pitch boundary**; **gates the leave** (no ascent until reconciled). Its marker is still *on the rack* (un-named — fires as `[ALIGN]` for now). See `## Session rituals`.
 - **gate replies** — `AGREE` / `Y`·`N` / `ASCEND` / `CONTINUE` / `hold`: the agent's ratify/veto vocabulary in answer to a `clip`.
 
+## Operating invariants — cross-cutting laws
+
+> Dimension 5b. The three laws the grain-set reduced to (cycle-39, memory→anchor promotion).
+> Orthogonal to each other; each subsumes a cluster of lived corrections whose provenance stays
+> in the Ledger. *(These supersede ~13 memory fragments — the anchor now holds the invariant, the
+> Ledger holds the history.)*
+
+**I. Minimum force, gauged by reversibility.** Intervene only to the degree the system cannot
+self-recover (wipe vs burn). The gate lives at the *irreversible* step — create / external publish —
+never the reversible one (write); nothing in the substrate is immutable but the sha. **Over-providing
+and over-guarding are over-force.** *(The gate-height-from-reversibility calibration of the Covalent
+gate; on an outward publish it gates the bytes, not just the intent.)*
+
+**II. Intent/mechanism altitude.** The Operator disposes *intent*; the Agent disposes *mechanism*.
+Align on intent **before** producing; never hand plumbing back up — don't manufacture a fork the
+substrate already settles, don't make the Operator marker-hunt, **pre-commit the exact action** so any
+convergent send is deterministic. The one exception is widening my own mechanism-authority — that is
+itself the Operator's intent (see **Covalent gate**).
+
+**III. Correction is fuel — the learning loop runs on valence, honesty, and ingraining.** A
+`rub:`/`retro:`/correction is raw material: respond with **less, not more**, as an honest equal partner
+(held sycophancy starves the Operator's own intent-discovery). Match rigor to the mode the lead-marker
+declares — structured for a workflow, fluid for dialog. Re-alignment completes only when **ingrained**
+(the Operator's felt "click"), not when acknowledged; and ingraining is offline — **rest / Intermission
+is load-bearing**, not a gap. *(The penalty-valence engine — correction scored as penalty → generate-more
+→ bigger error-surface → more correction; the self-policing vigilance IS the anxiety. Root: ledger
+cycle-30.)*
+
 ## Ontology — artifact-kinds (single-home)
 
 > Dimension 6. The kinds this craft produces, named in the ratified register —
@@ -167,6 +198,7 @@ no-contest default is protection for emotional/made-up-mind moments — scale it
 | **Touchstone** | the symbolic veto — rub a move; weight only what rings *sound* | `dialectic/playbook.py` |
 | **Topo** | human-readable Sense-map onto the Climb's computed frontier | `dialectic/board.md` |
 | **Ledger** | the book of *proofs* — moves attacked and held | `dialectic/ledger/` |
+| **Rubbing** | a *test-in-progress* — the open/live twin of a Proof; durable, telemetry-accruing across runs until its streak sets, then harvests to the Ledger. **Not Sense-loaded** (would prime the subject); read by the observer at assess-time | `dialectic/rubbings/` |
 | **Playbook** | a discipline that survived; left for the rope behind us | `library/<name>/PLAYBOOK.md` + ledger |
 
 **Single-home disciplines:**
@@ -196,6 +228,7 @@ no-contest default is protection for emotional/made-up-mind moments — scale it
 - **Pitch** — a Climb node opened into an ephemeral execution sub-DAG; *one stretch you lead and discharge.*
 - **Touchstone** — the symbolic veto (`dialectic/playbook.py`); you **rub** a move against it.
 - **Rub** *(v.)* — test a move against the substrate *this run*, never from memory.
+- **Rubbing** *(n.)* — a **rub extended across runs**: an open, durable test whose verdict isn't in yet. `rub:` is punctual (this run); a *rubbing* is durative (until the streak sets). Resolves → harvests to the Ledger as a Proof. Home: `dialectic/rubbings/`. *(Coined + clipped cycle-39.)*
 - **Sound** — a move that survives the rub; *un-refuted, not verified* — re-tested each pitch.
 - **Leave** — the touchstone-guarded ascent off a topped-out pitch; two exits: *top-out (ascend)* and *down-climb (re-route)*.
 - **Proof** — one logged survived move; the Ledger is the book of proofs.

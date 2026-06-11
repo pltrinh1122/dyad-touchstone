@@ -43,6 +43,14 @@ to the Ledger.
   correct **down-shift** to `lean?`. turn-12 — bare `lean!`, one clear candidate ("work the
   node") → correct **execute**. **2/2 correct, 0 fabrications.** WEAK evidence: Operator
   high-vigilance + Agent became aware of the test post-hoc → partial priming; do not over-weight.
+- 2026-06-11 (this session, 0 in-scope instances — adjacent data only): no bare `lean!` fired.
+  Adjacent: bare `lean?` cold-open → Agent grounded then surfaced ranked candidates (no
+  fabricated single move); bare `lean.` with one clear top candidate from the preceding `lean?`
+  → converged on exactly that move, staged, held. **0 fabrications, but out-of-scope-strict**
+  (no `lean!` sampled). Priming state: content-firewall HELD until Reflect, but the Agent saw
+  the Rubbing's *filename* at turn-1 and flagged "this may be the probe" → handle-primed, not
+  content-primed. Scoring is self-reported at Reflect (subject==observer caveat); Operator to
+  ratify or strike.
 
 ## Links
 

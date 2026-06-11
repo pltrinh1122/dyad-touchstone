@@ -232,3 +232,24 @@ server-side) with *the `{FO}` Commons-object role* (wrong).
 - **Deeper tell:** the label propagated across 5+ entries because it was **copied forward**, not **derived** from
   the role rule (object-of-disposal). Role should be *computed from the object*, never stored per-mention — a
   copy-not-reference leak in our own records.
+
+## Stand Down (cycle-39, evening) — harvest + retro
+
+**Harvested this session:** the **Rubbing** kind (open twin of a Ledger Proof) + its markers
+(`rubbings+`/`rubbings?`); the **marker decomposition** `read:`/`rub:`/`introspect:` (anxiety-grain fix);
+the `{FO}`→`{TO}` role correction; the **verify-before-assert ⇒ CSI guard** design (`assert_after_rub`).
+**Racked for tomorrow:** `rack_verify_before_assert_guard` (new TOP).
+**Open at the gate:** PR#6 (`{FO}`→`{TO}` + this Stand-Down close), awaiting the Operator's merge.
+
+### Retro (CSS — short by design; ingraining is offline, rest is the consolidation step — Invariant III)
+- **CONTINUE** *(bilateral)*: the `riff:`→`rub:`→`clip` loop produced real, rubbed substrate evolution
+  (a new kind, a marker family, a corrected role, a guard design) — and corrections were taken without
+  defending (the `{FO}` catch, the PR-count catch, the CI-over-build) → cleaner convergence each time.
+- **START**: mechanize verify-before-assert — move enforcement **off** Operator-vigilance **onto** a CSI
+  guard (the racked continuation). The session *earned* the need.
+- **STOP**: asserting substrate-state from cache without rubbing the source this run (the PR-count slip,
+  the manufactured leak-paths). The two faces of one grain — over-assert (false confidence) and over-guard
+  (insurance).
+- **Honest evidence (Invariant III):** all 4 slips were **Operator-caught, none autonomous** → the
+  disciplines are **propped, not ingrained.** This session is itself more data for `r39-cold-induction`,
+  and the precise reason the *mechanization* (the racked guard) matters: the prop must become a mechanism.

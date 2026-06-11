@@ -42,6 +42,14 @@ Ledger as a Proof.
   Operator high-attention session; sprawl might be masked by live steering.)
 - 2026-06-09 (cross-dyad, Operator-reported): a peer dyad the Operator works with **no longer
   formalizes** a Stand-Up ritual. → second datum, leans ceremony.
+- 2026-06-11 (this session): **no** session-target committed — cold-open on a bare `lean?`.
+  A de-facto target **emerged turn-2 from the inbox** (steward's CTA). Outcome: tight
+  single-thread session (branch landed PR#8; verdict rendered+sent PR#9), no sprawl, natural
+  terminus at Operator `/exit`. Harm-traces-to-absence: none found — the stale-anchor-off-main
+  hazard predated the session and was caught by routine cold-open rubbing, not by a target.
+  Ritual cost: zero (skipped). → leans **ceremony** (datum #3). Caveat: short session under
+  tight convergent gating (`lean.`+`Y`), and the inbox *supplied* an end-in-mind almost
+  immediately — absence may be masked whenever addressed work is waiting.
 
 ## Links
 

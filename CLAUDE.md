@@ -1,3 +1,3 @@
 # dyad-touchstone — CLAUDE.md
 
-**Read `AGENT.md` immediately.**
+**Read `DYAD.md` immediately.**

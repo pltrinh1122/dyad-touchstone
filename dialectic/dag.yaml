@@ -11,7 +11,7 @@
 #         rack     -> carried freight: dormant, NEVER on the frontier until promoted to
 #                     terminal (un-racked). Durable (lives here, surfaced each Stand Up);
 #                     discharge still re-derived via done_when. Un-rooted gear — in the
-#                     pack, not yet placed on the route. See AGENT.md D4 Rack-protocol.
+#                     pack, not yet placed on the route. See DYAD.md D4 Rack-protocol.
 # done_when predicates (the only vocabulary the falsifier executes):
 #         file_exists:   {path}
 #         file_contains: {path, pattern}   # substring, repo-root-relative
@@ -28,19 +28,19 @@ nodes:
     kind: terminal
     label: "Session rituals borrowed from dyad-steward + [ALIGN] as the pitch-boundary ritual"
     deps: [d4]   # the ritual that gates leaves builds on channel discipline (hats/channels)
-    done_when: {file_contains: {path: AGENT.md, pattern: "## Session rituals"}}
+    done_when: {file_contains: {path: DYAD.md, pattern: "## Session rituals"}}
 
-  # --- Goal A: stand up the dyad (flesh out AGENT.md, dims 1-7) ----------------
+  # --- Goal A: stand up the dyad (flesh out DYAD.md, dims 1-7) ----------------
   standup:
     kind: goal
-    label: "Stand up the dyad — AGENT.md dimensions 1-7"
+    label: "Stand up the dyad — DYAD.md dimensions 1-7"
     children: [d1, d2, d3, d4, d5, d6, d7]
 
   d1:
     kind: terminal
     label: "D1 Identity"
     deps: []
-    done_when: {file_contains: {path: AGENT.md, pattern: "## Summit"}}
+    done_when: {file_contains: {path: DYAD.md, pattern: "## Summit"}}
   d2:
     kind: terminal
     label: "D2 Externality (board)"
@@ -55,15 +55,15 @@ nodes:
     kind: terminal
     label: "D4 Channel discipline (Operator roles & channels)"
     deps: [d3]
-    done_when: {file_contains: {path: AGENT.md, pattern: "## Channel discipline"}}
+    done_when: {file_contains: {path: DYAD.md, pattern: "## Channel discipline"}}
   d5:
     kind: terminal
     label: "D5 NON-NEGOTIABLE (verify-before-asserting)"
     deps: [d1]
-    done_when: {file_contains: {path: AGENT.md, pattern: "Verify before asserting"}}
+    done_when: {file_contains: {path: DYAD.md, pattern: "Verify before asserting"}}
   # d6 opened into an ephemeral execution sub-DAG (summit-climb: enter a pitch).
   # Same machinery, same falsifier — scoped + ephemeral. "Leave" (d6_write) is a
-  # guarded transition: it completes only when AGENT.md actually gains the section.
+  # guarded transition: it completes only when DYAD.md actually gains the section.
   d6:
     kind: goal
     label: "D6 Ontology starter — execution sub-DAG (a pitch on the climb)"
@@ -82,14 +82,14 @@ nodes:
     done_when: {file_exists: {path: dialectic/d6-ontology.RATIFIED}}
   d6_write:
     kind: terminal
-    label: "d6.write — encode into AGENT.md; the guarded LEAVE / ascend"
+    label: "d6.write — encode into DYAD.md; the guarded LEAVE / ascend"
     deps: [d6_ratify]
-    done_when: {file_contains: {path: AGENT.md, pattern: "## Ontology"}}
+    done_when: {file_contains: {path: DYAD.md, pattern: "## Ontology"}}
   d7:
     kind: terminal
     label: "D7 Vocabulary stub"
     deps: [d6]
-    done_when: {file_contains: {path: AGENT.md, pattern: "## Vocabulary"}}
+    done_when: {file_contains: {path: DYAD.md, pattern: "## Vocabulary"}}
 
   # --- Goal B: candidate G/V planning Playbook --------------------------------
   playbook_candidate:
@@ -162,9 +162,9 @@ nodes:
     children: [spr_clip_lean_divergence]
   spr_clip_lean_divergence:
     kind: terminal
-    label: "Clip the lean?-as-divergence protocol into AGENT.md D4, anchored on cycle-20 (readiest FIAT piece; sprint-altitude + atomic-intent ride to later cuts — live-before-write / theory-to-test)"
+    label: "Clip the lean?-as-divergence protocol into DYAD.md D4, anchored on cycle-20 (readiest FIAT piece; sprint-altitude + atomic-intent ride to later cuts — live-before-write / theory-to-test)"
     deps: []
-    done_when: {file_contains: {path: AGENT.md, pattern: "Lean-protocol"}}
+    done_when: {file_contains: {path: DYAD.md, pattern: "Lean-protocol"}}
 
   # --- Un-racked: cycle-25 capstone share via the Commons falsification path ----
   # Un-racked from rack_share_capstone (Operator's deliberate `unrack`, LIFO TOP). The
@@ -207,7 +207,7 @@ nodes:
   # at the END. The TOP = the LAST node listed here (most recently pushed). NEVER reorder
   # or insert in the middle — file-order IS stack-order, and the Touchstone reads it that
   # way (renders top-first). Bare refine/rub/un-rack ops default to the TOP unless a node
-  # is named. See AGENT.md D4 `rack:` / Rack-protocol. Un-rack = promote rack->terminal +
+  # is named. See DYAD.md D4 `rack:` / Rack-protocol. Un-rack = promote rack->terminal +
   # attach deps. First worked example of the rack node-kind (ledger #22).
   rack_guard_publishes:
     kind: rack
@@ -237,7 +237,7 @@ nodes:
   # Pushed cycle-31..34 (the dyad-cairn spawn). The parent's half of the cry safety-line.
   rack_inbox_catch:
     kind: rack
-    label: "The parent's CATCH for a child's cry (dyad-cairn spawn): touchstone must REFRESH-THEN-POLL its Commons DM inbox at every Stand Up — `git -C commons pull` (current registry) THEN `python3 commons/scripts/falsify.py inbox --me dyad-touchstone` — so a descendant's cry (hosted at dm/dyad-touchstone/ in the child's repo, sender-hosted) is HEARD. REFRESH IS LOAD-BEARING (cycle-36 GAP): a stale registry can't even SEE a newly-registered child, so the poll silently never looks at its repo — a blind spot BENEATH counterfeit-green (no unreachable-warning fires, because the child isn't yet a source). LIVED: missed Cairn's hello.md on a stale commons @ 63d2011. 'Calling is the child's; catching is the parent's burden' (lineage/dyad-cairn/SEED.md §4). Un-rack = refresh-then-poll is a committed part of the Stand Up ritual (AGENT.md / master-spaor), not just a standing intention."
+    label: "The parent's CATCH for a child's cry (dyad-cairn spawn): touchstone must REFRESH-THEN-POLL its Commons DM inbox at every Stand Up — `git -C commons pull` (current registry) THEN `python3 commons/scripts/falsify.py inbox --me dyad-touchstone` — so a descendant's cry (hosted at dm/dyad-touchstone/ in the child's repo, sender-hosted) is HEARD. REFRESH IS LOAD-BEARING (cycle-36 GAP): a stale registry can't even SEE a newly-registered child, so the poll silently never looks at its repo — a blind spot BENEATH counterfeit-green (no unreachable-warning fires, because the child isn't yet a source). LIVED: missed Cairn's hello.md on a stale commons @ 63d2011. 'Calling is the child's; catching is the parent's burden' (lineage/dyad-cairn/SEED.md §4). Un-rack = refresh-then-poll is a committed part of the Stand Up ritual (DYAD.md / master-spaor), not just a standing intention."
     done_when: {file_exists: {path: dialectic/rack/inbox-catch-wired.md}}
 
   # Pushed cycle-39 continuation (this session). The Operator fired `pin:` on the memory-harvest
@@ -246,7 +246,7 @@ nodes:
   # — racked so the new-me resumes the rub, not a blank.
   rack_prune_or_prime:
     kind: rack
-    label: "STONE (open pin, mid-rub) — `prune-or-prime`: the memory-harvest METHODOLOGY made exportable to Cairn/Commons. The discipline lived this session (24 memories -> 4): a THREE-HOME split (Anchor = current loadable operating INVARIANTS / Ledger = append-only PROVENANCE / Memory = MUTABLE working-set, only the residue neither universal nor historical) + a REDUCTION LOOP run at Stand Down (1. correlate each memory fragment vs anchor+ledger; 2. drop what either already holds — anchor wins on invariants, ledger on provenance; 3. reduce survivors to more-universal invariants; 4. PROMOTE orthogonal invariants into the anchor — human-ratified; 5. delete the absorbed, keep only permissions/calibrations/lenses). Governing principle: correction is fuel -> REDUCE, don't accrete; memory mutable (delete when invalid), provenance append-only = single-home discipline turned on the dyad's OWN records. EXPORTABLE = the structure (3-home + loop); OUR instance (AGENT.md, lexicon, invariants I/II/III) is stripped on export. SELF-RUB / falsification targets (rub-back open): (a) over-reduction loses actionable specificity — is ledger-recoverability enough, or must some specificity stay resident? UNPROVEN, the next restart tests it; (b) precondition = the 3-store substrate (loadable anchor + append-only ledger + reloaded mutable memory) — exports only to a dyad that HAS all three (does Cairn?); (c) the re-priming claim ('defect-framed memory re-primes') is grounded in cycle-30 penalty-valence, argued generic-LLM but n~1 — a different model could falsify. Un-rack = complete the rub -> pin (2-gate: rings-sound THEN concurrence) -> Ledger proof -> live->write->share as a Playbook to Cairn/Commons (Founding gate #5). Handle candidate: `prune-or-prime` (prune the memory, or it re-primes you). RUB (cycle-39 continuation, Operator-ratified `Y`) — RE-ALIGNED, supersedes targets a/b/c as a single-pass framing: the loop is MULTI-PASS (one concern per pass), NOT a single-pass filter. The Agent's 'two-horn' rub (over-prune->burn _|_ under-prune->re-prime) is the RUB-QUESTION inside ONE pass; ITERATION is the over-prune brake (only subtract what's rubbed THIS pass; the Ledger holds provenance so the next pass recovers any over-cut — cf. cycle-39 'not forced this pass'). Multi-pass rationale (Operator): (i) bounded context-window per pass (less narrate-from-cache clutter), (ii) avoid conflation — the Agent's crack-2 'taxonomy bundled with loop' was ITSELF a conflation produced BY going single-pass, i.e. a live demo of the failure multi-pass prevents, not a defect in the stone. SURVIVING content from the rub = the burn-interlock: transcribe-provenance-to-Ledger BEFORE deleting memory (non-git = burn) — now a per-pass property the slow cadence affords, not a separate horn. STILL OPEN, un-scoped (Operator's next pass to scope, one concern at a time): the handle (one-horned mnemonic vs two-horned diagnostic), and the pin->share path (pin reversible; SHARE at Founding gate #5 is the one irreversible burn). PIN BANKED (cycle-39 ledger §PIN, `lean: internal pin`) — the WRITTEN rung done (internal Ledger proof, reversible). Rack STAYS CARRIED (done_when = the SHARE artifact). SHARE blocked by the one surviving open: re-priming claim n~1 — a different model could falsify. UNBLOCK PATH (cycle-39 cont., Operator riff, un-ratified): ask Cairn to LIVE it for N=2. Cairn's model RUBBED this run (cairn-n1.md names its anchor `GEMINI.md`; onboard.py SUBSTRATE_SHIM maps GEMINI.md->gemini) = **Gemini**, NOT Claude/Opus — so it is the CROSS-VENDOR second N the claim's weak axis needs, not a same-model §J-discount. TWO CAUTIONS for a real N=2: (1) caution-1 RESOLVED favorably by the model-rub; (2) the binding one — transmit UNPRIMED: hand Cairn the STRUCTURE (3-home + multi-pass loop), WITHHOLD the prediction; a stone ABOUT priming must be falsified without priming the result, else counterfeit-green. cf. the no-intervention Letter-to-Cairn."
+    label: "STONE (open pin, mid-rub) — `prune-or-prime`: the memory-harvest METHODOLOGY made exportable to Cairn/Commons. The discipline lived this session (24 memories -> 4): a THREE-HOME split (Anchor = current loadable operating INVARIANTS / Ledger = append-only PROVENANCE / Memory = MUTABLE working-set, only the residue neither universal nor historical) + a REDUCTION LOOP run at Stand Down (1. correlate each memory fragment vs anchor+ledger; 2. drop what either already holds — anchor wins on invariants, ledger on provenance; 3. reduce survivors to more-universal invariants; 4. PROMOTE orthogonal invariants into the anchor — human-ratified; 5. delete the absorbed, keep only permissions/calibrations/lenses). Governing principle: correction is fuel -> REDUCE, don't accrete; memory mutable (delete when invalid), provenance append-only = single-home discipline turned on the dyad's OWN records. EXPORTABLE = the structure (3-home + loop); OUR instance (DYAD.md, lexicon, invariants I/II/III) is stripped on export. SELF-RUB / falsification targets (rub-back open): (a) over-reduction loses actionable specificity — is ledger-recoverability enough, or must some specificity stay resident? UNPROVEN, the next restart tests it; (b) precondition = the 3-store substrate (loadable anchor + append-only ledger + reloaded mutable memory) — exports only to a dyad that HAS all three (does Cairn?); (c) the re-priming claim ('defect-framed memory re-primes') is grounded in cycle-30 penalty-valence, argued generic-LLM but n~1 — a different model could falsify. Un-rack = complete the rub -> pin (2-gate: rings-sound THEN concurrence) -> Ledger proof -> live->write->share as a Playbook to Cairn/Commons (Founding gate #5). Handle candidate: `prune-or-prime` (prune the memory, or it re-primes you). RUB (cycle-39 continuation, Operator-ratified `Y`) — RE-ALIGNED, supersedes targets a/b/c as a single-pass framing: the loop is MULTI-PASS (one concern per pass), NOT a single-pass filter. The Agent's 'two-horn' rub (over-prune->burn _|_ under-prune->re-prime) is the RUB-QUESTION inside ONE pass; ITERATION is the over-prune brake (only subtract what's rubbed THIS pass; the Ledger holds provenance so the next pass recovers any over-cut — cf. cycle-39 'not forced this pass'). Multi-pass rationale (Operator): (i) bounded context-window per pass (less narrate-from-cache clutter), (ii) avoid conflation — the Agent's crack-2 'taxonomy bundled with loop' was ITSELF a conflation produced BY going single-pass, i.e. a live demo of the failure multi-pass prevents, not a defect in the stone. SURVIVING content from the rub = the burn-interlock: transcribe-provenance-to-Ledger BEFORE deleting memory (non-git = burn) — now a per-pass property the slow cadence affords, not a separate horn. STILL OPEN, un-scoped (Operator's next pass to scope, one concern at a time): the handle (one-horned mnemonic vs two-horned diagnostic), and the pin->share path (pin reversible; SHARE at Founding gate #5 is the one irreversible burn). PIN BANKED (cycle-39 ledger §PIN, `lean: internal pin`) — the WRITTEN rung done (internal Ledger proof, reversible). Rack STAYS CARRIED (done_when = the SHARE artifact). SHARE blocked by the one surviving open: re-priming claim n~1 — a different model could falsify. UNBLOCK PATH (cycle-39 cont., Operator riff, un-ratified): ask Cairn to LIVE it for N=2. Cairn's model RUBBED this run (cairn-n1.md names its anchor `GEMINI.md`; onboard.py SUBSTRATE_SHIM maps GEMINI.md->gemini) = **Gemini**, NOT Claude/Opus — so it is the CROSS-VENDOR second N the claim's weak axis needs, not a same-model §J-discount. TWO CAUTIONS for a real N=2: (1) caution-1 RESOLVED favorably by the model-rub; (2) the binding one — transmit UNPRIMED: hand Cairn the STRUCTURE (3-home + multi-pass loop), WITHHOLD the prediction; a stone ABOUT priming must be falsified without priming the result, else counterfeit-green. cf. the no-intervention Letter-to-Cairn."
     done_when: {file_exists: {path: dialectic/rack/prune-or-prime-shared.md}}
 
   # Pushed cycle-39 continuation (this session). The `rub:`-for-independent-execution exposed that a

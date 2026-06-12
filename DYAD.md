@@ -1,4 +1,4 @@
-# dyad-touchstone — AGENT.md
+# dyad-touchstone — DYAD.md
 
 > Universal instruction layer for the dyad. Load at session start via the
 > platform shim (CLAUDE.md or GEMINI.md). The form lives at
@@ -195,7 +195,7 @@ cycle-30.)*
 
 | Kind | What it is | Single home |
 |---|---|---|
-| **Anchor** | the dyad's loadable shared mental model (this file) | `AGENT.md` |
+| **Anchor** | the dyad's loadable shared mental model (this file) | `DYAD.md` |
 | **Climb** | summit-rooted activity DAG — *structure only; status never stored* | `dialectic/dag.yaml` |
 | **Touchstone** | the symbolic veto — rub a move; weight only what rings *sound* | `dialectic/playbook.py` |
 | **Topo** | human-readable Sense-map onto the Climb's computed frontier | `dialectic/board.md` |

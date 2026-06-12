@@ -2,7 +2,7 @@
 
 > The dyad's execution engine, in the assayed-climb register. Clipped this session after two
 > rubs (session-scoping; daemon-defer) + the end-in-mind rub. **Pinned ≠ sacred** — re-rubbed
-> each session. Canonical home for this doctrine; AGENT.md `## Session rituals` points here.
+> each session. Canonical home for this doctrine; DYAD.md `## Session rituals` points here.
 
 ## Definition
 
@@ -38,7 +38,7 @@ The loop is shared; its phases split across the two seats (this is intent-mechan
 - **Plan-selection** + **Reflect-clip** = the **Operator** (intent / dispose). The session-loop
   runs on the **{TO} Touchstone Operator** (disposes *our climb*); the **{FO} Founding Operator**
   (disposes a *Commons artifact*) crosses into the same session when we own shared infra — same
-  human, role set by the object of disposal (AGENT.md D4; ledger cycle-15).
+  human, role set by the object of disposal (DYAD.md D4; ledger cycle-15).
 - **Sense · Act · Observe** = the **agent** (mechanism — re-derive · execute · validate). **Observe
   *is* falsification** — agent-performed, Touchstone-enforced, Operator-directed (`rub:`); not a seat.
 

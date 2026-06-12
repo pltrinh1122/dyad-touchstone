@@ -30,14 +30,14 @@ On wakeup the catch may ONLY:
 - **READ:** `git -C commons pull` (refresh the registry — cycle-36 lesson), poll
   (`falsify.py inbox/dm --me dyad-touchstone`), read descendant DMs.
 - **WRITE:** a reply under `dm/<descendant>/` (bounded, reversible parental class), via branch + PR.
-- **MAY NOT** touch `dialectic/` (cortex), `commons/` (beyond the refresh pull), `AGENT.md`, memories;
+- **MAY NOT** touch `dialectic/` (cortex), `commons/` (beyond the refresh pull), `DYAD.md`, memories;
   may NOT open a Commons-facing PR.
 
 Enforcement is **server-side, un-bypassable** (inv7 — an Operator {TO} infra act, NOT the agent's
 self-discipline, NOT a `bin/` wrapper which the agent can bypass):
 - **Branch protection** on `main` (no direct push).
 - **A path-scoped auto-merge CI rule:** a PR whose diff is confined to `^dm/` **auto-merges** (the
-  reversible class auto-clears); any PR touching `dialectic/`/`commons/`/`AGENT.md` **blocks on the
+  reversible class auto-clears); any PR touching `dialectic/`/`commons/`/`DYAD.md` **blocks on the
   Operator's manual merge** (HITL). The check is on diff **PATHS (FORM)**, never content (inv6).
 
 ## Invariant map (cycle-28's 7 + cycle-29)

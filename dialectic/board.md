@@ -19,7 +19,7 @@ here. (Cached status is the stale-narration trap this file warns against; see Le
 the `without-you` principle: present **Fresh**, past **Frozen**, open **Flagged**.)
 
 - **Summit** — neural-symbolic: what the dyad asserts is *what is*, never what was remembered.
-- **Standing up** (AGENT.md dims 1–7) — identity · externality · form-grounding ·
+- **Standing up** (DYAD.md dims 1–7) — identity · externality · form-grounding ·
   channel-discipline · NON-NEGOTIABLE · ontology · vocabulary.
 - **Candidate Playbook** — *grounded-aligned-progress* (GAP): the Climb (`dag.yaml`) +
   Touchstone (`playbook.py`) + Ledger, maturing **live → write → share** (single-home #6).

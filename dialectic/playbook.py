@@ -154,7 +154,7 @@ def main():
     if racks:
         # LIFO stack: dag.yaml file-order IS push-order (append-only; never reorder).
         # Render top->bottom so the TOP (last pushed) reads first; bare refine/rub/un-rack
-        # ops default to it unless a node is named (AGENT.md Rack-protocol, cycle-24).
+        # ops default to it unless a node is named (DYAD.md Rack-protocol, cycle-24).
         print("\nRACK — LIFO stack (carried freight; durable, dormant; NOT on the climb).")
         print("  top = last pushed; bare refine/rub/un-rack default to TOP unless a node is named:")
         stack = list(reversed(racks))  # top first

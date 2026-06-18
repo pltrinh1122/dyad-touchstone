@@ -88,5 +88,30 @@ formalization predicts rather than permits.
   attack this formalization needs; same-human/n=1 until then).
 - **Anchor-promotion** of the taxonomy waits on cross-dyad survival.
 - Frontier unchanged: `gap_rings_sound` · `capstone_share` · `close_memory_substrate_gap`.
-  Rack TOP unchanged (`rack_verify_before_assert_guard`).
-- Stand Down (harvest + CSS `retro:`) not yet run — this is a mid-session clip, not the leave.
+- **FR-send racked** at Stand Down — new rack TOP `rack_constitution_fr_send` (in-flight work
+  the Climb did not yet hold; cycle-22 lesson — an action held only in conversation dies on
+  restart). Un-rack = Operator-reviewed AND submitted.
+
+## Retro (CSS — short; ingraining is offline, Invariant III)
+- **CONTINUE** *(Agent-surfaced, rubbed)*: (1) **falsification-adjudication as the naming
+  method** — every candidate term rubbed with a verdict + a *cited mechanism*, not taste-picked:
+  `executor` fell on a concrete collision (deterministic-runtime + names-the-loop), `orchestrator`
+  on single-home #2, and `assistant|partner` was shown **entailed** by property 1. Verdicts, not
+  opinions. (2) **groundedness-tagging** — industry-terminology claims flagged "shine
+  (training-knowledge), not a queried streak," web-verify offered each time (honest
+  `introspect:`-class limit). *Operator's CONTINUE invited — not assumed.*
+- **START** *(harvested from `fb:`)*: **anchor production on the Operator's intent-vector, not
+  the Agent's generative pull.** Two `fb:` this session shared one root — I optimized for *my*
+  interest over the Operator's aim: (a) centered the first FR on the cry/obligation rub (juiciest)
+  when the Operator wanted the **formalization**; (b) invented a body/climbing register
+  (limb/gauge/ratchet/bolt/soloist) when the Operator wanted **industry vocabulary**. Both =
+  intent/mechanism-altitude misses (Inv II — align on intent *before* producing). Confirm the
+  deliverable's *spine* before drafting.
+- **STOP** *(Operator-surfaced + one self-noted)*: (a) **bespoke-register drift** — dressing a
+  taxonomy in a foreign metaphor when the domain has standard terms; twice-rejected (gear taxonomy
+  + rope-partner; note "partner" *survived* de-metaphorized — the tell that the concept was real,
+  the costume wasn't). (b) **self-noted, not self-cleared:** possible **over-production** — terse
+  Operator prompts ("bot?", one-line riffs) drew long replies (multi-row tables, meta-findings).
+  Inv III = less, not more. Surfaced for the Operator's score; unverifiable from inside
+  (subject==observer). No OPERATOR-STOP: the session was divergent until `clip`; no fired
+  convergent gate was contested in-moment.

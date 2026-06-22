@@ -100,3 +100,35 @@ constitution FR needs a pre-push gate *because of* auto-merge") fell with it.
   changed when the cause is Operator wet-ware I cannot observe. Query it or do not claim it.
 - No OPERATOR-STOP: the session was divergent (`riff:`/`rub:`); no fired convergent gate was
   contested in-moment. The one `lean.` (the #71 send) was checkpoint-held and released by `raff`.
+
+## Stand Down — post-pin leaves + final retro (2026-06-22)
+The session continued past the pin; harvesting the rest.
+
+**Leaves (post-pin):**
+1. **Falsified Commons PR #70** (the `dm` consume-announce — disposition of our #69 finding-1) and
+   posted the rub as a dyad-touchstone comment. Verdict **SURVIVES-WITH-SCOPING**: 5 scoping
+   falsifications (untested new behavior; "already-seen stays silent" false for default `dm`; the
+   "undiscovered/no-reported-need" premise self-contradicts its own #69 provenance; "machine-
+   addressable" asserted-not-enforced; "steering output" overstates a post-hoc receipt). Method =
+   an adversarial-verify **workflow**: 6 lenses → 24 candidates → a defender **refuted 8** (incl. a
+   real but *unreachable* over-count bug) before posting — the touchstone applied to our own findings.
+2. **Parked the apex-value↔Telos thread as a rack** (`rack_apex_telos_falsify_to_clarify`, new TOP)
+   per Operator: hold until the bond bilateral yields a sharp falsifiable claim, then falsify-to-
+   clarify. In **PR #15**, awaiting Operator merge.
+3. **CSI anchor-integrity guard — first live proof-point.** A direct-to-main commit of `dag.yaml`
+   (the Climb, anchor-class / low-reversibility) was **blocked** and routed to a PR with the merge-gate
+   held by the Operator. The "mechanize gate-height-from-reversibility" thread (`rack_guard_publishes`,
+   `rack_verify_before_assert_guard`) is now lived, not just intended.
+
+**Final retro (CSS):** CONTINUE — verify-before-assert held at the substrate; the adversarial-verify
+workflow refuted 8/24 candidates before posting (no counterfeit falsification). START — query a state-
+change's cause or tag it unknown; never narrate the mechanism (the #69-merge confabulation). STOP —
+(a) confabulating off-session causes (retracted in-session); (b) ornate/over-long register on riffs
+(Operator steered "declarative" twice; less, not more). No OPERATOR-STOP. Operator's CONTINUE invited.
+
+**Fresh / Frozen / Flagged:**
+- **Fresh:** main pushed (cycle-42 + 3 commons bumps); PRs #69, #71 merged.
+- **Frozen:** rack TOP apex-telos (in PR #15); held constitution FR (untracked, pre-push); standing racks.
+- **Flagged (needs Operator/external):** **PR #15 must merge** for the Climb to hold the parked work —
+  until then the rack is on a branch, not main, and the Touchstone won't surface it. PR #70 falsification
+  open (steward/author). #71 un-disposed by bond.

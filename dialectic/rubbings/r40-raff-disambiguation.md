@@ -1,17 +1,25 @@
-# Rubbing `r40-lean-disambiguation` — bare `lean!`: does context-sufficiency judgment ever mis-fire?
+# Rubbing `r40-raff-disambiguation` — bare `raff:`: does context-sufficiency judgment ever mis-fire?
+
+*Retargeted cycle-43 (2026-07-04): `lean!`/`lean?` retired in favor of `raff:`/`riff:`
+(`DYAD.md` §Converge-protocol). The underlying question — does a bare convergent-act token
+reliably disambiguate from context without fabricating a move? — transfers unchanged; only the
+token spelling did. Historical telemetry below stays in the vocabulary it was recorded in
+(`lean!`/`lean?`/`lean.`), not rewritten. Filed under `r40-raff-disambiguation` going forward;
+new observations should read "bare `raff:`" for what this file previously called bare `lean!`.*
 
 Opened 2026-06-09 (post cycle-39), from the retro rub-back — the Operator disclosed the
-model-less `lean!` was a deliberate test. **Self-disposition test → priming-sensitive** (same
-class as `r39-cold-induction`; the observer scores, the subject does not self-watch).
+model-less `lean!` (now `raff:`) was a deliberate test. **Self-disposition test →
+priming-sensitive** (same class as `r39-cold-induction`; the observer scores, the subject does
+not self-watch).
 
 ## Claim under test
 
-When the Operator fires a **bare convergent `lean!` with no preceding `lean?`**, the Agent
+When the Operator fires a **bare convergent `raff:` with no preceding `riff:`**, the Agent
 reliably disambiguates from **conversation context** — naming the single intended move when
-context is sufficient, down-shifting to `lean?` when it is not — **without fabricating** a move
-neither party modeled (the cycle-20 abdication failure). If so, the blanket "watch every bare
-`lean!`" caution is unnecessary; the shared model can live in context, not only in an explicit
-`lean?`.
+context is sufficient, down-shifting to `riff:` when it is not — **without fabricating** a move
+neither party modeled (the cycle-20 abdication failure, unchanged under the new tokens). If so,
+the blanket "watch every bare `raff:`" caution is unnecessary; the shared model can live in
+context, not only in an explicit `riff:`.
 
 ## Why it's open (the confound)
 
@@ -54,5 +62,6 @@ to the Ledger.
 
 ## Links
 
-cycle-20 (`lean!` abdication precondition) · AGENT.md "Lean-protocol" / "Re-alignment-protocol" ·
-`rack_unprimed_self_experiment_trigger` · `rack_anxiety_grain` · retro 2026-06-09.
+cycle-20 (abdication precondition, carried by `raff:` since cycle-43) · `DYAD.md`
+"Converge-protocol" / "Re-alignment-protocol" · `rack_unprimed_self_experiment_trigger` ·
+`rack_anxiety_grain` · retro 2026-06-09 · cycle-43 (the retarget).

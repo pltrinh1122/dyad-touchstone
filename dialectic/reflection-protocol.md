@@ -21,18 +21,33 @@ borrowing (dyad-bond/steward/healer — their route).
 below "settled" because bond's own graduation rule requires a cross-dyad/cross-human rub this
 form has never had. Cite it as "survives, intra-dyad only" — not as proven-everywhere.
 
-## What we took — the CSS+OR form
+## What we took — the CSS form, + the OR→SH evolution (re-fetched, updated cycle-43 close)
 
-**Continue / Start / Stop**, each line provenance-tagged:
-- **CONTINUE** *(tagged OR — Operator-Reflect — when credited to the Operator's own conduct, or
-  Agent-observed otherwise)* — a pattern worth keeping.
+**Continue / Start / Stop**, base form, untouched at the source:
+- **CONTINUE** *(Agent-observed, or Operator-retrospected)* — a pattern worth keeping.
 - **START** *(Agent, from live feedback)* — a commitment going forward.
 - **STOP** *(Agent, from live feedback)* — a failure to name and correct.
 
 No four-step ratification ceremony, no CTA — the retro is itself the durable artifact, landed by
-being written and committed. The **OR tag** is the one piece genuinely new relative to what
-`retro:` already did here: touchstone's prior CONTINUE was bilateral-and-rubbed but untagged as
-to *which side* sourced it — OR names that at a glance.
+being written and committed.
+
+**The OR tag we originally borrowed has since been superseded at the source.** As of bond's
+2026-07-04 evolution, OR no longer mirrors CONTINUE/START/STOP as a per-type tag — it
+consolidated into its own format, **SH (Should Have / Should Hold)**:
+- **Should Have** — a single past instance, hit-or-miss: *"Should have [verified X] — didn't;
+  [claim] independently found false via [mechanical check]."* The debit direction.
+- **Should Hold** — a standing, ongoing pattern: *"Should hold: [the bar]"* — evidenced by
+  verbatim quotes of instances meeting it. The credit direction.
+
+**Every SH entry requires a verbatim quote as evidence** — the Agent's own paraphrase doesn't
+qualify — plus, for Should-Have specifically, independent mechanical verification that the
+claim was actually false, not just Agent-asserted.
+
+**Status, disclosed exactly as bond discloses it:** *"structure only, no instances of the SH
+grammar itself... does not graduate until it survives a real application."* Rawer than OR ever
+was (OR inherited lived instances from the graduated CSS+OR form before its rename; SH has
+none, anywhere, at either dyad). Adopting it now makes this session's own retro **SH's first
+real-world application** — not borrowed-and-proven, borrowed-and-testing.
 
 ## What we changed from `retro:` — the actual supersession
 

@@ -294,6 +294,55 @@ time** — nothing currently prevents it recurring.)*
     utterances fall back to `d-rub`'s **Ground** rung (check reality, never guess) — not new
     behavior, `d-rub` already did this.
 
+## Reflect — CSS+SH retrospective (`d-reflect`, cycle-43 close — first real execution)
+
+*Fired by Operator `d-reflect`, explicitly instructed to re-fetch dyad-bond's current
+formalization rather than rely on memory. That re-fetch caught a real, in-flight change: `OR`
+had already been superseded by `SH` (Should Have / Should Hold) at the source since this
+session's earlier `d-reflect`/loaded:` work — disclosed and adopted in
+`dialectic/reflection-protocol.md` before use, same discipline as every other borrow this
+session. `SH`'s own status at the source: "structure only, no instances of the SH grammar
+itself... does not graduate until it survives a real application" — this retrospective is that
+application, at either dyad.*
+
+**CONTINUE** *(Agent-observed)*
+- Checking each cross-dyad borrow's actual current status before adopting or executing on it —
+  not the summary, the source. Caught `d-land`'s failed audit, `d-reflect`'s `kb-with-caveat`
+  cap, and — this retro itself — that `OR` had already been superseded by `SH`, before using
+  either.
+- Orphan-checking before retiring or renumbering anything durable — caught the live Rubbing
+  testing `lean!`'s abdication guard before a rename would have silently stranded it, and the
+  ledger leaf-numbering collision with a concurrent session before it would have silently
+  overwritten a real finding (leaf 7's cross-link, above).
+- Flagging genuine reservations explicitly rather than smoothing them over — `d-rub`'s
+  ergonomic-cost concern on `read:`, and the WHAT/HOW auto-detection conflict with reasoning
+  established two exchanges earlier, surfaced instead of quietly executed past.
+
+**START** *(Agent, from live feedback)*
+- Start treating "PR is open, ready to merge" as a claim requiring the same mechanical
+  verification every other claim gets — run the actual `mergeable_state` check as a standing
+  habit whenever asserting a PR is mergeable, not only when asked.
+
+**STOP** *(Agent, from live feedback)*
+- Repeatedly asserted, verbatim, "PR #20 still stands as-is, still yours to merge" across
+  multiple turns and pushes — without ever once checking `mergeable_state`. It was actually
+  `"dirty"`: a real merge conflict from a concurrent session (see the reconciliation above),
+  caught only because the Operator asked directly ("did you verify the health of PR#20 for
+  merging?"), not because it was checked proactively.
+
+**Should Hold** *(Operator conduct — verbatim-quote-evidenced, per `SH`'s own evidentiary bar)*
+- *"did you verify the health of PR#20 for merging?"*
+- *"you borrowed 'd-land' without the actual discipline artifact?"*
+- *"sorry, you'd embedded the discipline into DYAD.md?"*
+
+  A standing pattern across this session: verifying claims rather than accepting them at face
+  value, each time surfacing something real (an unchecked merge conflict, an unverified source
+  status, a single-home violation). The bar the Agent-side START above is trying to close the
+  gap toward.
+
+**Should Have** — zero instances this cycle. No Operator claim was found independently false;
+left empty rather than manufactured, per `SH`'s own discipline.
+
 ## Open / next
 - **Conception of dyad-swe** — gated at the irreversible boundary: (a) name + authored meaning
   (a parental act, *"built from real stones"*), (b) external repo creation, (c) **Commons

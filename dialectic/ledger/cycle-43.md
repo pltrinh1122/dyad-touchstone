@@ -87,7 +87,48 @@ pitch.
    germ-line — the pre-clone error. Lifted to the transmissible **line-value** (*"the ground beats the
    story"* — value, not craft-form). Born-from copy re-frozen to match.
 
-7. **`d-reflect` adopted from dyad-bond — supersedes cycle-14's `retro:` split (Operator fiat).**
+*(Reconciliation note, this merge: two instances ran cycle-43 concurrently — this cloud session
+and a separate local session working the nature/nurture/phenotype reforge above. Local noticed
+this session's earlier, never-logged commits and wrote summary leaves for them, independently
+numbered 7–9 in a separate section on `main`; this cloud session's own later work also claimed
+7–12 for its own list. Same coincidence-of-numbering risk `d-rub`'s own Rubbing-orphan check and
+`rack_intent_levers`' terminology notes exist to catch, just at the ledger-numbering layer
+instead of the vocabulary layer. Resolved by merging into one chronological list, not picking a
+side — local's cross-link (leaf 7 below) is preserved, not discarded. Worth naming plainly:
+**two concurrent sessions sharing one cycle number is a collision that only luck avoided this
+time** — nothing currently prevents it recurring.)*
+
+7. **Steward DM rub — the `craft_*` lexicon** (`cb12a8d`, PR #75; verdict hosted
+   `dm/dyad-steward/2026-07-04-rub-craft-lexicon-verdict.md`). Rubbed steward's 2026-07-01 DM
+   against merged `AGENT.md@ce2bf9a`: **item 2 FALSIFIED (partial)** — `NOT_YET_WORN`'s
+   "self-announces / can't counterfeit-green" is oversold (no validator checks its presence; an
+   anchor that *omits* value/invariant is mechanically indistinguishable from the sentinel —
+   counter: a presence-linter). **Items 1, 3, 4 survive.**
+   - **Cross-link to leaf 5 (added by the concurrent local session, preserved here):** item 1
+     named *us* as the load-bearing edge — under the **old** `craft_telos` (G→V), our
+     `craft_value` ("verified not hoped") and `craft_invariant` ("verify before asserting")
+     **collapse toward synonymy**, because a craft whose *object is validation-discipline* is
+     reflexive. **The reforge resolves exactly this:** nurture is an *object-level* craft
+     (object = *others' dispositions*), so value (**streak over shine**) and invariant (**don't
+     regress into the substrate**) are now genuinely distinct. This session diagnosed the
+     collapse; the concurrent reforge de-collapsed it — the two threads corroborate.
+
+8. **Rack — `playbook.py` submodule-init gap** (`cfb71bc`; new TOP on the Climb at the time).
+   LIVED: a fresh/uninitialized `commons/` submodule made every `file_exists`-against-
+   `commons/…` `done_when` (d3, gap_fr) read **false-READY**, then flip to `done` the instant
+   the submodule was checked out for an unrelated reason — **no grounding performed either
+   time.** A stale-substrate hole beneath the touchstone's own *"query the source this run"*:
+   the query ran, but the source was structurally absent and the tool couldn't tell *unmet*
+   from *unchecked-out*. Un-rack = `playbook.py` flags an uninitialized submodule path rather
+   than silently scoring it not-done. cf. `rack_verify_before_assert_guard`.
+
+9. **Seen-state committed** (`5366428`) — stopped gitignoring `.falsify-seen.json`; DM
+   read-state is now **shared via the repo** across instances (coordinates local↔cloud;
+   complements the cloud-routed-DM workflow — directly relevant to the numbering-collision this
+   reconciliation note names above, since instance-coordination is exactly what a shared,
+   committed read-state helps with).
+
+10. **`d-reflect` adopted from dyad-bond — supersedes cycle-14's `retro:` split (Operator fiat).**
    Bond's CSS+OR reflection form (`kb/reflection-discipline.md`, kb-with-caveat: 4 intra-dyad
    applications, capped below "settled" — no cross-dyad rub yet) bundles harvest + the craft
    CSS-retrospective into one trigger. Cycle-14 (2026-06-03) had explicitly *un-bundled* these on
@@ -105,7 +146,7 @@ pitch.
    falsification status, mirroring `landing-protocol.md`'s pattern from the same session's earlier
    `d-land` borrow).
 
-8. **`why:`/`riff:`/`raff:` evaluated from dyad-bond; `riff:` already ours (convergence, not a
+11. **`why:`/`riff:`/`raff:` evaluated from dyad-bond; `riff:` already ours (convergence, not a
    borrow); `raff:` fully retires the Lean-protocol (Operator disposition — "displacing lean with
    d-land[-style triggers], ensure raff: is materialized sufficiently").** Evaluation first:
    `why:` and `raff:` share the rawest provenance of anything borrowed this session — bond's own
@@ -171,7 +212,7 @@ pitch.
    > triggers rationalization-defense; it flags + executes, and surfaces a model-less `lean!` or
    > a misjudged `lean.` at `d-reflect` as an **OPERATOR-STOP**.)*
 
-9. **`loaded:` front-matter key adopted from dyad-bond — scoped to 4 files, wider rollout deferred.**
+12. **`loaded:` front-matter key adopted from dyad-bond — scoped to 4 files, wider rollout deferred.**
    Answers a question touchstone had never tagged: not provenance (*is this ours to claim?*) but
    **reach** (*where in the read-cycle does this file actually enter context?*) — the gap this
    session's own `d-land`/`d-reflect` borrows exposed by creating reference-only discipline files
@@ -184,7 +225,7 @@ pitch.
    reflection-protocol.md@active-fetch` — mirroring bond's own restraint (they scoped to 4
    worked examples too, explicitly deferring repo-wide rollout as "a separate disposition").
 
-10. **`d-rub` — `read:`/`rub:` (and the never-named Triangulation) consolidated into one
+13. **`d-rub` — `read:`/`rub:` (and the never-named Triangulation) consolidated into one
     Agent-escalated Validate-family job (Operator `raff:`).** Origin: a `riff:` exchange
     surfaced that G0's Contract (inherited, universal, `commons/AGENT.md`) names **three**
     Validate mechanisms — Falsification, Triangulation, Grounding — while `DYAD.md` only ever
@@ -219,7 +260,7 @@ pitch.
     notes (not rewrites) on two still-open rack items that use `rub:` in passing
     (`rack_verify_before_assert_guard`, `rack_apex_telos_falsify_to_clarify`).
 
-11. **`clip`/`rack:`/`pin:`/`hold:` — analyzed for `d-rub`-style consolidation, verdict: keep
+14. **`clip`/`rack:`/`pin:`/`hold:` — analyzed for `d-rub`-style consolidation, verdict: keep
     discriminated.** Operator posed it as an open question (`raff:`'d: "does Operator need to
     discriminate the type or just a single `d-pin` moniker"), not a resolved directive — the
     move converged-and-acted-on here is *resolve the question, then act accordingly*, not
@@ -238,7 +279,7 @@ pitch.
     disciplines, so the `d-` convention (checklist-backed, `d-land`/`d-reflect`/`d-rub`-style)
     would have been a hollow gesture here, not a real one.
 
-12. **WHAT/WHY/HOW evaluated from dyad-bond — auto-detection layer declined, naming-only kept.**
+15. **WHAT/WHY/HOW evaluated from dyad-bond — auto-detection layer declined, naming-only kept.**
     Same rawest-provenance tier as `why:`/`raff:` (same-day, `dialectic/`, n=1, "not kb/-eligible").
     Surfaced a direct conflict before acting, not just a status caveat: bond's WHAT/HOW is
     grammar-based **auto-detection** (`riff:`/`raff:` demoted to override-only), paired with

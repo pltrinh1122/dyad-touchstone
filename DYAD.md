@@ -341,6 +341,13 @@ real state, never a guessed reading.
 | **Time-Out** | mid-pitch context switch | bilateral informal park — minimal "where was I" for clean resume |
 | **Stand Down** | session end (Reflect), fired by **`d-reflect`** | **one act, two outputs** — *harvest* surviving proofs to the Ledger **and** run the **CSS+OR** craft-retrospective, bundled (supersedes cycle-14's separate `retro:` trigger — Operator disposition, cycle-43); **verify clean tree + committed record + Fresh/Frozen/Flagged**; confirm the Climb holds in-flight work; end |
 
+**Mechanized spine** *(borrowed from dyad-bond, recast — `dialectic/standdown-automation.md`)*. The
+**deterministic** half of Stand Up / Stand Down runs as Claude Code hooks: `SessionStart →
+dialectic/standup.sh` re-derives the frontier (`playbook.py`, this-run) + inbox-catch + durability into
+boot context; `SessionEnd → dialectic/standdown.sh --log` logs the mechanical line. The **judgment** half
+stays the dyad's covalent act — target-commit at Sense; harvest + CSS+OR at `d-reflect` — *auto-trigger ≠
+auto-judgment*. Wiring the hooks was the Operator's **Covalent gate** act.
+
 **[ALIGN] is the pitch-boundary ritual** — the Reflect→Sense hinge. Leaving pitch N and
 planning pitch N+1 are one event; [ALIGN] owns that seam and **gates the leave**. It also
 fires mid-pitch the instant a tension against the summit surfaces. *(Falsification of

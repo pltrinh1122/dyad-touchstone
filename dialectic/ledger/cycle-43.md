@@ -219,6 +219,25 @@ pitch.
     notes (not rewrites) on two still-open rack items that use `rub:` in passing
     (`rack_verify_before_assert_guard`, `rack_apex_telos_falsify_to_clarify`).
 
+11. **`clip`/`rack:`/`pin:`/`hold:` — analyzed for `d-rub`-style consolidation, verdict: keep
+    discriminated.** Operator posed it as an open question (`raff:`'d: "does Operator need to
+    discriminate the type or just a single `d-pin` moniker"), not a resolved directive — the
+    move converged-and-acted-on here is *resolve the question, then act accordingly*, not
+    *merge regardless*. Analysis: unlike `read:`/`rub:` (one activity — testing — artificially
+    split, with a real gap, Triangulation, unnamed), these four answer to genuinely different
+    object-kinds — **Decision** (`clip`), **Action-item** (`rack:`), **Fact** (`pin:`),
+    **Question** (`hold:`) — each with its own single-home (Ledger / `dag.yaml` rack-nodes /
+    Anchor-or-Ledger / `hold-ledger.yml`) and initiator (Operator for the first three, **Agent**
+    for `hold:` — the only agent-originated marker). Found existing, already-settled evidence
+    this was checked before: rack vs. clip's `open` state were explicitly "two kinds, once
+    conflated" (cycle-21/24) — i.e. touchstone already did this discrimination work once and it
+    held. Verdict: **no merge.** Concrete act taken instead: a compact discrimination table
+    landed in `DYAD.md` right before Clip-protocol, addressing the actual cognitive-load
+    complaint (a fast lookup) without destroying the information a collapse would lose. No new
+    marker, no renaming to a `d-` prefix either — these are single-shot marks, not multi-step
+    disciplines, so the `d-` convention (checklist-backed, `d-land`/`d-reflect`/`d-rub`-style)
+    would have been a hollow gesture here, not a real one.
+
 ## Open / next
 - **Conception of dyad-swe** — gated at the irreversible boundary: (a) name + authored meaning
   (a parental act, *"built from real stones"*), (b) external repo creation, (c) **Commons

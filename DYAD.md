@@ -113,6 +113,26 @@ with them (cycle-43, see **Converge-protocol**).
 | **`clip`** | ascent | render the verdict and **lock** it; the climb now hangs from it |
 | **`d-land`** | ascent | land the session's committed work: commit always; check `git log origin/main..HEAD` + open-PR state for this arc — an existing open PR for it → commit + push, done (the common case); no open PR and the arc reads complete → open one, per the checklist. **Stops at "PR exists, described, pushed" — never merges, auto-merges, or requests reviewers**: merge is a *separate*, explicit Operator gate act, never inferred from the land-token alone. Checklist + provenance caveat (still our own **un-settled candidate**, not proven doctrine): `dialectic/landing-protocol.md` |
 
+**Durable-kinds at a glance** *(cycle-43 — Operator `raff:`'d the question "one `d-pin` or
+discriminate the type"; answer: discriminate — see the ledger for the full analysis)*. Unlike
+`d-rub`'s four rungs (one activity, escalating depth — a real hidden fragmentation), `clip` ·
+`rack:` · `pin:` · `hold:` are **four different object-kinds**, not four views of one job —
+already deliberately kept apart (rack vs. clip's `open` state were "two kinds, once conflated,"
+cycle-21/24), each with its own single-home and initiator:
+
+| Marker | Object | Durable home | Initiator |
+|---|---|---|---|
+| `clip` | **Decision** — a rendered, locked verdict; other moves hang from it | Ledger (proof) | Operator |
+| `rack:` | **Action-item** — "to do, not now"; self-resolvable, deferred | `dialectic/dag.yaml` (rack-kind node, LIFO) | Operator |
+| `pin:` | **Fact** — a load-bearing belief (Fiat: unilateral · Claim: bilateral, two-gated) | Anchor / Ledger | Operator |
+| `hold:` | **Question** — unresolved, *not* self-resolvable; needs the Operator specifically | `dialectic/hold-ledger.yml` | **Agent** |
+
+The tell that separates `hold:` from the other three: a rack item is something the dyad will
+still do itself, just later; a hold is something the Agent structurally *cannot* resolve without
+the Operator (cup-or-stove: "the part I can't wipe up myself"). That's not fragmentation of one
+job — it's four different answers to "what kind of thing is this," and collapsing them would
+lose exactly the information that makes each one useful.
+
 **Clip-protocol** — default is **not-clipped** (no lock without the explicit gate). Three
 states: **clipped** (locked, written as a proof) · **open** (proposed; *un-refuted, not
 verified* — held as candidate) · **refuted** (`d-rub`'d down or explicit no). Silence holds a

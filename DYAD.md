@@ -316,6 +316,17 @@ cycle-30.)*
 Shape note: **cycle** (G0; loop-shaped — SPAOR) stays distinct from **proof** (ours; a
 logged test-round) — same register, different geometry.
 
+**WHAT-categories** *(naming only, cycle-43 — cross-corroborated from dyad-bond's WHAT/WHY/HOW,
+their auto-detection deliberately NOT taken)* — every Operator turn is one of three kinds:
+**claim** (a falsifiable assertion — Pin-protocol's word for what `d-rub` tests), **directive**
+(an instruction to act), **question** (an ask that wants an answer, not a test). Naming these
+doesn't change how touchstone works: markers stay explicit, nothing auto-fires on a detected
+claim — the **anxiety-grain guard** (`d-rub`'s "unbounded 'falsify everything' is over-guard")
+is exactly what bond's `Default-falsify` would have overridden, so it wasn't taken. One
+compatible piece, not new behavior: an **elliptical utterance that defeats grammar** (bond's
+example, `"merged PR"`) already falls back to `d-rub`'s **Ground** rung here too — check the
+real state, never a guessed reading.
+
 ## Session rituals — boundary rituals (borrowed from dyad-steward)
 
 > Borrowed from `dyad-steward` (`dialectic/session-ritual.md`,

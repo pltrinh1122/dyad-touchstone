@@ -238,6 +238,21 @@ pitch.
     disciplines, so the `d-` convention (checklist-backed, `d-land`/`d-reflect`/`d-rub`-style)
     would have been a hollow gesture here, not a real one.
 
+12. **WHAT/WHY/HOW evaluated from dyad-bond — auto-detection layer declined, naming-only kept.**
+    Same rawest-provenance tier as `why:`/`raff:` (same-day, `dialectic/`, n=1, "not kb/-eligible").
+    Surfaced a direct conflict before acting, not just a status caveat: bond's WHAT/HOW is
+    grammar-based **auto-detection** (`riff:`/`raff:` demoted to override-only), paired with
+    **Default-falsify** — any detected declarative claim tested automatically. This is precisely
+    the behavior `d-rub`'s own anxiety-grain guard exists to prevent (*"the unbounded 'falsify
+    everything' reading is... over-guard"*), and directly reverses the reasoning given two
+    exchanges earlier in this same session (touchstone's lack of default-falsify is a deliberate
+    feature, not a gap). Presented as a real fork, not resolved unilaterally — Operator confirmed
+    the conservative option. **Landed:** a `DYAD.md` Vocabulary entry naming the three WHAT-
+    categories (claim/directive/question) for clarity only — no auto-detection, no
+    default-falsify, markers stay explicit. One compatible piece taken: elliptical/ungrammatical
+    utterances fall back to `d-rub`'s **Ground** rung (check reality, never guess) — not new
+    behavior, `d-rub` already did this.
+
 ## Open / next
 - **Conception of dyad-swe** — gated at the irreversible boundary: (a) name + authored meaning
   (a parental act, *"built from real stones"*), (b) external repo creation, (c) **Commons

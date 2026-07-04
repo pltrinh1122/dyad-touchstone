@@ -105,6 +105,72 @@ pitch.
    falsification status, mirroring `landing-protocol.md`'s pattern from the same session's earlier
    `d-land` borrow).
 
+8. **`why:`/`riff:`/`raff:` evaluated from dyad-bond; `riff:` already ours (convergence, not a
+   borrow); `raff:` fully retires the Lean-protocol (Operator disposition — "displacing lean with
+   d-land[-style triggers], ensure raff: is materialized sufficiently").** Evaluation first:
+   `why:` and `raff:` share the rawest provenance of anything borrowed this session — bond's own
+   token/mode-gate redesign is same-day (2026-07-03), zero lived instances since, and its own
+   entry states outright *"Not kb/-eligible... [bind-test] the same open question every prior
+   candidate discipline this session left for its own bind-test."* `riff:` needed no borrowing:
+   touchstone already had it, independently, with matching semantics.
+
+   **The conflict, surfaced before editing:** bond's `raff:` is a single lightweight converge
+   token from a context where bond had *just retired their own* thin `lean` (a bare "go-ahead,"
+   nothing like touchstone's three-way split). Touchstone's own **Lean-protocol**
+   (`lean?`/`lean.`/`lean!`) was a considerably more developed apparatus — cycle-18's over-caution
+   guard, cycle-19's no-contest timing law, cycle-20's abdication precondition + load-bearing
+   rule — genuinely at risk of being flattened by a thinner import. Operator disposed **full
+   retirement** anyway, with the explicit instruction to keep `raff:` "materialized sufficiently"
+   — i.e., port the substance, not just the name.
+
+   **What actually happened, mechanically:** `riff:` absorbs `lean?`'s model-building job (it
+   already did the adjacent job). `raff:` absorbs **both** `lean!` (delegated full-send) and
+   `lean.` (checkpoint/hold-for-approval) into one ascent-plane token — the three-way punctuation
+   split collapses to two tokens (`riff:`/`raff:`), not one. Cycle-18/19/20's rules transferred
+   **unchanged in substance, renamed in vocabulary**: the precondition, the timing law, and the
+   load-bearing rule all still hold, verbatim in effect, under `raff:`/`riff:`. The one real
+   *loss* — `lean.`'s dedicated hold-for-approval state — is explicitly not just dropped: a
+   high-blast-radius/irreversible move now pauses via **Invariant I** (the reversibility gate,
+   the same mechanism `d-land` already uses to stop at "PR exists, not merged") instead of a
+   third punctuation mark. Cycle-18's over-caution guard is read as *resolved by* this merge
+   (the overused separate checkpoint marker no longer exists to overuse), not silently dropped.
+
+   **Orphan check (the thing a rename risks silently breaking):** `dialectic/rubbings/
+   r40-lean-disambiguation.md` was a **live, telemetry-accruing Rubbing** testing exactly
+   `lean!`'s abdication guard (2 recorded observations, 2026-06-09/06-11, unresolved). Retiring
+   `lean!` without touching it would have orphaned an open test. Retargeted instead — renamed to
+   `r40-raff-disambiguation.md`, historical telemetry left in its original `lean!`/`lean?`/`lean.`
+   vocabulary (not rewritten), new observations to be logged as `raff:`/`riff:` going forward; the
+   underlying falsifiable question is unchanged. Also flagged (lighter touch, not rewritten): the
+   still-open `rack_intent_levers` DAG node theorizes about `lean?`/`lean!` directly — added a
+   terminology note in `dag.yaml`, left the historical investigation text as-is.
+
+   **Full original Lean-protocol text (superseded, preserved verbatim — not deleted from
+   history):**
+
+   > **Lean-protocol** — the `lean` family is **one instrument read along a divergence→convergence
+   > gradient**, keyed by its punctuation: **`?` diverge · `.` checkpoint · `!` send.**
+   >
+   > - **`lean?`** *(interface — divergent)* — surface the read **and hold**; no gate fires. Its
+   >   real work is to **build the shared mental model**: surface the read — one or several
+   >   candidate reads — for the other seat to rub *before* any commitment. The cheap, no-gate
+   >   model-builder.
+   > - **`lean.`** *(interface — checkpoint)* — the Operator commits to a call but **holds the
+   >   move for approval**. Over-use from control-need is the cycle-18 **over-caution** error (a
+   >   `lean.` where the down-climb was inconsequential).
+   > - **`lean!`** *(ascent — convergent / full send)* — delegated gate: take the move on the
+   >   surfaced read. **Precondition (cycle-20): a clear shared mental model of the intended
+   >   outcome must already be held by *someone*** — else `lean!` is **abdication, not trust**,
+   >   manufacturing a move neither party modeled.
+   >
+   > **The load-bearing rule (cycle-20 remediation):** the convergent gates (`lean.`/`lean!`)
+   > *presuppose* the shared model that the divergent `lean?` *builds*. When the model isn't yet
+   > shared, **down-shift to `lean?`** — diverge, build it, hold — before re-firing a convergent
+   > gate. `lean?`-as-divergence is the cheap mechanism that **earns** the convergence. *(Timing
+   > law, cycle-19: the agent never contests a fired `lean.`/`lean!` in the moment — push
+   > triggers rationalization-defense; it flags + executes, and surfaces a model-less `lean!` or
+   > a misjudged `lean.` at `d-reflect` as an **OPERATOR-STOP**.)*
+
 ## Open / next
 - **Conception of dyad-swe** — gated at the irreversible boundary: (a) name + authored meaning
   (a parental act, *"built from real stones"*), (b) external repo creation, (c) **Commons

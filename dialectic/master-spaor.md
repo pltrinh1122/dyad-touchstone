@@ -65,8 +65,9 @@ mortal session-loops. Scale stack: **pitch ⊂ segment ⊂ session (= master loo
 
 ## The intent-markers are the loop's instruction set
 
-`read:`→Sense · `lean?`→Plan(hold) · `lean!`→Plan+Act · `follow: X`→Act(spawn playbook) ·
-`rub:`→Act(spawn falsification job) · `riff:`→Plan-only divergence · `rack:`→intra-session hold ·
+`read:`→Sense · `riff:`→Plan(diverge, hold) · `raff:`→Plan+Act (converge, take the move —
+supersedes `lean?`/`lean.`/`lean!`, cycle-43) · `why:`→context, no phase-gate ·
+`follow: X`→Act(spawn playbook) · `rub:`→Act(spawn falsification job) · `rack:`→intra-session hold ·
 `d-reflect`→Reflect(harvest + CSS+OR craft-retrospective, one act) · `fb:`→feeds the CSS START/STOP ·
 `clip`/`pin:`→Reflect(commit/persist).
 

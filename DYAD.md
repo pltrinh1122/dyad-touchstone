@@ -87,24 +87,26 @@ act, not a seat. *(Refutes the former "Gatekeeper hat"; cf. **Covalent gate**.)*
 **Channels — intent markers** — the Operator leads a turn with a marker so the agent
 knows the *mode*. A lived wu-wei lexicon (single-token, low-load), separating the
 **interface plane** (how the dyad cycles) from the **ascent plane** (moves on the climb).
-Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiting.
+Syntax: **`marker: payload`** (colon frame); `rubbings?` / `rubbings+` are the surviving
+self-delimiting exception — the `lean?`/`lean.`/`lean!` punctuation-suffix convention retired
+with them (cycle-43, see **Converge-protocol**).
 
 | Marker | Plane | Mode |
 |---|---|---|
 | **`read:`** | interface | orient — re-derive state from the substrate *this run*, report; do not act. **Includes verifying a stated claim** against the source — a fact-check is a `read:`, not a `rub:` *(cycle-39 boundary)* |
 | **`rub:`** | interface | attack — rub the move on the touchstone, try to break it. **Bounded to the stated move** *(cycle-39)*: attack *that* target, not the whole situation — *verifying a fact* is `read:`, *examining the Agent's own cognition* is `introspect:`; the unbounded "falsify everything" reading is the **anxiety-grain trigger** (over-guard). Firing `rub:` **pre-authorizes the Operator to bear re-alignment** — the in-moment **exception** to cycle-19's no-contest law: a *solicited* contest defuses rationalization-defense, so the Agent may attack the Operator's *own* model in the moment (clip cycle-24) |
 | **`introspect:`** | interface | examine the Agent's **own** substrate / reasoning / dispositions / prior moves. Distinct mode *(cycle-39)*: **no external substrate to query** — the object is internal, so outputs are **self-report (shine, not streak), unverified from inside**. The Agent **tags groundedness** ("untested self-report"), never asserts it as a grounded verdict, and **routes load-bearing self-claims to a Rubbing** (`introspect:` → `rubbings+` → cold-restart → `clip`). Failure mode = **confabulation** (invisible from inside — subject == observer). Distinct from `d-reflect` (the dyad's *craft*); this examines the Agent's *cognition* |
-| **`riff:`** | interface | surface the agent's lean; diverge, no gate (supersedes `[IDEATE]`) |
+| **`riff:`** | interface | diverge, no gate. Surfaces the agent's lean (original job) **and**, absorbing `lean?`'s job (cycle-43), surfaces a read — either seat's — for the other to rub before any commitment: the cheap, no-gate model-builder `raff:` presupposes. Supersedes `[IDEATE]`. *(Cross-corroborated, not borrowed: dyad-bond independently has its own `riff:` with the same core meaning.)* |
+| **`why:`** | interface | discloses the Operator's **purpose** — reorients the response without asserting a claim to test or a directive to execute. A **special vector** like `fb:`: doesn't itself open or close a gate. *(Borrowed from dyad-bond — `GLOSSARY.md` §Token categories. Status caveat: same-day design at the source, zero lived instances since, bond's own note calls the whole redesign "not kb/-eligible" with an open bind-test — the rawest provenance of anything borrowed here so far.)* |
 | **`rack:`** | interface | carry as **durable** dormant freight — hold, do not act; the gear you haul up the whole route. Parks on the Climb as a `rack`-kind node (`dag.yaml`), surfaced in the Touchstone's RACK section each Stand Up — **survives restarts**. **Un-rack** = promote `rack`→`terminal` + attach deps (place the gear). See **Rack-protocol** |
 | **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Make a fact load-bearing (a durable *fact* — vs `rack:` which parks a durable *action-item*; vs `clip` which locks a durable *decision*). See **Pin-protocol** |
 | **`rubbings?`** | interface | review the open **Rubbings** (durable open tests) and assess — orient, **hold**. **Observer/assess-time:** discloses content at Reflect; at Sense/orient returns handles + status **only** — the content would *prime* the subject (the Rubbing firewall). Distinct from `rub:` (punctual, attack *this run*) — this operates the durable collection across runs |
 | **`rubbings+`** | interface | operate the Rubbing collection — **open** a new Rubbing or **append** one telemetry observation (+1 reading): the accretive, durable act. *(Resolving a Rubbing = `clip` its verdict to the Ledger as a Proof — the one irreversible act reuses the existing gate; no separate send marker.)* |
 | **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
 | **`d-reflect`** | ascent | fire the Reflect phase, **one act, two outputs**: *harvest* survived proofs to the Ledger (the work) **and** run the **CSS+OR** craft-retrospective (the craft) — bundled, not two separate triggers. **Supersedes cycle-14's `retro:` split** (Operator disposition, cycle-43): harvest and the craft-retrospective now fire together on one token. Checklist + provenance caveat: `dialectic/reflection-protocol.md` |
-| **`hold:`** | interface | **agent-originated** — park a surfaced question as an addressable, persistent handle: `hold:TAG <q>` (TAG = mnemonic 3-4 char, Agent-coined). The Operator answers in any mode (`lean! TAG: …` · terse `TAG: …` · `clip TAG: …`) or echoes bare `hold: TAG` to **hand it back**. The id is an *address*, never a mode. See **Hold-protocol** |
-| **`lean?`** | interface | surface the read, **diverge**, then **hold** — builds the shared model `lean!`/`lean.` presuppose (see **Lean-protocol**) |
-| **`lean!`** | ascent | surface the read **and** take the move (delegated gate) |
-| **`follow:`** | ascent | run a sound discipline **by its Playbook** — `follow: #N` takes the line a pinned principle already *led*; **apply ∧ re-rub in one move** (you weight no piece of pro without testing it — #4). The lead/`lean!` ⟷ follow pair: `lean!` takes a *new* move, `follow:` re-runs a *proven* one |
+| **`hold:`** | interface | **agent-originated** — park a surfaced question as an addressable, persistent handle: `hold:TAG <q>` (TAG = mnemonic 3-4 char, Agent-coined). The Operator answers in any mode (`raff: TAG: …` · terse `TAG: …` · `clip TAG: …`) or echoes bare `hold: TAG` to **hand it back**. The id is an *address*, never a mode. See **Hold-protocol** |
+| **`raff:`** | ascent | converge and act — take the move on the surfaced read (absorbs `lean!`'s delegated-send job) **or** hold the disposition without acting if the move is high-blast-radius/irreversible (absorbs `lean.`'s checkpoint job — now gated by **Invariant I**'s reversibility test rather than a separate token). **Precondition (cycle-20, unchanged):** a clear shared mental model of the intended outcome must already be held by *someone* — else `raff:` is abdication, not trust. **Timing law (cycle-19, unchanged):** the Agent never contests a fired `raff:` in the moment; it flags + executes, surfacing a model-less `raff:` at `d-reflect` as an **OPERATOR-STOP**. Retires the `lean?`/`lean.`/`lean!` family (cycle-43 — see **Converge-protocol**; full prior text + the open Rubbing it carries preserved in `dialectic/ledger/cycle-43.md`) |
+| **`follow:`** | ascent | run a sound discipline **by its Playbook** — `follow: #N` takes the line a pinned principle already *led*; **apply ∧ re-rub in one move** (you weight no piece of pro without testing it — #4). The lead/`raff:` ⟷ follow pair: `raff:` takes a *new* move, `follow:` re-runs a *proven* one |
 | **`clip`** | ascent | render the verdict and **lock** it; the climb now hangs from it |
 | **`d-land`** | ascent | land the session's committed work: commit always; check `git log origin/main..HEAD` + open-PR state for this arc — an existing open PR for it → commit + push, done (the common case); no open PR and the arc reads complete → open one, per the checklist. **Stops at "PR exists, described, pushed" — never merges, auto-merges, or requests reviewers**: merge is a *separate*, explicit Operator gate act, never inferred from the land-token alone. Checklist + provenance caveat (still our own **un-settled candidate**, not proven doctrine): `dialectic/landing-protocol.md` |
 
@@ -136,34 +138,47 @@ one pitch) is *not* a rack but the clip-protocol **open** state — ephemeral, d
 once conflated. *Exception (cycle #21):* an artifact-under-test the agent must not be primed on stays
 deliberately un-durable — "don't make durable the artifact under test."
 
-**Lean-protocol** — the `lean` family is **one instrument read along a divergence→convergence
-gradient**, keyed by its punctuation: **`?` diverge · `.` checkpoint · `!` send.**
+**Converge-protocol** *(supersedes Lean-protocol, cycle-43 — full prior text preserved in
+`dialectic/ledger/cycle-43.md`, not deleted)* — `raff:` collapses what the old convergent pair
+(`lean.`/`lean!`) did into **one ascent-plane token**: converge on the surfaced read and, by
+default, act on it. The **divergence→convergence gradient** itself didn't go away — `riff:` still
+builds the shared model (now absorbing `lean?`'s job too); `raff:` still needs that model before
+it fires. What's gone is the **third punctuation state** (`lean.`'s hold-for-approval): a
+high-blast-radius or irreversible move now pauses via **Invariant I** (the reversibility gate —
+the same mechanism `d-land` already uses to stop at "PR exists, not merged") rather than a
+dedicated checkpoint marker.
 
-- **`lean?`** *(interface — divergent)* — surface the read **and hold**; no gate fires. Its real work
-  is to **build the shared mental model**: surface the read — one or several candidate reads — for the
-  other seat to rub *before* any commitment. The cheap, no-gate model-builder.
-- **`lean.`** *(interface — checkpoint)* — the Operator commits to a call but **holds the move for
-  approval**. Over-use from control-need is the cycle-18 **over-caution** error (a `lean.` where the
-  down-climb was inconsequential).
-- **`lean!`** *(ascent — convergent / full send)* — delegated gate: take the move on the surfaced read.
-  **Precondition (cycle-20): a clear shared mental model of the intended outcome must already be held by
-  *someone*** — else `lean!` is **abdication, not trust**, manufacturing a move neither party modeled.
+- **Precondition (cycle-20, unchanged):** a clear shared mental model of the intended outcome must
+  already be held by *someone* — else `raff:` is **abdication, not trust**, manufacturing a move
+  neither party modeled.
+- **Timing law (cycle-19, unchanged):** the Agent never contests a fired `raff:` in the moment —
+  push triggers rationalization-defense; it flags + executes, and surfaces a model-less `raff:` at
+  `d-reflect` as an **OPERATOR-STOP**.
+- **The load-bearing rule (cycle-20 remediation, unchanged):** `raff:` *presupposes* the shared
+  model that the divergent `riff:` *builds*. When the model isn't yet shared, **down-shift to
+  `riff:`** — diverge, build it, hold — before re-firing `raff:`. `riff:`-as-divergence is the cheap
+  mechanism that **earns** the convergence.
+- **Cycle-18's over-caution guard — resolved by the merge, not dropped.** The original error was
+  *overusing* `lean.`'s hold-for-approval on down-climbs that were actually inconsequential.
+  Folding send-and-hold into one token removes the separate marker that invited that overuse;
+  Invariant I's reversibility test now carries whatever real caution the old checkpoint state
+  protected — nothing here is a *lowering* of caution, only a relocation of where it's gated.
 
-**The load-bearing rule (cycle-20 remediation):** the convergent gates (`lean.`/`lean!`) *presuppose*
-the shared model that the divergent `lean?` *builds*. When the model isn't yet shared, **down-shift to
-`lean?`** — diverge, build it, hold — before re-firing a convergent gate. `lean?`-as-divergence is the
-cheap mechanism that **earns** the convergence. *(Timing law, cycle-19: the agent never contests a fired
-`lean.`/`lean!` in the moment — push triggers rationalization-defense; it flags + executes, and surfaces
-a model-less `lean!` or a misjudged `lean.` at `d-reflect` as an **OPERATOR-STOP**.)*
+**Why this borrow, honestly:** dyad-bond's own `raff:`/mode-gate redesign is same-day,
+un-audited, explicitly "not kb/-eligible" at the source (see the `why:` marker's caveat above) —
+weaker footing than what it's replacing. The Operator's disposal to retire the Lean-protocol
+anyway is **fiat** (reducing session cognitive load), not a claim that touchstone's own history
+called for it — cycle-14/18/19/20's original reasoning stays valid and on record; only the
+*trigger vocabulary* changed.
 
 **Hold-protocol** *(clipped cycle-39)* — `hold:` makes a surfaced-but-unresolved question a
-**first-class, addressable object** — the handle the divergent markers (esp. `lean?`) implicitly
+**first-class, addressable object** — the handle the divergent markers (esp. `riff:`) implicitly
 produce. It is the **first agent-originated marker**: the Agent emits `hold:TAG <question>` when it
 parks a fork for the Operator (the hold is the Agent's, so the Agent names it). **Two-layer id**
 (cf. git short-sha ↔ full-sha): a **mnemonic surface tag** — 3-4 char, topic-evoking (`LOOP`, `TXT`),
 **Agent-coined to push input *and* lookup cost off the Operator** — for in-session reference,
 translated by the Agent at write-time into a **durable hold-ledger id** carrying full telemetry.
-**Address vs mode:** the id is an *address*, the marker is the *mode* — `lean! TAG: …` (decide) ·
+**Address vs mode:** the id is an *address*, the marker is the *mode* — `raff: TAG: …` (decide) ·
 bare `TAG: …` (terse, mode-implicit — the Operator's terseness fiat) · `clip TAG: …` (lock); bare
 **`hold: TAG` echoed back = the hand-back** ("still yours"). Durable home: **`dialectic/hold-ledger.yml`**
 — *append-only typology, never live-status* (single-home #2: a hold's open/closed state is re-derived
@@ -175,18 +190,20 @@ the parent."
 **Re-alignment-protocol** — *who may contest whose model, when* — is **marker-linked** (cycle-24, scoping
 cycle-19). The no-contest-in-moment law is **not global**; it is the **convergent pole's** property:
 
-- **Divergent / exploration markers** — `read:` `rub:` `riff:` `lean?` `d-reflect` — **pre-authorize
+- **Divergent / exploration markers** — `read:` `rub:` `riff:` `d-reflect` — **pre-authorize
   in-moment re-alignment.** The Agent may attack the Operator's *own* model in the moment (no made-up
   mind to defend; a *solicited* contest defuses rationalization-defense). `rub:` and `riff:` are the lived
   cases. Who bears the re-alignment = whoever's model breaks. *(`d-reflect` keeps `retro:`'s divergent
   classing even though it now also harvests — the CSS+OR half is still exploration of the craft, and
   harvest alone files already-rubbed proofs, nothing new to contest.)*
-- **Convergent / commitment markers** — `lean.` `lean!` `follow:` `clip` — keep cycle-19's **no-contest
+- **Convergent / commitment markers** — `raff:` `follow:` `clip` — keep cycle-19's **no-contest
   in-moment**; the Agent flags + executes and defers the contest to `d-reflect` as an **OPERATOR-STOP**.
 - **Special vectors:** `fb:` is *reverse-direction* (Operator→Agent: adjust behavior, don't attack
-  content); `pin:`-of-a-*claim* is bilateral by the **Pin-protocol**, `pin:`-of-*fiat* is unilateral.
+  content); `why:` discloses Operator purpose without asserting a claim or a directive — it doesn't
+  itself open or close a gate; `pin:`-of-a-*claim* is bilateral by the **Pin-protocol**, `pin:`-of-*fiat*
+  is unilateral.
 
-The axis is the same divergence→convergence gradient as the **Lean-protocol**: a model still forming
+The axis is the same divergence→convergence gradient as the **Converge-protocol**: a model still forming
 invites the contest; a made-up mind defers it. *(Calibration carried in the dyad's memory, not here: the
 no-contest default is protection for emotional/made-up-mind moments — scale it to Operator maturity.)*
 

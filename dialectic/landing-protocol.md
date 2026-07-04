@@ -1,3 +1,7 @@
+---
+loaded: active-fetch   # consulted when d-land actually fires. Key → dialectic/loaded-status-frontmatter.md.
+---
+
 # Landing-protocol — the `d-land` checklist
 
 > Single-home for `d-land` (`DYAD.md` §Channel discipline points here, does not restate this).

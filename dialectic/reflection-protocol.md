@@ -1,3 +1,7 @@
+---
+loaded: active-fetch   # consulted when d-reflect actually fires. Key → dialectic/loaded-status-frontmatter.md.
+---
+
 # Reflection-protocol — the `d-reflect` checklist
 
 > Single-home for `d-reflect` (`DYAD.md` §Channel discipline points here, does not restate this).

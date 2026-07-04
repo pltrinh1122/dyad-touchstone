@@ -171,6 +171,19 @@ pitch.
    > triggers rationalization-defense; it flags + executes, and surfaces a model-less `lean!` or
    > a misjudged `lean.` at `d-reflect` as an **OPERATOR-STOP**.)*
 
+9. **`loaded:` front-matter key adopted from dyad-bond — scoped to 4 files, wider rollout deferred.**
+   Answers a question touchstone had never tagged: not provenance (*is this ours to claim?*) but
+   **reach** (*where in the read-cycle does this file actually enter context?*) — the gap this
+   session's own `d-land`/`d-reflect` borrows exposed by creating reference-only discipline files
+   without ever saying when they're read. Source status disclosed: bond's copy is
+   `CANDIDATE · dialectic/ · NOT settled · n=2`, mechanization explicitly deferred there too
+   ("un-mechanized, a wrong tag can sit unnoticed"). Single-homed in
+   `dialectic/loaded-status-frontmatter.md`. Applied to the decidable slice this conversation
+   actually touched — `DYAD.md@boot` (the anchor's first-ever front-matter block), `dialectic/
+   master-spaor.md@on-demand`, `dialectic/landing-protocol.md@active-fetch`, `dialectic/
+   reflection-protocol.md@active-fetch` — mirroring bond's own restraint (they scoped to 4
+   worked examples too, explicitly deferring repo-wide rollout as "a separate disposition").
+
 ## Open / next
 - **Conception of dyad-swe** — gated at the irreversible boundary: (a) name + authored meaning
   (a parental act, *"built from real stones"*), (b) external repo creation, (c) **Commons

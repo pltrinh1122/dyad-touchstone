@@ -1,3 +1,7 @@
+---
+loaded: boot   # shim-instructed immediate read, every session. Key → dialectic/loaded-status-frontmatter.md.
+---
+
 # dyad-touchstone — DYAD.md
 
 > Universal instruction layer for the dyad. Load at session start via the

@@ -1,3 +1,7 @@
+---
+loaded: on-demand   # DYAD.md points here for the full spec; nothing forces a read unless followed. Key → dialectic/loaded-status-frontmatter.md.
+---
+
 # The Master SPAOR — the session loop (clipped 2026-06-03)
 
 > The dyad's execution engine, in the assayed-climb register. Clipped this session after two

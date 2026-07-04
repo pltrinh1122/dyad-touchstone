@@ -33,15 +33,19 @@ being written and committed.
 
 **The OR tag we originally borrowed has since been superseded at the source.** As of bond's
 2026-07-04 evolution, OR no longer mirrors CONTINUE/START/STOP as a per-type tag — it
-consolidated into its own format, **SH (Should Have / Should Hold)**:
-- **Should Have** — a single past instance, hit-or-miss: *"Should have [verified X] — didn't;
-  [claim] independently found false via [mechanical check]."* The debit direction.
-- **Should Hold** — a standing, ongoing pattern: *"Should hold: [the bar]"* — evidenced by
+consolidated into its own format, **SH (Should Have / Should Hold)** — **the Operator's reflection
+lane** (the counterpart to CSS, which is primarily the Agent's): the Operator retrospects their *own*
+steering, as **Operator Should Have / Operator Should Hold**. The Agent does not author it.
+- **Should Have** *(Operator)* — a single past instance, hit-or-miss: *"Should have [verified X] —
+  didn't; [claim] independently found false via [mechanical check]."* The debit direction.
+- **Should Hold** *(Operator)* — a standing, ongoing pattern: *"Should hold: [the bar]"* — evidenced by
   verbatim quotes of instances meeting it. The credit direction.
 
 **Every SH entry requires a verbatim quote as evidence** — the Agent's own paraphrase doesn't
 qualify — plus, for Should-Have specifically, independent mechanical verification that the
-claim was actually false, not just Agent-asserted.
+claim was actually false, not just Agent-asserted. **The Operator authors the SH conclusions; the
+Agent may surface the verbatim substrate (the Operator's own quotes + mechanical facts) to push
+lookup-cost off the Operator, but never forms the Should-Have / Should-Hold itself.**
 
 **Status, disclosed exactly as bond discloses it:** *"structure only, no instances of the SH
 grammar itself... does not graduate until it survives a real application."* Rawer than OR ever
@@ -77,3 +81,8 @@ Re-open the split if a real case shows the merge losing something cycle-14 was p
 
 Retired `retro:` as a standalone marker (cycle-43); its Divergent re-alignment classing (pre-
 authorizing in-moment contest) carries forward onto `d-reflect` unchanged.
+
+**SH seat clarified (cycle-43 tail, local instance).** The borrowed form tagged the CSS lanes to a
+seat but left SH's seat unstated; a local `d-reflect` run mis-defaulted SH to the Agent. Operator
+correction: **SH is the Operator's reflection lane** — CSS = Agent (craft / mechanism), SH = Operator
+(steering). Attribution added above.

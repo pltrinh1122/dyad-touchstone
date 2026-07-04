@@ -106,20 +106,7 @@ Syntax: **`marker: payload`** (colon frame); `lean?` / `lean!` are self-delimiti
 | **`lean!`** | ascent | surface the read **and** take the move (delegated gate) |
 | **`follow:`** | ascent | run a sound discipline **by its Playbook** — `follow: #N` takes the line a pinned principle already *led*; **apply ∧ re-rub in one move** (you weight no piece of pro without testing it — #4). The lead/`lean!` ⟷ follow pair: `lean!` takes a *new* move, `follow:` re-runs a *proven* one |
 | **`clip`** | ascent | render the verdict and **lock** it; the climb now hangs from it |
-| **`d-land`** | ascent | land the session's committed work: commit always; check `git log origin/main..HEAD` + open-PR state for this arc — an existing open PR for it → commit + push, done (the common case); no open PR and the arc reads complete → open one (see **Landing-protocol**). **Stops at "PR exists, described, pushed" — never merges, auto-merges, or requests reviewers**: merge is a *separate*, explicit Operator gate act, never inferred from the land-token alone. *(Borrowed from dyad-bond — `GLOSSARY.md` §Dyad-UI cluster + `dialectic/relationship-craft.md` §The landing-discipline; referenced, not copied — cf. **Covalent gate**.)* |
-
-**Landing-protocol** — `d-land`'s checklist, our translation of dyad-bond's (theirs stays their own
-CANDIDATE, un-settled; this is not a copy). **1.** Verify green *this run*, not from a stale pass —
-`read:` before asserting ready. **2.** Scope to the whole session-arc via `git log origin/main..HEAD`,
-not just the triggering commit — one PR per arc. **3.** Open mechanically once the Operator's signal
-has fired; no second CTA. **4.** Write a real Summary + Test-plan body, not a bare PR. **5.** **Never
-merge, auto-merge, or request reviewers** — stop at "exists and is described" (this *is* Gatekeeping-
-is-a-gate-act and `no-self-ratify`, already ours, now given a name at the PR boundary specifically).
-**6.** Surface it back explicitly — in chat *and* a durable record (rack/Ledger) — never left implicit
-in chat alone. **7.** Flag a restart-implication if the Anchor itself (`DYAD.md`) was touched. **8.**
-Re-check for a PR template each session, not once. *Lived note (cycle-43): PR #19 was opened **and**
-merged in one pass, before this protocol existed — that merge stands; `d-land` from here forward stops
-at open, and a merge is the Operator's own separate act.*
+| **`d-land`** | ascent | land the session's committed work: commit always; check `git log origin/main..HEAD` + open-PR state for this arc — an existing open PR for it → commit + push, done (the common case); no open PR and the arc reads complete → open one, per the checklist. **Stops at "PR exists, described, pushed" — never merges, auto-merges, or requests reviewers**: merge is a *separate*, explicit Operator gate act, never inferred from the land-token alone. Checklist + provenance caveat (still our own **un-settled candidate**, not proven doctrine): `dialectic/landing-protocol.md` |
 
 **Clip-protocol** — default is **not-clipped** (no lock without the explicit gate). Three
 states: **clipped** (locked, written as a proof) · **open** (proposed; *un-refuted, not

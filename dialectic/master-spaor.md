@@ -44,7 +44,9 @@ The loop is shared; its phases split across the two seats (this is intent-mechan
   (disposes a *Commons artifact*) crosses into the same session when we own shared infra — same
   human, role set by the object of disposal (DYAD.md D4; ledger cycle-15).
 - **Sense · Act · Observe** = the **agent** (mechanism — re-derive · execute · validate). **Observe
-  *is* falsification** — agent-performed, Touchstone-enforced, Operator-directed (`rub:`); not a seat.
+  *is* the Validate-family practice** (Ground/Read/Triangulate/Rub — matches G0 SPAOR's own "Observe
+  = test against reality," not Falsification-narrowed) — agent-performed, Touchstone-enforced,
+  Operator-directed (`d-rub`); not a seat.
 
 ## Act spawns jobs — fractal SPAOR
 
@@ -69,9 +71,10 @@ mortal session-loops. Scale stack: **pitch ⊂ segment ⊂ session (= master loo
 
 ## The intent-markers are the loop's instruction set
 
-`read:`→Sense · `riff:`→Plan(diverge, hold) · `raff:`→Plan+Act (converge, take the move —
+`d-rub`→Sense/Act (Ground/Read/Triangulate/Rub, Agent-escalated per the ask — supersedes `read:`/
+`rub:`, cycle-43) · `riff:`→Plan(diverge, hold) · `raff:`→Plan+Act (converge, take the move —
 supersedes `lean?`/`lean.`/`lean!`, cycle-43) · `why:`→context, no phase-gate ·
-`follow: X`→Act(spawn playbook) · `rub:`→Act(spawn falsification job) · `rack:`→intra-session hold ·
+`follow: X`→Act(spawn playbook) · `rack:`→intra-session hold ·
 `d-reflect`→Reflect(harvest + CSS+OR craft-retrospective, one act) · `fb:`→feeds the CSS START/STOP ·
 `clip`/`pin:`→Reflect(commit/persist).
 

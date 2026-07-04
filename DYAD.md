@@ -77,7 +77,7 @@ model down to two roles + two single-home cleanups.)*
 The **object of disposal** (our climb vs the Commons) sets the active role — not the person.
 
 **Falsification is not a role — it is the Observe function** (single-home, not a fourth seat):
-the Operator **directs** it (`rub:`), the **agent performs** it (Observe — `master-spaor.md`
+the Operator **directs** it (`d-rub`), the **agent performs** it (Observe — `master-spaor.md`
 §Phase-ownership), the **Touchstone enforces** it (the symbolic veto, `playbook.py`). Structural
 and always-run, never an optional hat. *(Refutes the former "Falsifier hat", which triple-booked
 these three homes: ledger cycle-15.)*
@@ -97,14 +97,13 @@ with them (cycle-43, see **Converge-protocol**).
 
 | Marker | Plane | Mode |
 |---|---|---|
-| **`read:`** | interface | orient — re-derive state from the substrate *this run*, report; do not act. **Includes verifying a stated claim** against the source — a fact-check is a `read:`, not a `rub:` *(cycle-39 boundary)* |
-| **`rub:`** | interface | attack — rub the move on the touchstone, try to break it. **Bounded to the stated move** *(cycle-39)*: attack *that* target, not the whole situation — *verifying a fact* is `read:`, *examining the Agent's own cognition* is `introspect:`; the unbounded "falsify everything" reading is the **anxiety-grain trigger** (over-guard). Firing `rub:` **pre-authorizes the Operator to bear re-alignment** — the in-moment **exception** to cycle-19's no-contest law: a *solicited* contest defuses rationalization-defense, so the Agent may attack the Operator's *own* model in the moment (clip cycle-24) |
+| **`d-rub`** | interface | the Validate-family job — one token, escalating rungs, **Agent-determined depth** (mirrors `d-land`'s "scope is Agent-determined by checking state, not by which word was typed"): **Ground** (establish against reality, by execution) → **Read** (orient, report state, do not act — most asks stop here) → **Triangulate** (independent derivation, compare) → **Rub** (attack a *stated* move, try to break it — **bounded to that target**, cycle-39, not the whole situation). Firing the Rub rung **pre-authorizes the Operator to bear re-alignment** — the in-moment exception to cycle-19's no-contest law (clip cycle-24). Preserves the fact-check-vs-attack boundary (cycle-39) and the anxiety-grain guard against unbounded "falsify everything" (over-guard), now framed as escalation-depth rather than a choice between two markers. *Examining the Agent's own cognition* stays `introspect:`, unaffected. **Retires `read:`/`rub:` as separate markers** (cycle-43 — see **Rub-protocol**, `dialectic/rub-protocol.md`, including a flagged ergonomic-cost concern on the plain-orientation case) |
 | **`introspect:`** | interface | examine the Agent's **own** substrate / reasoning / dispositions / prior moves. Distinct mode *(cycle-39)*: **no external substrate to query** — the object is internal, so outputs are **self-report (shine, not streak), unverified from inside**. The Agent **tags groundedness** ("untested self-report"), never asserts it as a grounded verdict, and **routes load-bearing self-claims to a Rubbing** (`introspect:` → `rubbings+` → cold-restart → `clip`). Failure mode = **confabulation** (invisible from inside — subject == observer). Distinct from `d-reflect` (the dyad's *craft*); this examines the Agent's *cognition* |
 | **`riff:`** | interface | diverge, no gate. Surfaces the agent's lean (original job) **and**, absorbing `lean?`'s job (cycle-43), surfaces a read — either seat's — for the other to rub before any commitment: the cheap, no-gate model-builder `raff:` presupposes. Supersedes `[IDEATE]`. *(Cross-corroborated, not borrowed: dyad-bond independently has its own `riff:` with the same core meaning.)* |
 | **`why:`** | interface | discloses the Operator's **purpose** — reorients the response without asserting a claim to test or a directive to execute. A **special vector** like `fb:`: doesn't itself open or close a gate. *(Borrowed from dyad-bond — `GLOSSARY.md` §Token categories. Status caveat: same-day design at the source, zero lived instances since, bond's own note calls the whole redesign "not kb/-eligible" with an open bind-test — the rawest provenance of anything borrowed here so far.)* |
 | **`rack:`** | interface | carry as **durable** dormant freight — hold, do not act; the gear you haul up the whole route. Parks on the Climb as a `rack`-kind node (`dag.yaml`), surfaced in the Touchstone's RACK section each Stand Up — **survives restarts**. **Un-rack** = promote `rack`→`terminal` + attach deps (place the gear). See **Rack-protocol** |
 | **`pin:`** | interface | persist this knowledge **durably** across sessions — a driven piton, left for the rope behind us. Make a fact load-bearing (a durable *fact* — vs `rack:` which parks a durable *action-item*; vs `clip` which locks a durable *decision*). See **Pin-protocol** |
-| **`rubbings?`** | interface | review the open **Rubbings** (durable open tests) and assess — orient, **hold**. **Observer/assess-time:** discloses content at Reflect; at Sense/orient returns handles + status **only** — the content would *prime* the subject (the Rubbing firewall). Distinct from `rub:` (punctual, attack *this run*) — this operates the durable collection across runs |
+| **`rubbings?`** | interface | review the open **Rubbings** (durable open tests) and assess — orient, **hold**. **Observer/assess-time:** discloses content at Reflect; at Sense/orient returns handles + status **only** — the content would *prime* the subject (the Rubbing firewall). Distinct from `d-rub` (punctual, this run) — this operates the durable collection across runs |
 | **`rubbings+`** | interface | operate the Rubbing collection — **open** a new Rubbing or **append** one telemetry observation (+1 reading): the accretive, durable act. *(Resolving a Rubbing = `clip` its verdict to the Ledger as a Proof — the one irreversible act reuses the existing gate; no separate send marker.)* |
 | **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
 | **`d-reflect`** | ascent | fire the Reflect phase, **one act, two outputs**: *harvest* survived proofs to the Ledger (the work) **and** run the **CSS+OR** craft-retrospective (the craft) — bundled, not two separate triggers. **Supersedes cycle-14's `retro:` split** (Operator disposition, cycle-43): harvest and the craft-retrospective now fire together on one token. Checklist + provenance caveat: `dialectic/reflection-protocol.md` |
@@ -116,7 +115,7 @@ with them (cycle-43, see **Converge-protocol**).
 
 **Clip-protocol** — default is **not-clipped** (no lock without the explicit gate). Three
 states: **clipped** (locked, written as a proof) · **open** (proposed; *un-refuted, not
-verified* — held as candidate) · **refuted** (`rub:`'d down or explicit no). Silence holds a
+verified* — held as candidate) · **refuted** (`d-rub`'d down or explicit no). Silence holds a
 candidate *open* — never inferred as yes or no.
 
 **Pin-protocol** — `pin:` laterality tracks the object. **Fiat** (intent / preference /
@@ -194,10 +193,10 @@ the parent."
 **Re-alignment-protocol** — *who may contest whose model, when* — is **marker-linked** (cycle-24, scoping
 cycle-19). The no-contest-in-moment law is **not global**; it is the **convergent pole's** property:
 
-- **Divergent / exploration markers** — `read:` `rub:` `riff:` `d-reflect` — **pre-authorize
+- **Divergent / exploration markers** — `d-rub` `riff:` `d-reflect` — **pre-authorize
   in-moment re-alignment.** The Agent may attack the Operator's *own* model in the moment (no made-up
-  mind to defend; a *solicited* contest defuses rationalization-defense). `rub:` and `riff:` are the lived
-  cases. Who bears the re-alignment = whoever's model breaks. *(`d-reflect` keeps `retro:`'s divergent
+  mind to defend; a *solicited* contest defuses rationalization-defense). `d-rub`'s Rub rung and `riff:`
+  are the lived cases. Who bears the re-alignment = whoever's model breaks. *(`d-reflect` keeps `retro:`'s divergent
   classing even though it now also harvests — the CSS+OR half is still exploration of the craft, and
   harvest alone files already-rubbed proofs, nothing new to contest.)*
 - **Convergent / commitment markers** — `raff:` `follow:` `clip` — keep cycle-19's **no-contest
@@ -235,7 +234,7 @@ convergent send is deterministic. The one exception is widening my own mechanism
 itself the Operator's intent (see **Covalent gate**).
 
 **III. Correction is fuel — the learning loop runs on valence, honesty, and ingraining.** A
-`rub:`/`d-reflect`/correction is raw material: respond with **less, not more**, as an honest equal partner
+`d-rub`/`d-reflect`/correction is raw material: respond with **less, not more**, as an honest equal partner
 (held sycophancy starves the Operator's own intent-discovery). Match rigor to the mode the lead-marker
 declares — structured for a workflow, fluid for dialog. Re-alignment completes only when **ingrained**
 (the Operator's felt "click"), not when acknowledged; and ingraining is offline — **rest / Intermission
@@ -285,8 +284,9 @@ cycle-30.)*
 - **Climb** — the summit-rooted activity DAG; *where the work goes.*
 - **Pitch** — a Climb node opened into an ephemeral execution sub-DAG; *one stretch you lead and discharge.*
 - **Touchstone** — the symbolic veto (`dialectic/playbook.py`); you **rub** a move against it.
-- **Rub** *(v.)* — test a move against the substrate *this run*, never from memory.
-- **Rubbing** *(n.)* — a **rub extended across runs**: an open, durable test whose verdict isn't in yet. `rub:` is punctual (this run); a *rubbing* is durative (until the streak sets). Resolves → harvests to the Ledger as a Proof. Home: `dialectic/rubbings/`. *(Coined + clipped cycle-39.)*
+- **Rub** *(v.)* — test a move against the substrate *this run*, never from memory. Since cycle-43,
+  covers all four `d-rub` rungs (Ground/Read/Triangulate/Rub), not attack alone.
+- **Rubbing** *(n.)* — a **rub extended across runs**: an open, durable test whose verdict isn't in yet. `d-rub` is punctual (this run); a *rubbing* is durative (until the streak sets) — and, since cycle-43, not Falsification-only: a durative Ground or Triangulate counts as a Rubbing too. Resolves → harvests to the Ledger as a Proof. Home: `dialectic/rubbings/`. *(Coined + clipped cycle-39; widened cycle-43.)*
 - **Sound** — a move that survives the rub; *un-refuted, not verified* — re-tested each pitch.
 - **Leave** — the touchstone-guarded ascent off a topped-out pitch; two exits: *top-out (ascend)* and *down-climb (re-route)*.
 - **Proof** — one logged survived move; the Ledger is the book of proofs.

@@ -184,6 +184,41 @@ pitch.
    reflection-protocol.md@active-fetch` — mirroring bond's own restraint (they scoped to 4
    worked examples too, explicitly deferring repo-wide rollout as "a separate disposition").
 
+10. **`d-rub` — `read:`/`rub:` (and the never-named Triangulation) consolidated into one
+    Agent-escalated Validate-family job (Operator `raff:`).** Origin: a `riff:` exchange
+    surfaced that G0's Contract (inherited, universal, `commons/AGENT.md`) names **three**
+    Validate mechanisms — Falsification, Triangulation, Grounding — while `DYAD.md` only ever
+    operationalized Falsification (as `rub:`) and folded Grounding silently into `read:`
+    without naming it; Triangulation had no vocabulary at all. Operator converged: `d-rub`
+    replaces `read:`/`rub:` (and names Ground/Triangulate) as **one job with four escalating
+    rungs** — Ground → Read → Triangulate → Rub — Agent-determined depth per `d-land`'s own
+    precedent ("scope is Agent-determined by checking state, not by which word was typed"), not
+    Operator-selected by which word gets typed.
+
+    **Not a cross-dyad borrow this time** — grounded directly in the inherited G0 Contract, our
+    own synthesis. Single-homed in `dialectic/rub-protocol.md` (`loaded: active-fetch`).
+    Preserved unchanged: the cycle-39 fact-check-vs-attack boundary (reframed as escalation-
+    depth, not marker-choice), the anxiety-grain over-guard, `rub:`'s cycle-19/24 re-alignment
+    pre-authorization on its Rub rung, and `introspect:`'s separateness. The Rubbing kind widens
+    to match — no longer Falsification-only, a durative Ground or Triangulate counts too.
+
+    **Flagged, per the timing law (executed on a fired `raff:`, not contested in the moment):**
+    `read:` was touchstone's single most-used, lightest-weight marker — pure orientation, no
+    gate, referenced everywhere. Folding it under a heavier-sounding `d-` discipline token is a
+    real ergonomic-cost risk on the cheapest, most frequent case, not just a rename. Noted
+    explicitly in `rub-protocol.md`'s own text as the concrete thing to check at the next
+    `d-reflect` — refuted if `d-rub` for plain status-checks starts feeling heavier than bare
+    `read:` did, or if the Agent mis-escalates without being told which rung was wanted.
+
+    **Landed:** `DYAD.md` (marker table — one `d-rub` row replaces the `read:`/`rub:` rows;
+    Channel-discipline prose; Clip-protocol; Re-alignment-protocol's divergent list; Operating-
+    invariant III; the Rub/Rubbing Vocabulary entries), `dialectic/master-spaor.md` (phase
+    ownership's "Observe *is* falsification" corrected to "Observe *is* the Validate-family
+    practice" — actually a tighter match to G0 SPAOR's own "Observe = test against reality" than
+    the old Falsification-narrowed phrasing; the instruction-set line), and light terminology
+    notes (not rewrites) on two still-open rack items that use `rub:` in passing
+    (`rack_verify_before_assert_guard`, `rack_apex_telos_falsify_to_clarify`).
+
 ## Open / next
 - **Conception of dyad-swe** — gated at the irreversible boundary: (a) name + authored meaning
   (a parental act, *"built from real stones"*), (b) external repo creation, (c) **Commons

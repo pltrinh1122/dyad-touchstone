@@ -87,6 +87,24 @@ pitch.
    germ-line — the pre-clone error. Lifted to the transmissible **line-value** (*"the ground beats the
    story"* — value, not craft-form). Born-from copy re-frozen to match.
 
+7. **`d-reflect` adopted from dyad-bond — supersedes cycle-14's `retro:` split (Operator fiat).**
+   Bond's CSS+OR reflection form (`kb/reflection-discipline.md`, kb-with-caveat: 4 intra-dyad
+   applications, capped below "settled" — no cross-dyad rub yet) bundles harvest + the craft
+   CSS-retrospective into one trigger. Cycle-14 (2026-06-03) had explicitly *un-bundled* these on
+   grounds that conflating them was itself a lived error. The Operator disposed to re-merge anyway
+   — stated grounds: **reducing session cognitive load**, not a re-litigation or falsification of
+   cycle-14's reasoning, and not (yet) backed by touchstone's own telemetry the way bond's merge
+   was backed by theirs. Both readings kept on record (cycle-14 untouched; this entry is the
+   supersession). Also took the **OR (Operator-Reflect) provenance tag** on CONTINUE lines — the
+   one genuinely new piece, since `retro:`'s CONTINUE was already bilateral-and-rubbed but had no
+   at-a-glance tag for which side sourced it. Landed: `DYAD.md` (marker table + Session rituals +
+   Re-alignment-protocol + Operating-invariant III, all `retro:`→`d-reflect`), `dialectic/master-
+   spaor.md` (phase table + instruction-set line + the two-streams paragraph, now noting the
+   supersession rather than silently overwriting cycle-14's rationale), and the single-home
+   `dialectic/reflection-protocol.md` (checklist + provenance caveat + our own un-audited
+   falsification status, mirroring `landing-protocol.md`'s pattern from the same session's earlier
+   `d-land` borrow).
+
 ## Open / next
 - **Conception of dyad-swe** — gated at the irreversible boundary: (a) name + authored meaning
   (a parental act, *"built from real stones"*), (b) external repo creation, (c) **Commons

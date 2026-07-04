@@ -15,7 +15,7 @@ It runs the five phases once at session scale, spawning nested SPAOR jobs inside
 | **Plan** | — | select from the computed frontier — *the Operator's seat; the falsifier refuses to select* |
 | **Act** | — (the body) | spawn jobs concurrently — pitches & playbooks; **[ALIGN]** gates pitch-boundary leaves |
 | **Observe** | — | join the jobs' results; validate each against its `done_when` |
-| **Reflect** | **Stand Down** | **two distinct outputs** — *harvest* (survived proofs → Ledger: the **work**) **and** *`retro:`* (a CSS Continue/Start/Stop pass → the **craft**: how we climbed); verify clean tree + Fresh/Frozen/Flagged; confirm the Climb holds in-flight work; end |
+| **Reflect** | **Stand Down** | fired by **`d-reflect`**, **one act, two outputs** — *harvest* (survived proofs → Ledger: the **work**) **and** the **CSS+OR** Continue/Start/Stop pass → the **craft**: how we climbed; verify clean tree + Fresh/Frozen/Flagged; confirm the Climb holds in-flight work; end |
 
 **Intermission** = an intra-session **Reflect→Sense** re-entry (segment seam; resume the same climb).
 
@@ -67,13 +67,18 @@ mortal session-loops. Scale stack: **pitch ⊂ segment ⊂ session (= master loo
 
 `read:`→Sense · `lean?`→Plan(hold) · `lean!`→Plan+Act · `follow: X`→Act(spawn playbook) ·
 `rub:`→Act(spawn falsification job) · `riff:`→Plan-only divergence · `rack:`→intra-session hold ·
-`retro:`→Reflect(craft retrospective, CSS) · `fb:`→feeds retro's START/STOP · `clip`/`pin:`→Reflect(commit/persist).
+`d-reflect`→Reflect(harvest + CSS+OR craft-retrospective, one act) · `fb:`→feeds the CSS START/STOP ·
+`clip`/`pin:`→Reflect(commit/persist).
 
-**Reflect emits two streams — never one.** *Harvest* banks survived **proofs** to the Ledger (object:
-the **work** / ascent plane). *`retro:`* runs a **CSS** pass on the **craft** (object: the **dyad** /
-interface plane) — START/STOP from `fb:`, CONTINUE = Operator POV (then rubbed). Tell: CSS verbs
-(keep/start/stop) fit only *behaviors* — you *bank* a proof, you don't "stop" it. Conflating them was
-the error that motivated naming `retro:` distinctly (cycle-14).
+**Reflect's two streams, now one trigger (cycle-43 supersedes cycle-14 — see below).** *Harvest* banks
+survived **proofs** to the Ledger (object: the **work** / ascent plane). The **CSS+OR** pass runs on the
+**craft** (object: the **dyad** / interface plane) — START/STOP from `fb:`, CONTINUE tagged **OR**
+(Operator-Reflect) when credited to the Operator's own conduct vs. Agent-observed. Tell: CSS verbs
+(keep/start/stop) fit only *behaviors* — you *bank* a proof, you don't "stop" it — that distinction is
+still real; only the *trigger* merged. *(Cycle-14 originally split these onto two markers precisely to
+avoid conflating them; cycle-43, borrowing dyad-bond's `d-reflect` on the Operator's own disposition —
+reducing session cognitive load, not a re-litigation of cycle-14's reasoning — re-merges the trigger.
+Both readings stay on record: see `dialectic/ledger/cycle-14.md` and `cycle-43.md`.)*
 
 ## Racked (deferred this-climb)
 

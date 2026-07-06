@@ -21,7 +21,11 @@ It runs the five phases once at session scale, spawning nested SPAOR jobs inside
 | **Observe** | — | join the jobs' results; validate each against its `done_when` |
 | **Reflect** | **Stand Down** | fired by **`d-reflect`**, **one act, two outputs** — *harvest* (survived proofs → Ledger: the **work**) **and** the **CSS+OR** Continue/Start/Stop pass → the **craft**: how we climbed; verify clean tree + Fresh/Frozen/Flagged; confirm the Climb holds in-flight work; end |
 
-**Intermission** = an intra-session **Reflect→Sense** re-entry (segment seam; resume the same climb).
+**Intermission** = **`d-reflect` fired at a segment seam** — *not a distinct ritual:* the same Reflect
+(harvest + CSS+OR/SH) as Stand Down, then a re-Sense to resume the same climb instead of ending. Its
+Agent-actions are wholly Stand Down's ∪ Stand Up's; **collapsed (`raff:`, this session)** — once
+durability is constant, nothing distinguishes it as a primitive (its old niche was a lightweight WIP-flush
+seam, now ambient). Retained only as vocabulary for "reflect-without-exiting," not as a separate action-set.
 
 ## The end-in-mind law (the completing piece)
 

@@ -25,7 +25,7 @@ Not in-place-XOR-mandatory-exit. The CPU answer is a synthesis:
    (Sense→Act:falsify→Observe:post), never folded into the host pitch. The **{FO}/{TO}
    boundary (cycle-15) already IS the interrupt boundary** — {FO} Commons work interrupting a
    {TO} climb.
-2. **Yield only at reentrant-safe points** (pitch boundaries/[ALIGN], phase seams/Intermission,
+2. **Yield only at reentrant-safe points** (pitch boundaries/[ALIGN], segment seams/a mid-session `d-reflect`,
    explicit Time-Outs) — cooperative by default; no preemption mid-inference.
 3. **SLA → priority → bounded preemption.** Scheduler rule: *service inline iff
    `time-to-next-safe-yield > SLA-slack`; else queue/defer.* Hard deadlines force a Time-Out park.

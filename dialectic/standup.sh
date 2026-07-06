@@ -21,7 +21,13 @@
 #   (reversible mechanism); the .claude/settings.json wiring is the Operator's. Runnable by hand
 #   regardless.  → dialectic/standdown-automation.md
 #
-# Usage:  dialectic/standup.sh          # human-readable Stand-Up report (stdout)
+# TWO TRIGGERS (token ∪ hook, not either/or — DYAD.md §Session rituals):
+#   • Claude `SessionStart` hook → `--hook` mode (zero-friction, Claude-only).
+#   • the typed `d-start: {target}` marker → plain stdout mode; fires on ANY substrate the Operator
+#     can type into (GEMINI.md has no startup-hook analog). d-start : standup.sh :: d-reflect : standdown.sh.
+#   Same spine either way; the token also carries the {target} payload that commits the session-target.
+#
+# Usage:  dialectic/standup.sh          # human-readable Stand-Up report (stdout) — the d-start spine
 #         dialectic/standup.sh --hook   # emit SessionStart additionalContext JSON (hook body)
 
 set -uo pipefail   # NOT -e: a dark inbox / missing commons must degrade to a WARN, never abort boot

@@ -49,6 +49,32 @@ is every-turn). The faithful architecture therefore **inverts the naive "automat
 - **Stand-DOWN** — the **agent** runs `dialectic/standdown.sh` at close and reads the judgment
   template. A SessionEnd hook may run it `--log` for the mechanical durability line only.
 
+## The Stand-Up TRIGGER — mint `d-start` (the portability fill)
+
+The `SessionStart → standup.sh --hook` wiring is **Claude-only** — a `.claude/settings.json` hook has no
+`agy`/Gemini analog, and touchstone boots on both (`CLAUDE.md` **and** `GEMINI.md` shims). So until now the
+two rituals were **asymmetric**: Stand-Down already fired on any substrate (the typed `d-reflect`), but
+Stand-Up fired only where the hook exists. **`d-start: {target}`** closes it — the typed session-open
+counterpart, `d-start : standup.sh :: d-reflect : standdown.sh`. Borrowed from dyad-bond
+(`GLOSSARY.md §Dyad-UI cluster`, `dialectic/carry-forward.md §How to resume`), recast on two load-bearing
+points:
+
+1. **The `{target}` payload commits the session-target — it does not seed an Agent-proposed NBA.** Bond's
+   `d-start` runs "ledger read + discipline reload + **NBA** (Agent's Next Best Action)." Touchstone's
+   **falsifier refuses to select** (end-in-mind law — the target is the Operator's seat). So the payload
+   *is* the Operator's selection; the Agent runs the spine, surfaces the re-derived frontier, and **holds**.
+   The register difference is the guard: an Agent-proposed NBA here would be the falsifier selecting.
+2. **Token ∪ hook — we do NOT retire the hook.** Bond retired its `SessionStart` hook when it minted the
+   token (either/or, framed as portability). Touchstone keeps both: the hook is the zero-friction
+   auto-trigger *on Claude* (already applied, cycle-44); the token adds the substrate where no hook fires
+   (`GEMINI.md`) **plus** a manual re-orient after a missed or compacted boot. Retiring a working hook buys
+   nothing on the primary substrate — **Invariant I (minimum force)** says leave it. On Claude the two are
+   redundant-but-harmless (they run the identical `standup.sh`); the token is the superset.
+
+No script change is needed — `standup.sh` already "runs by hand" (its `--hook` flag only changes the output
+envelope). `d-start` is the Agent running `dialectic/standup.sh` (stdout mode) as the mechanical spine, then
+the judgment half: (re)load the Anchor and let the `{target}` payload commit the session-target.
+
 ## The Stand-Down TRIGGER — already `d-reflect` (no new fiat)
 
 Bond had to **mint `clip`** as its stand-down trigger because `/exit` is a desktop-terminal command a

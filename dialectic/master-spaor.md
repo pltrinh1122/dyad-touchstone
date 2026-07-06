@@ -15,7 +15,7 @@ It runs the five phases once at session scale, spawning nested SPAOR jobs inside
 
 | Phase | IS the ritual | What happens |
 |---|---|---|
-| **Sense** | **Stand Up** | load the Anchor; re-derive the frontier via the Touchstone (never cache); pull the inbox; **commit the session-target** |
+| **Sense** | **Stand Up** | fired by **`d-start`** (token, any substrate) or the Claude `SessionStart` hook: load the Anchor; re-derive the frontier via the Touchstone (never cache); pull the inbox; **commit the session-target** (`d-start`'s `{target}` payload) |
 | **Plan** | — | select from the computed frontier — *the Operator's seat; the falsifier refuses to select* |
 | **Act** | — (the body) | spawn jobs concurrently — pitches & playbooks; **[ALIGN]** gates pitch-boundary leaves |
 | **Observe** | — | join the jobs' results; validate each against its `done_when` |
@@ -71,6 +71,8 @@ mortal session-loops. Scale stack: **pitch ⊂ segment ⊂ session (= master loo
 
 ## The intent-markers are the loop's instruction set
 
+`d-start: {target}`→Sense(Stand-Up: run `standup.sh` spine + commit the session-target; the portable
+counterpart to `d-reflect`, fires where no `SessionStart` hook exists) ·
 `d-rub`→Sense/Act (Ground/Read/Triangulate/Rub, Agent-escalated per the ask — supersedes `read:`/
 `rub:`, cycle-43) · `riff:`→Plan(diverge, hold) · `raff:`→Plan+Act (converge, take the move —
 supersedes `lean?`/`lean.`/`lean!`, cycle-43) · `why:`→context, no phase-gate ·

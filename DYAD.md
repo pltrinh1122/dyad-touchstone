@@ -106,6 +106,7 @@ with them (cycle-43, see **Converge-protocol**).
 | **`rubbings?`** | interface | review the open **Rubbings** (durable open tests) and assess — orient, **hold**. **Observer/assess-time:** discloses content at Reflect; at Sense/orient returns handles + status **only** — the content would *prime* the subject (the Rubbing firewall). Distinct from `d-rub` (punctual, this run) — this operates the durable collection across runs |
 | **`rubbings+`** | interface | operate the Rubbing collection — **open** a new Rubbing or **append** one telemetry observation (+1 reading): the accretive, durable act. *(Resolving a Rubbing = `clip` its verdict to the Ledger as a Proof — the one irreversible act reuses the existing gate; no separate send marker.)* |
 | **`fb:`** | interface | adjust the agent's behavior; do not contest the content |
+| **`d-start: {target}`** | ascent | fire the **Stand-Up** (Sense) discipline on **any substrate the Operator can type into** — the portable counterpart to `d-reflect`'s close (`d-start : standup.sh :: d-reflect : standdown.sh`). Runs the mechanical spine (`dialectic/standup.sh` — re-derive the frontier via the Touchstone *never cache* · inbox-catch · durability · substrate probe), (re)loads the Anchor, then **the `{target}` payload commits the session-target** (end-in-mind law — the Operator's seat; *the falsifier refuses to select*, so the Agent surfaces the frontier and holds, it never proposes a "next best action"). **Does not retire the Claude `SessionStart` hook** — the hook is the zero-friction auto-trigger *on Claude*; `d-start` is the token that fires the *same* spine where no startup-hook exists (`GEMINI.md`). **Token ∪ hook** (Invariant I, minimum force — a working hook buys nothing by being retired), not bond's either/or. *Borrowed from dyad-bond (`GLOSSARY.md §Dyad-UI cluster`), recast: bond's Agent-proposed **NBA** is refused here — the payload IS the Operator's selection. WHY-home: `dialectic/standdown-automation.md §The Stand-Up TRIGGER.* |
 | **`d-reflect`** | ascent | fire the Reflect phase, **one act, two outputs**: *harvest* survived proofs to the Ledger (the work) **and** run the **CSS+OR** craft-retrospective (the craft) — bundled, not two separate triggers. **Supersedes cycle-14's `retro:` split** (Operator disposition, cycle-43): harvest and the craft-retrospective now fire together on one token. Checklist + provenance caveat: `dialectic/reflection-protocol.md` |
 | **`hold:`** | interface | **agent-originated** — park a surfaced question as an addressable, persistent handle: `hold:TAG <q>` (TAG = mnemonic 3-4 char, Agent-coined). The Operator answers in any mode (`raff: TAG: …` · terse `TAG: …` · `clip TAG: …`) or echoes bare `hold: TAG` to **hand it back**. The id is an *address*, never a mode. See **Hold-protocol** |
 | **`raff:`** | ascent | converge and act — take the move on the surfaced read (absorbs `lean!`'s delegated-send job) **or** hold the disposition without acting if the move is high-blast-radius/irreversible (absorbs `lean.`'s checkpoint job — now gated by **Invariant I**'s reversibility test rather than a separate token). **Precondition (cycle-20, unchanged):** a clear shared mental model of the intended outcome must already be held by *someone* — else `raff:` is abdication, not trust. **Timing law (cycle-19, unchanged):** the Agent never contests a fired `raff:` in the moment; it flags + executes, surfacing a model-less `raff:` at `d-reflect` as an **OPERATOR-STOP**. Retires the `lean?`/`lean.`/`lean!` family (cycle-43 — see **Converge-protocol**; full prior text + the open Rubbing it carries preserved in `dialectic/ledger/cycle-43.md`) |
@@ -335,7 +336,7 @@ real state, never a guessed reading.
 
 | Ritual | Boundary / trigger | What we do |
 |---|---|---|
-| **Stand Up** | session start (Sense) | load the Anchor; **run the Touchstone** (compute the frontier — never narrate from cache); confirm hat + channel; **commit the session-target (end-in-mind)** — the pitch this session tops out, whose `done_when` is the Stand-Down trigger |
+| **Stand Up** | session start (Sense), fired by **`d-start`** (token) or the Claude `SessionStart` hook | load the Anchor; **run the Touchstone** (compute the frontier — never narrate from cache); confirm hat + channel; **commit the session-target (end-in-mind)** — the pitch this session tops out, whose `done_when` is the Stand-Down trigger |
 | **[ALIGN]** | **pitch boundary** | reconcile the move against the summit; **gates the leave** — no ascent while a tension is unreconciled |
 | **Intermission** | segment seam | Reflect-pause; **commit the durable record** (a proof); resume the same climb |
 | **Time-Out** | mid-pitch context switch | bilateral informal park — minimal "where was I" for clean resume |
@@ -347,6 +348,14 @@ dialectic/standup.sh` re-derives the frontier (`playbook.py`, this-run) + inbox-
 boot context; `SessionEnd → dialectic/standdown.sh --log` logs the mechanical line. The **judgment** half
 stays the dyad's covalent act — target-commit at Sense; harvest + CSS+OR at `d-reflect` — *auto-trigger ≠
 auto-judgment*. Wiring the hooks was the Operator's **Covalent gate** act.
+
+**Portable trigger — `d-start`** *(borrowed from dyad-bond, recast — `dialectic/standdown-automation.md`)*.
+The `SessionStart` hook is **Claude-only**; `GEMINI.md` exposes no startup-hook analog, so the Stand-Up had
+no trigger on that substrate while Stand-Down already did (`d-reflect` fires on any substrate the Operator
+can type into). **`d-start: {target}`** closes that asymmetry: it fires the *same* `standup.sh` spine as a
+typed token, and its `{target}` payload commits the session-target (end-in-mind). **Token ∪ hook, not
+either/or** — the hook stays as Claude's zero-friction auto-trigger; the token adds cross-substrate reach
+and a manual re-orient (missed/compacted boot). See the marker table row above.
 
 **[ALIGN] is the pitch-boundary ritual** — the Reflect→Sense hinge. Leaving pitch N and
 planning pitch N+1 are one event; [ALIGN] owns that seam and **gates the leave**. It also

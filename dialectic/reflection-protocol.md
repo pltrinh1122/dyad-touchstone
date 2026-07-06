@@ -31,6 +31,23 @@ form has never had. Cite it as "survives, intra-dyad only" — not as proven-eve
 No four-step ratification ceremony, no CTA — the retro is itself the durable artifact, landed by
 being written and committed.
 
+## Presentation vs durability — show the retro in chat, don't just point at it
+
+*(Borrowed from dyad-bond's `d-reflect` **2026-07-03 correction** — `GLOSSARY.md §Dyad-UI cluster`;
+recast, referenced not copied.)* **Durability** (where the retro *lives* — the committed Ledger cycle
+file) and **presentation** (what the Operator *reads now* — this turn's chat) are **different axes.**
+At `d-reflect` the **full CSS+OR/SH text is shown in the response** — not a headline, not "written to
+`ledger/cycle-N.md`, see there" — with the Ledger write a **parallel** durability action carrying the
+*same content*. Conflating the two forces the Operator to go retrieve content they should be reading
+right now: a separate-retrieval step for text already in hand — **the opposite of wu-wei** (minimum
+force on the Operator's attention).
+
+**Touchstone scope — the harvest stays lean, the craft-retro shows in full.** The distinction cuts
+cleanly: the *harvest* is inherently terse (a proof is one logged survived move — the Ledger is the
+book of proofs, not a journal), so its chat form and its durable form are already the same lean line.
+The presentation correction bites on the *CSS+OR/SH* craft-retrospective: render it whole in the
+response, and write the identical text to the durable home — never reduce the chat side to a pointer.
+
 **The OR tag we originally borrowed has since been superseded at the source.** As of bond's
 2026-07-04 evolution, OR no longer mirrors CONTINUE/START/STOP as a per-type tag — it
 consolidated into its own format, **SH (Should Have / Should Hold)** — **the Operator's reflection

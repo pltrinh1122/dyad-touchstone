@@ -61,6 +61,9 @@ $mech
 dyad-touchstone Stand-Down — JUDGMENT (the dyad's covalent act; auto-trigger != auto-judgment):
   \`d-reflect\` = ONE act, TWO outputs. Run BOTH; keep each LEAN (the Ledger is the book of proofs,
   not a journal — a proof is one logged survived move, not a session diary).
+  PRESENTATION != DURABILITY (reflection-protocol.md): SHOW the full CSS+OR/SH craft-retro in the
+  chat response; the Ledger write is a PARALLEL durability action with the SAME text, never a pointer
+  the Operator must go retrieve (harvest is already lean, so its chat form == its durable form).
 
    1. HARVEST (the work → Ledger, dialectic/ledger/). Bank ONLY moves that were actually RUBBED and
       HELD this session. A candidate that is un-refuted-but-untested is NOT a proof — it stays an

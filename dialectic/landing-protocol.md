@@ -19,7 +19,9 @@ for this class of cross-dyad borrowing (dyad-bond/steward/healer — their route
 to-cite tier; no landing-discipline entry exists in bond's `kb/`). Bond's own GLOSSARY.md entry
 is tagged `⚠️ CANDIDATE / not yet wired`, and their checklist's own falsification-status note
 says it **failed its own first audit**: checked against the two PRs actually cut that session,
-only items 4 and 5 (below) held reliably both times; item 6 never held either time. Bond's
+only the *real-PR-body* and *never-merge* items (below) held reliably both times; the
+*surface-it-back-explicitly* item never held either time. *(Named, not numbered — so this note
+survives the checklist being re-ordered; itself a drift-sweep dogfood, cycle of the new step 3.)* Bond's
 verdict on their own copy: *"NOT kb-eligible until it survives at least one clean, fully-
 verified run."* We are adopting this as **our own open experiment** to rub against our own
 landings — not as proven doctrine borrowed from a proven source.
@@ -29,16 +31,29 @@ landings — not as proven doctrine borrowed from a proven source.
 1. **Verify green *this run*** — `read:` before asserting ready, not from a stale pass.
 2. **Scope to the whole session-arc** — `git log origin/main..HEAD`, not just the triggering
    commit. One PR per arc.
-3. **Open mechanically once signalled** — no second CTA once the Operator's `d-land` has fired.
-4. **Write a real Summary + Test-plan body**, not a bare PR.
-5. **Never merge, auto-merge, or request reviewers** — stop at "exists and is described." This
+3. **Sweep the arc for the drift it created; resolve what's within autonomy.** Build the short
+   dependency-DAG of what this arc's changes made stale (a cross-ref to a retired/renamed term, a
+   pointer now wrong, an orphaned anchor row) and resolve the **reversible, mechanism-tier** ones
+   **autonomously before opening** — do *not* halt for a CTA on a self-resolvable dependency
+   (over-gating a dependency you can fix is over-force disguised as caution — **Invariant I**; a CTA
+   on pure mechanism hands plumbing back up — **Invariant II**). **Boundary — surface, never
+   auto-resolve:** anything **constitutional** (a cross-cutting law / the Anchor's invariants),
+   **intent-tier, irreversible, or judgment-needing** → that's item 8's restart-flag + a hold, the
+   Operator's gate. *(Borrowed from dyad-bond's `d-land` D-P-A-R evolution, 2026-07-04 — recast:
+   touchstone's Invariant I reversibility + Invariant II altitude ARE the autonomy boundary. Live
+   proof: this cycle's Intermission collapse created the Invariant III term-drift the Operator had
+   to `d-rub` a turn later — this step catches it, and correctly *surfaces* the constitutional fix
+   rather than auto-applying it.)*
+4. **Open mechanically once signalled** — no second CTA once the Operator's `d-land` has fired.
+5. **Write a real Summary + Test-plan body**, not a bare PR.
+6. **Never merge, auto-merge, or request reviewers** — stop at "exists and is described." This
    is Gatekeeping-is-a-gate-act + `no-self-ratify`, already ours, named at the PR boundary
    specifically. Merge is a *separate*, explicit Operator gate act, never inferred from the
    land-token alone.
-6. **Surface it back explicitly** — in chat *and* a durable record (rack/Ledger), never left
+7. **Surface it back explicitly** — in chat *and* a durable record (rack/Ledger), never left
    implicit in chat alone.
-7. **Flag a restart-implication** if the Anchor itself (`DYAD.md`) was touched.
-8. **Re-check for a PR template each session**, not once.
+8. **Flag a restart-implication** if the Anchor itself (`DYAD.md`) was touched.
+9. **Re-check for a PR template each session**, not once.
 
 ## Falsification status (ours, to be updated as we run it)
 

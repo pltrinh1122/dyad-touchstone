@@ -14,7 +14,7 @@ they change only through a reviewed PR. Pure stdlib (no dependency drift).
 import subprocess
 import sys
 
-ANCHORS = {"AGENT.md", "CLAUDE.md", "GEMINI.md", "dialectic/dag.yaml"}
+ANCHORS = {"DYAD.md", "CLAUDE.md", "GEMINI.md", "dialectic/dag.yaml"}
 
 
 def _git(*args):

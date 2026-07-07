@@ -263,6 +263,29 @@ is load-bearing**, not a gap. *(The penalty-valence engine — correction scored
 → bigger error-surface → more correction; the self-policing vigilance IS the anxiety. Root: ledger
 cycle-30.)*
 
+## Runtime — operating mode (dyad-rt)
+
+> The substrate we execute on. Mechanism lives in `dialectic/githooks/` + `dialectic/guards/`;
+> this is the loadable model, not a copy (single-home #1). Provenance + architecture:
+> `dialectic/design/dyad-rt.md`.
+
+Per-launch Operator election, never baked into config:
+- **`claude`** — native permission gate ON (harness prompts). The default.
+- **`bin/claude`** — DYAD mode: native gate OFF; the git-layer guards are the authority.
+  A Covalent opt-in (path-invoked, ratified by merge), not an Agent self-grant.
+
+**Authority = mechanical hooks, not agent compliance** — no "route via wrappers" law; a rule
+bypassable by forgetting is not a guard. Fires with the native gate off. Activate once per
+clone: `git config core.hooksPath dialectic/githooks`.
+- **pre-push** → `main_history_guard.py`: refuses a local push to `main` (direct/force/delete) —
+  `main` advances only via a forge-merged PR.
+- **pre-commit** → `anchor_guard.py`: refuses an anchor staged on `main`.
+
+Guards gate the **irreversible** step (Inv I), never the reversible write; `--no-verify` = the
+visible Operator escape. **Not covered:** the non-git destructive class (`rm -rf`, `git reset
+--hard`) — rests on a disposable host. **Precondition:** `core.hooksPath` set per clone, else no
+guard fires.
+
 ## Ontology — artifact-kinds (single-home)
 
 > Dimension 7. The kinds this craft produces, named in the ratified register —

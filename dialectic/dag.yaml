@@ -22,7 +22,7 @@ nodes:
   summit:
     kind: goal
     label: "Neural-symbolic summit — un-refuted, not hoped"
-    children: [standup, playbook_candidate, rituals, gap_share, sprint_cycle20, capstone_share, close_memory_substrate_gap, commons_cruft_provenance]
+    children: [standup, playbook_candidate, rituals, gap_share, sprint_cycle20, capstone_share, close_memory_substrate_gap, commons_cruft_provenance, rack_dyad_md_provenance_sweep]
 
   rituals:
     kind: terminal
@@ -221,6 +221,15 @@ nodes:
     kind: rack
     label: "[Terminology note, cycle-43: `lean?`/`lean!` below are the pre-retirement names, now `riff:`/`raff:` — DYAD.md §Converge-protocol; unrewritten here, this is the historical investigation text.] INVESTIGATION (cycle-24, rub-refined): fine-tune intent-understanding. SUCCESS METRIC (clipped cycle-24): the goal is NOT more levers but enough shared model that sessions collapse to a single `start+lean!` (the earned payoff of model-building, not a default) — that's what a shared model buys; first proof-point = the LIFO admin session. CORRECTED OBJECT (BREAK 1, vs Pin-protocol): intent itself is FIAT — unfalsifiable, the Operator is sole authority; what's falsifiable is the AGENT'S INTENT-MODEL about that fiat target. The Operator's convergence DISCLOSES fiat (it does not validate a world-claim); the model<->fiat delta is the only learning signal. lean? with no falsifiable guess is AGENT-INTENT-inert (it still does Operator-side option-surfacing) — building agent intent-understanding needs falsifiable guess + narrated converge + RETENTION. DOMINANT lever = the anti-priming GATE (when to lift the hold), NOT a footnote — it zeroes cross-session learning, so the four levers are within-session second-order: (1) hypothesis falsifiability [agent], (2) convergence narration [Operator], (3) marker precision [Operator — DOUBLE-EDGED: closes the gap by substitution, can STARVE inference-capability = intent-analog of cycle-20 abdication], (4) delta-surfacing cadence [bilateral]. OPEN (BREAK 4): is the intent-inference loop ORTHOGONAL to cycle-21's narrate-from-cache loop? If so there are TWO growth-loops, separately gated, and the rate-limit may over-apply cycle-21. Agent-under-test DELTAS stay non-durable (Operator's watch); this racks the forward INVESTIGATION only"
     done_when: {file_exists: {path: dialectic/rack/intent-levers-resolved.md}}
+
+  # Pushed cycle-48 (this session). Parked at the dyad-rt land: the Operator `raff:`'d an
+  # evaluation of a holistic DYAD.md provenance sweep; verdict was NO-as-one-pass (own
+  # prune-or-prime discipline forbids the single-pass big-bang). Racked so the pitch survives
+  # restart as a deliberate action-item, not a conversation-only intention (cycle-22 law).
+  rack_dyad_md_provenance_sweep:
+    kind: rack
+    label: "REDUCE DYAD.md's provenance freight — the anchor pays a per-prompt injection tax (Operator: 'DYAD.md has limited capacity, it's injected in every prompt'), and it carries heavy history (scan cycle-48: 404 lines / 5.6k words; 44 cycle-refs, 11 borrow-notes, 7 'superseded' blocks, 9 refutation notes). CONTEXT: raised at the dyad-rt land, where the runtime section was authored lean-from-the-start (provenance -> dialectic/design/dyad-rt.md) — this rack is the RETROFIT of that same split onto the already-interwoven rest of the anchor. GOVERNING DISCIPLINE (load-bearing, from the evaluation): run it MULTI-PASS, one concern per pass — NOT a holistic single-pass sweep. Rationale = our own prune-or-prime stone (rack_prune_or_prime): single-pass PRODUCES conflation (lived), and much apparent 'provenance' is actually LOAD-BEARING, not freight — the 'Superseded (cycle-43)' craft block is an anti-regression guard (stops re-adopting the refuted G->V telos); the why: marker's 'zero lived instances, not kb/-eligible' is a live groundedness caveat; 'Precondition (cycle-20, unchanged)' — the tag is history, the precondition is law. Separating load-bearing-model from date-stamp is PER-INSTANCE judgment across 404 interwoven lines on a low-reversibility every-prompt artifact. BURN-INTERLOCK: transcribe any cut provenance to the Ledger/a design-doc BEFORE removing from the anchor (the Ledger holds provenance, so an over-cut recovers next pass). Un-rack = scope ONE concern (Operator's to pick the first pass), extract its freight to a separate home, rub the survivors are still load-bearing model, land via PR (anchor = low-reversibility, Operator merge-gate). CHEAP FIRST STEP offered + un-fired: Agent samples the 3-4 highest-ROI / lowest-risk extraction candidates so the Operator can judge before committing the pitch. cf. rack_prune_or_prime (the parent methodology — this is that stone turned on the ANCHOR instead of memory); dialectic/design/dyad-rt.md (the split done right, fresh-authored)."
+    done_when: {file_exists: {path: dialectic/rack/dyad-md-provenance-swept.md}}
 
   rack_saga_governance:
     kind: rack

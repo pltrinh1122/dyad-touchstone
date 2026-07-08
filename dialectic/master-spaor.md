@@ -19,10 +19,10 @@ It runs the five phases once at session scale, spawning nested SPAOR jobs inside
 | **Plan** | — | select from the computed frontier — *the Operator's seat; the falsifier refuses to select* |
 | **Act** | — (the body) | spawn jobs concurrently — pitches & playbooks; **[ALIGN]** gates pitch-boundary leaves |
 | **Observe** | — | join the jobs' results; validate each against its `done_when` |
-| **Reflect** | **Stand Down** | fired by **`d-reflect`**, **one act, two outputs** — *harvest* (survived proofs → Ledger: the **work**) **and** the **CSS+OR** Continue/Start/Stop pass → the **craft**: how we climbed; verify clean tree + Fresh/Frozen/Flagged; confirm the Climb holds in-flight work; end |
+| **Reflect** | **Stand Down** | fired by **`d-reflect`**, **one act, two outputs** — *harvest* (survived proofs → Ledger: the **work**) **and** the **CSS+SH** Continue/Start/Stop pass → the **craft**: how we climbed; verify clean tree + Fresh/Frozen/Flagged; confirm the Climb holds in-flight work; end |
 
 **Intermission** = **`d-reflect` fired at a segment seam** — *not a distinct ritual:* the same Reflect
-(harvest + CSS+OR/SH) as Stand Down, then a re-Sense to resume the same climb instead of ending. Its
+(harvest + CSS+SH) as Stand Down, then a re-Sense to resume the same climb instead of ending. Its
 Agent-actions are wholly Stand Down's ∪ Stand Up's; **collapsed (`raff:`, this session)** — once
 durability is constant, nothing distinguishes it as a primitive (its old niche was a lightweight WIP-flush
 seam, now ambient). Retained only as vocabulary for "reflect-without-exiting," not as a separate action-set.
@@ -81,11 +81,11 @@ counterpart to `d-reflect`, fires where no `SessionStart` hook exists) ·
 `rub:`, cycle-43) · `riff:`→Plan(diverge, hold) · `raff:`→Plan+Act (converge, take the move —
 supersedes `lean?`/`lean.`/`lean!`, cycle-43) · `why:`→context, no phase-gate ·
 `follow: X`→Act(spawn playbook) · `rack:`→intra-session hold ·
-`d-reflect`→Reflect(harvest + CSS+OR craft-retrospective, one act) · `fb:`→feeds the CSS START/STOP ·
+`d-reflect`→Reflect(harvest + CSS+SH craft-retrospective, one act) · `fb:`→feeds the CSS START/STOP ·
 `clip`/`pin:`→Reflect(commit/persist).
 
 **Reflect's two streams, now one trigger (cycle-43 supersedes cycle-14 — see below).** *Harvest* banks
-survived **proofs** to the Ledger (object: the **work** / ascent plane). The **CSS+OR** pass runs on the
+survived **proofs** to the Ledger (object: the **work** / ascent plane). The **CSS+SH** pass runs on the
 **craft** (object: the **dyad** / interface plane) — START/STOP from `fb:`, CONTINUE tagged **OR**
 (Operator-Reflect) when credited to the Operator's own conduct vs. Agent-observed. Tell: CSS verbs
 (keep/start/stop) fit only *behaviors* — you *bank* a proof, you don't "stop" it — that distinction is

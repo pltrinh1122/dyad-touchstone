@@ -3,10 +3,10 @@
 #
 # BORROWED from dyad-bond (bin/standdown.sh, K6 2026-06-13) and RECAST into the assayed-climb
 #   register. The Stand-Down has a MECHANICAL half (deterministic → automate) and a JUDGMENT half
-#   (harvest + CSS+OR — the dyad's covalent act, NOT automatable). Touchstone's Stand Down is fired
+#   (harvest + CSS+SH — the dyad's covalent act, NOT automatable). Touchstone's Stand Down is fired
 #   by the typed marker `d-reflect`, ONE act with TWO outputs (master-spaor.md line 22):
 #     · HARVEST — bank survived proofs to the Ledger (the work / ascent plane)
-#     · CSS+OR  — Continue/Start/Stop craft-retrospective (the craft / interface plane)
+#     · CSS+SH  — Continue/Start/Stop (Agent craft) + Should-Have/Should-Hold (Operator steering, bilateral)
 #
 # TRIGGER — no new fiat. Bond had to MINT `clip` as its stand-down trigger; touchstone already has
 #   `d-reflect` (DYAD.md §Session rituals + master-spaor.md). A typed marker fires on ANY substrate
@@ -61,16 +61,18 @@ $mech
 dyad-touchstone Stand-Down — JUDGMENT (the dyad's covalent act; auto-trigger != auto-judgment):
   \`d-reflect\` = ONE act, TWO outputs. Run BOTH; keep each LEAN (the Ledger is the book of proofs,
   not a journal — a proof is one logged survived move, not a session diary).
-  PRESENTATION != DURABILITY (reflection-protocol.md): SHOW the full CSS+OR/SH craft-retro in the
+  PRESENTATION != DURABILITY (reflection-protocol.md): SHOW the full CSS+SH craft-retro in the
   chat response; the Ledger write is a PARALLEL durability action with the SAME text, never a pointer
   the Operator must go retrieve (harvest is already lean, so its chat form == its durable form).
 
    1. HARVEST (the work → Ledger, dialectic/ledger/). Bank ONLY moves that were actually RUBBED and
       HELD this session. A candidate that is un-refuted-but-untested is NOT a proof — it stays an
       open clip-candidate or a Rubbing (dialectic/rubbings/), not a Ledger entry. Un-refuted != verified.
-   2. CSS+OR (the craft → the retrospective). Continue / Start / Stop on HOW we climbed; tag a
-      CONTINUE as OR (Operator-Reflect) when it credits the Operator's own conduct, not Agent-observed.
-      START/STOP feed from any \`fb:\` this session. See dialectic/reflection-protocol.md for the form.
+   2. CSS+SH (the craft → the retrospective). CSS = Continue / Start / Stop on HOW we climbed (Agent).
+      SH = the Operator's steering, BILATERAL (cycle-49): the Agent LEADS (Agent-observed Should-Have /
+      Should-Hold of prompting · intent clarity · intent coherence, grounded in verbatim), the Operator
+      RESPONDS (Operator-retrospected). START/STOP feed from any \`fb:\` this session.
+      See dialectic/reflection-protocol.md for the form.
    3. without-you (the inter-session handoff law): leave the substrate so the next mortal loop
       reconstitutes by RE-DERIVING, not by trusting a cache. Present Fresh / Frozen / Flagged; do not
       store status the Touchstone re-computes (single-home #2).

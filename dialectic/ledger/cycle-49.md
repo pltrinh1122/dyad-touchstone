@@ -80,7 +80,7 @@ tied to the superseded G→V-capability framing) — lapsed; the new craft nurtu
 ## Operating model (the nurture loop — grounded, dogfooded)
 
 touchstone dogfoods its nudging on its **own** reported frictions (non-compliance with its
-invariant/value/telos — case-zero, already partly lived via `d-reflect`'s CSS+OR); **other
+invariant/value/telos — case-zero, already partly lived via `d-reflect`'s CSS+SH); **other
 dyads self-report their frictions via Commons DM** for analysis + nudging advice; touchstone
 **maintains + updates its nurturing Playbook published to Commons** from the accreting cases.
 Full loop: `dialectic/design/nurture-loop.md`. Actual DM *processing* routes to cloud Claude
@@ -152,6 +152,39 @@ native G+V, and anchoring a craft to ground the substrate is flooding is anti-wu
 other rub (`state.py`/`playbook.py` lineage) — but the *telos* is the value's **holding**, not its
 application. *(The caught failure that forged the invariant.)*
 ```
+
+## CSS+SH — first CSS+SH run (cycle-49 craft-retrospective)
+
+The bilateral form's **first real-world application** (OR deprecated → SH made Agent-observed +
+Operator-retrospected this session; `dialectic/reflection-protocol.md`).
+
+**CSS (Agent lane — how we climbed):**
+- **CONTINUE** — grounding before asserting (looked up CSS/OR/SH before editing; verified the
+  merge against substrate; *defined* `reinforcement-round` when rubbed). Studied the exemplars'
+  *process* (chiron `dip-convergence`), not just output.
+- **START** — live-before-write for protocol changes (this CSS+SH itself: ran before encoding).
+  Wire the CSS+SH dogfood → nurturing Playbook.
+- **STOP** — (1) pre-baked `AskUserQuestion` options on an un-pinned spine (anchored a wrong
+  decomposition; saved to memory `elicit-fiat-in-prose-not-prebaked-options`). (2) over-corrected
+  on the Playbook "conflation" — manufactured a "keep Playbook out entirely" constraint the
+  Operator rubbed back (over-guarding is over-force, Inv I).
+
+**SH (Operator steering — Agent-observed → Operator-retrospected):**
+- **Should Hold (credit):** the Operator rubbed the Agent's *own* resolution rather than accepting
+  it (*"or maybe it's ok because it's exactly what we'd shared to Commons?"*); reasoned from the
+  ecosystem/division-of-labor (*"to develop the playbook, dyad-touchstone will be exercising the
+  'curriculum development' craft ... of dyad-chiron"*); named uncertainty and delegated the rub
+  (*"i'm also not clear either ... you're going to elicit and rub the essence"*).
+- **Should Have (debit)** — Agent-observed → **Operator-retrospected + sharpened.** The Agent
+  observed the opening delegated *selection* (*"d-start: your pick on what we should do next"*)
+  against the end-in-mind law (target-commit is the Operator's seat). The Operator retrospected and
+  found the truer form: **"should have completed the previous session-target before starting a new
+  one"** — the cycle-48 harvest sat committed-but-unmerged when the craft-refresh opened. A clean
+  corollary of the end-in-mind law (no new target while the prior target's `done_when` is unmet).
+
+**The round landed AND improved** — the Operator-retrospected half found the form the Agent-observed
+only pointed at. First proof the bilateral SH works: the Agent's nudge was directionally right, the
+Operator's uptake sharpened it. (n=1, intra-dyad, un-audited.)
 
 ## Status
 

@@ -21,7 +21,7 @@ borrowing (dyad-bond/steward/healer — their route).
 below "settled" because bond's own graduation rule requires a cross-dyad/cross-human rub this
 form has never had. Cite it as "survives, intra-dyad only" — not as proven-everywhere.
 
-## What we took — the CSS form, + the OR→SH evolution (re-fetched, updated cycle-43 close)
+## What we took — the CSS form, + the OR→SH→bilateral-SH evolution (updated cycle-49)
 
 **Continue / Start / Stop**, base form, untouched at the source:
 - **CONTINUE** *(Agent-observed, or Operator-retrospected)* — a pattern worth keeping.
@@ -36,7 +36,7 @@ being written and committed.
 *(Borrowed from dyad-bond's `d-reflect` **2026-07-03 correction** — `GLOSSARY.md §Dyad-UI cluster`;
 recast, referenced not copied.)* **Durability** (where the retro *lives* — the committed Ledger cycle
 file) and **presentation** (what the Operator *reads now* — this turn's chat) are **different axes.**
-At `d-reflect` the **full CSS+OR/SH text is shown in the response** — not a headline, not "written to
+At `d-reflect` the **full CSS+SH text is shown in the response** — not a headline, not "written to
 `ledger/cycle-N.md`, see there" — with the Ledger write a **parallel** durability action carrying the
 *same content*. Conflating the two forces the Operator to go retrieve content they should be reading
 right now: a separate-retrieval step for text already in hand — **the opposite of wu-wei** (minimum
@@ -45,30 +45,35 @@ force on the Operator's attention).
 **Touchstone scope — the harvest stays lean, the craft-retro shows in full.** The distinction cuts
 cleanly: the *harvest* is inherently terse (a proof is one logged survived move — the Ledger is the
 book of proofs, not a journal), so its chat form and its durable form are already the same lean line.
-The presentation correction bites on the *CSS+OR/SH* craft-retrospective: render it whole in the
+The presentation correction bites on the *CSS+SH* craft-retrospective: render it whole in the
 response, and write the identical text to the durable home — never reduce the chat side to a pointer.
 
-**The OR tag we originally borrowed has since been superseded at the source.** As of bond's
-2026-07-04 evolution, OR no longer mirrors CONTINUE/START/STOP as a per-type tag — it
-consolidated into its own format, **SH (Should Have / Should Hold)** — **the Operator's reflection
-lane** (the counterpart to CSS, which is primarily the Agent's): the Operator retrospects their *own*
-steering, as **Operator Should Have / Operator Should Hold**. The Agent does not author it.
-- **Should Have** *(Operator)* — a single past instance, hit-or-miss: *"Should have [verified X] —
-  didn't; [claim] independently found false via [mechanical check]."* The debit direction.
-- **Should Hold** *(Operator)* — a standing, ongoing pattern: *"Should hold: [the bar]"* — evidenced by
-  verbatim quotes of instances meeting it. The credit direction.
+**OR is deprecated (cycle-49); SH is now bilateral.** OR first consolidated (bond, 2026-07-04)
+into **SH (Should Have / Should Hold)** — Operator-steering, double-entry. Cycle-49 (Operator
+grant) then **opened the authorship**: SH is a **nudge→response pair**, not an Operator-only lane.
 
-**Every SH entry requires a verbatim quote as evidence** — the Agent's own paraphrase doesn't
-qualify — plus, for Should-Have specifically, independent mechanical verification that the
-claim was actually false, not just Agent-asserted. **The Operator authors the SH conclusions; the
-Agent may surface the verbatim substrate (the Operator's own quotes + mechanical facts) to push
-lookup-cost off the Operator, but never forms the Should-Have / Should-Hold itself.**
+- **Agent-observed (the Agent leads)** — the Agent's observations of the **Operator's steering**:
+  **prompting · intent clarity · intent coherence**. This is the cycle-49 change — the Agent now
+  *forms* the observation (it did not, before), always **grounded in verbatim** (the prompts are on
+  record):
+  - **Should Have** *(debit)* — a steering shortfall: *"Should have [committed the target] — [verbatim]."*
+  - **Should Hold** *(credit)* — a standing steering-strength worth holding, evidenced by verbatim quotes.
+- **Operator-retrospected (the Operator responds)** — the Operator's **ratify / refute / refine** of
+  the Agent-observed. The round *lands here* (uptake), not in the Agent's saying it. Since **intent
+  is fiat**, the Operator stays authority over what they meant — the Agent observes *how it landed*,
+  never falsifies it.
 
-**Status, disclosed exactly as bond discloses it:** *"structure only, no instances of the SH
-grammar itself... does not graduate until it survives a real application."* Rawer than OR ever
-was (OR inherited lived instances from the graduated CSS+OR form before its rename; SH has
-none, anywhere, at either dyad). Adopting it now makes this session's own retro **SH's first
-real-world application** — not borrowed-and-proven, borrowed-and-testing.
+**Evidence bar:** every SH entry is **grounded in a verbatim quote** (Agent paraphrase doesn't
+qualify). The old *mechanical-verification* requirement is kept **only for factual Should-Haves** (a
+claim asserted false must be independently shown false) and **dropped for intent/prompting
+observations** — intent-coherence is a judgment, not a falsifiable fact. This is the nurture-loop
+(`DYAD.md §Craft`) **dogfooded**: the Agent's SH is a reinforcement-round on the Operator's half.
+
+**Status:** the **first CSS+SH ran cycle-49** (`dialectic/ledger/cycle-49.md`) — the bilateral
+form's first real-world application: the Agent-observed a genuine Should-Have and the Operator
+retrospected and *sharpened* it (the nudge→response pair working). Still **n=1, intra-dyad,
+un-audited across sessions**; the bilateral-authorship grant is cycle-49-fresh. Un-refuted is not
+verified.
 
 ## What we changed from `retro:` — the actual supersession
 
@@ -99,7 +104,9 @@ Re-open the split if a real case shows the merge losing something cycle-14 was p
 Retired `retro:` as a standalone marker (cycle-43); its Divergent re-alignment classing (pre-
 authorizing in-moment contest) carries forward onto `d-reflect` unchanged.
 
-**SH seat clarified (cycle-43 tail, local instance).** The borrowed form tagged the CSS lanes to a
-seat but left SH's seat unstated; a local `d-reflect` run mis-defaulted SH to the Agent. Operator
-correction: **SH is the Operator's reflection lane** — CSS = Agent (craft / mechanism), SH = Operator
-(steering). Attribution added above.
+**SH seat — history.** cycle-43: SH was clarified as *Operator-only* (a local `d-reflect` had
+mis-defaulted it to the Agent). cycle-49 **superseded that** (Operator grant): SH is now
+**bilateral** — the Agent *leads* the observation (Agent-observed), the Operator *responds*
+(Operator-retrospected). CSS stays the Agent's craft/mechanism lane; SH is the shared steering
+lane. *(The cycle-43 Operator-only rule is on record here, not deleted — it was correct until the
+cycle-49 grant opened the Agent's observation of the Operator's steering.)*

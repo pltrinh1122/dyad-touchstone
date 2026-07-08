@@ -36,7 +36,7 @@ self-sustaining.
 touchstone runs steps 1–4 on **itself** continuously: its own frictions (non-compliance with
 Invariants I/II/III + the craft slots). This is what makes it the **exemplar practitioner** —
 you cannot be the exemplar of nurturing without nurturing yourself. It already partly exists:
-`d-reflect`'s CSS+OR retrospective surfaces our own frictions. This doc names that loop and
+`d-reflect`'s CSS+SH retrospective surfaces our own frictions. This doc names that loop and
 feeds it into the Playbook.
 
 ## Measurement — the telos, observable
@@ -59,7 +59,7 @@ lives where the inbox is worked.
   pre-fit for analysis (aule's "surface the acceptance criteria" accelerator).
 - **nurturing Playbook** — home (`library/nurturing/PLAYBOOK.md`?) + structure + Commons
   publication cadence.
-- **dogfood → `d-reflect` → Playbook** wire — make the CSS+OR frictions feed the Playbook
+- **dogfood → `d-reflect` → Playbook** wire — make the CSS+SH frictions feed the Playbook
   explicitly, not just the ledger.
 - **enforcement** — the exemplar-absent test and its armable proxies (`DYAD.md §Craft`,
   `craft_invariant`).

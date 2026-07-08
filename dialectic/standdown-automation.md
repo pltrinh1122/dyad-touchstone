@@ -30,7 +30,7 @@ hook running `playbook.py` this run makes the injected frontier a **this-run str
   probe. No judgment — a script does these correctly.
 - **Judgment (NOT automatable → the dyad's act):** at Sense, **committing the session-target**
   (end-in-mind law — the Operator's seat; *the falsifier refuses to select*). At Reflect, the
-  **harvest** (which moves rang sound) + the **CSS+OR** retrospective. A hook that wrote the Ledger
+  **harvest** (which moves rang sound) + the **CSS+SH** retrospective. A hook that wrote the Ledger
   itself would harvest un-rubbed moves — counterfeit proofs. **auto-trigger ≠ auto-judgment.**
 
 ### The hook contract makes that a HARD boundary *(bond's finding, re-inherited — verify against the live contract, do not assert from this note)*
@@ -79,7 +79,7 @@ the judgment half: (re)load the Anchor and let the `{target}` payload commit the
 
 Bond had to **mint `clip`** as its stand-down trigger because `/exit` is a desktop-terminal command a
 mobile/abrupt close skips. **Touchstone already has the typed marker: `d-reflect`** (DYAD.md §Session
-rituals; `master-spaor.md` line 22) — one act, two outputs (harvest + CSS+OR). A typed marker fires on
+rituals; `master-spaor.md` line 22) — one act, two outputs (harvest + CSS+SH). A typed marker fires on
 **any substrate** (mobile included), unlike `/exit`. So the trigger the architecture needs already
 exists; we did not overload a marker, we wired the ritual that was already named. The SessionStart
 frontier re-derivation is the stateless boot-side safety net that catches a skipped close regardless.
@@ -89,7 +89,7 @@ frontier re-derivation is the stateless boot-side safety net that catches a skip
 - **`dialectic/standup.sh`** — Sense mechanical spine; `--hook` emits the SessionStart
   `additionalContext` JSON. Frontier (re-derived) · inbox-catch · durability · substrate. Inert until wired.
 - **`dialectic/standdown.sh`** — Reflect mechanical spine (durability + still-open count) + the
-  **judgment template** (harvest · CSS+OR · without-you · Climb integrity). `--log` = mechanical line only.
+  **judgment template** (harvest · CSS+SH · without-you · Climb integrity). `--log` = mechanical line only.
 - **No installer script.** Bond retired its `install_hooks.py` as a single-home violation (a committed
   generator drifts from the live file it wrote). We never build one — the wiring is a one-line
   `.claude/settings.json` block, hand-applied by the Operator; the permanent record is this doc + git.

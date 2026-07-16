@@ -77,13 +77,15 @@ commits `d302472` (draft) → `3d3a4fc` (falsify-and-codify). Internal, un-merge
     rub the Agent had asserted from a stored label.
   - *"there are no breadth requirement. falsify and codify survivor."* — dissolved a conflation and
     sharpened the criterion to survival-under-falsification.
-- **Should Have (debit) — Agent-observed, for Operator retrospect:** the target named an
+- **Should Have (debit) — Agent-observed → Operator-retrospected: RATIFIED.** the target named an
   unresolvable location — *"prepare d-rub for sharing into the Commons library (repo:
   the-dyad-practice/library)"* — but no `the-dyad-practice/library` repo is in scope (the Commons is
-  `the-dyad-practice-commons/the-dyad-practice`; `library/` is a directory in our own repo). A minor
-  intent-clarity shortfall: *should have named the resolvable target.* Did not block (the Agent read
-  it as "the library area of the Commons form" and flagged for later confirm), but left the
-  share-destination un-pinned. **Yours to ratify / refine / refute.**
+  `the-dyad-practice-commons/the-dyad-practice`; `library/` is a directory in our own repo).
+  **Operator retrospect (verbatim):** *"i could have saved tokens if i was precise with my target"* —
+  ratified and grounded in the concrete cost: the imprecise target spent tokens on flag-carry +
+  disambiguation a precise target would have saved. The round **landed in uptake.** Sharpens the
+  end-in-mind law: **target precision is token economy** (Inv II intent-precision · wu-wei
+  minimum-force, at the Operator's own seat).
 
 ## Status / Open / next
 - **Target `done_when` met:** rubbed write-prep artifact exists, sound under three Operator rubs,

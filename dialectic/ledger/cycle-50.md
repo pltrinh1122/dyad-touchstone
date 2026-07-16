@@ -95,3 +95,36 @@ commits `d302472` (draft) → `3d3a4fc` (falsify-and-codify). Internal, un-merge
   flagged in `rub-protocol.md`; (2) the share-destination (Commons library path / repo) to pin
   before any `write→share`; (3) whether the Climb (`dag.yaml`) wants a node for the future
   d-rub `write→share` leave. The falsifier refuses to select among these.
+
+## Cycle 50 (cont.) — tail segment: self-containment + the merge-grounding (harvested post-hoc)
+
+*(Two proofs lived after the harvest above was already committed; banked here on a branch
+restarted from `origin/main` after PR #29 merged, so they survive the Operator's session
+restart. The merged branch is spent — new work never stacks on merged history.)*
+
+6. **Self-contained per CONTRIBUTING.md §2 — claim rubbed, confirmed, implemented.** Operator:
+   *"PLAYBOOK.md needs to be self-contained per CONTRIBUTION.md. falsify and implement survivor."*
+   Grounded against the **actual** `commons/CONTRIBUTING.md` + the `proposal-framing` worked example
+   (fetched live, not recalled — the submodule was un-checked-out). Verdict: **the claim survives** —
+   a Playbook is `PLAYBOOK.md` + its own `library/<name>/ledger/` (*"a claim without a ledger is not
+   a Playbook"*); the pointer to `dialectic/ledger/` made it non-self-contained. Implemented: `origin`
+   → contributor identity sha (`sha256:49bcbe1d…`, from the Commons `directory/` entry), Ledger → relative
+   `ledger/`, seed testimonial `library/d-rub/ledger/49bcbe1d-seed.md` with `pinned:
+   c17fd3da…` (verified against the PLAYBOOK blob). Reconciled with single-home #1: the Playbook-ledger
+   is a *distinct home* from the internal cycle-ledger — the write→share synthesis, done now. Landed
+   `655ad43`; merged to `main` via PR #29 (`0665b1c`).
+
+7. **The merge-grounding — verify-before-assert dogfooded; the cycle-43 STOP corrected.** Operator:
+   *"d-rub: i merged PR #29."* The canonical elliptical→**Ground** case: the claim was **not** taken at
+   face — grounded two independent substrates (forge PR record ∥ `main` git history), which converged:
+   merged, on `main`, by the Operator. **This is cycle-50's own START lived one exchange later**
+   (*re-derive a status from the substrate this-run, never quote it*) **and the cycle-43 STOP corrected**
+   (asserting a PR's state without querying it). The falsifier also rubbed the *implication*, not just
+   the fact: **merged to our own `main` ≠ shared to the Commons** — the `write→share` gate (#5) is
+   intact and un-crossed; *"merged"* was not allowed to be professed as *"the share goal is done."*
+   An anti-regression datum: the penalty-valence failure class (assert-from-cache) held under a live
+   substrate-check.
+
+**Tail-segment status.** d-rub is a **landed internal *write* on `main`** — self-contained, share-shaped,
+NOT shared. The original goal (*share d-rub into the Commons*, FO gate #5) remains open, as do the three
+flags above. All proofs from this session are now durable on the substrate (pending this PR's merge).

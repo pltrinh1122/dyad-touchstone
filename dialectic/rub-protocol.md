@@ -6,8 +6,8 @@ loaded: active-fetch   # consulted when d-rub actually fires. Key → dialectic/
 
 > Single-home for `d-rub` (`DYAD.md` §Channel discipline points here, does not restate this).
 > **Status: our own synthesis, not a cross-dyad borrow** — grounded directly in the inherited
-> G0 Contract (`commons/AGENT.md`), not in another dyad's design. Freshly authored, n=0 lived
-> instances as of adoption.
+> G0 Contract (`commons/AGENT.md`), not in another dyad's design. Authored cycle-43 (n=0 at
+> adoption); **lived since — all four rungs carry a proof as of cycle-50 (see §Status).**
 
 ## Why this exists — the gap it closes
 
@@ -75,5 +75,23 @@ just to ask for a quick status check, defeating the consolidation's own purpose.
 
 ## Status
 
-Adopted cycle-43, `raff:`-fired, un-audited (n=0). Re-open if the friction flagged above proves
-real rather than hypothetical.
+Adopted cycle-43, `raff:`-fired. **Re-derived cycle-50 (Operator-directed *falsify-and-codify*)
+— the adoption-time "n=0" is stale (status stored, not rubbed): all four rungs now carry a lived
+proof.**
+
+- **Ground** — cycle-47: every premise grounded this-run before assertion (`fr.yaml`,
+  `cycle-43.md:67-71`, `gap-lived-external.md`, the response count) — cited streaks, not shine.
+- **Read** — lived every session as the default rung (this session's Stand-Up frontier read:
+  orient, report, do not act); core behavior carried unchanged from `read:`.
+- **Triangulate** — cycle-50: this rung's own provenance rubbed two independent substrates
+  (working-tree `grep` ∥ full-history `git pickaxe`) that could have diverged and instead
+  converged — the rung earned its first proof by being used to investigate whether it had one.
+  N=1, same Operator/Agent pair.
+- **Rub** — cycle-45 (caught a retired-term drift the Agent had waved off) + cycle-47 (retracted
+  a three-cycle-stale climb node under escalation).
+
+**The consolidation's own claim survives *un-refuted, not verified*** — the *escalation mechanism*
+(one token, Agent-determined depth) has lived support (cycle-47; the cycle-50 self-escalation to
+Triangulate); the *ergonomics* sub-claim (plain-orientation vs bare `read:`) and *consistent,
+unbidden right-depth* have **not** run to a verdict. Re-rubbed each pitch (single-home #4). Soundness
+is the gate, not breadth: a proof that survives falsification is codifiable at N=1.
